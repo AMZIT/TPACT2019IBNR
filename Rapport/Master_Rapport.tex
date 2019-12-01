@@ -1,0 +1,84 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel} % Éviter les conflits avec l'Anglais
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{listings}
+\usepackage{amsmath,amsthm} % Symboles mathématiques
+\usepackage{graphicx} % Insérer des graphiques
+\usepackage{hyperref} % Faire des hyperliens
+\usepackage{float} % Placer les graphiques à des endroits plus décents.
+\usepackage{subcaption} % Avoir plusieurs sous-figures (graphiques) dans une figures et pouvoire les étiqueter.
+\usepackage[thinlines]{easytable} % Avoir plus de flexibilité dans la création de tableaux
+\usepackage{algorithm2e}  
+\usepackage{booktabs}
+\usepackage{bbm}
+\usepackage{dsfont}
+\usepackage{bbm}
+\usepackage{eurosym} % Avoir l'euro parmi les devises possibles
+\usepackage{breakcites} % Faire en sorte que les citations ne sortent pas dans la marge
+\usepackage[left=2.00cm, right=2.00cm]{geometry} % Ajustement des marges
+\usepackage{xcolor-solarized}
+\author{Alexandre Lepage}
+
+\theoremstyle{plain}
+\newtheorem{Definition}{Définition}
+\newtheorem{Code}{Code informatique}
+\newtheorem{Algorithme}{Algorithme}
+\newtheorem{Hypotheses}{Hypothèses}
+\newtheorem{Proposition}{Proposition}
+\renewcommand{\figurename}{Illustration}
+\renewcommand{\tablename}{Tableau}
+
+
+\begin{document}
+	\include{PageTitre} % Page titre
+	
+	\pagenumbering{Roman} % Pagination en chiffres romains
+	\setcounter{page}{0}
+	
+	\newpage
+	\strut % Page blanche
+	\newpage
+	
+	\input{Sommaire}
+	\clearpage	
+	\input{Remerciements}
+	\clearpage
+
+	\tableofcontents % Table des matières
+	\newpage
+
+	\renewcommand{\listfigurename}{Liste des illustrations}
+	\newpage
+	\listoffigures
+	\newpage
+	\listoftables
+	\newpage
+		
+	\pagenumbering{arabic} % Pagination en chiffres normaux
+	\setcounter{page}{1}
+	
+	\input{Introduction} % Début du texte
+	\input{AnalysePreliminaire} % Contient la description des bases de données avec une analyse préliminaire des données
+	\input{Methodologie_frequence}
+	\input{Methodologie_severite}
+	\input{Methodologie_severite_splicing}
+	\input{Methodologie_Adequation}
+	\input{Methodologie_Agregation}
+	\input{Resultats} 
+	\input{Conclusion}
+	
+	\clearpage
+	\bibliographystyle{apalike} % Bibliographie
+	\bibliography{bibliographie}
+	\clearpage
+	
+	\pagenumbering{arabic}% resets `page` counter to 1
+	\renewcommand*{\thepage}{A\arabic{page}}
+	\appendix
+	
+	\input{Annexe-LoiCoxienne2}
+	\input{Annexe-Code}
+	
+\end{document}

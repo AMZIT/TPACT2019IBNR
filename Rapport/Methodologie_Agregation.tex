@@ -1,0 +1,54 @@
+\section{Agrégation}\label{Sect_Agregation}
+Une fois que les risques individuels aient été modélisés de même que pour la fréquence de sinistre, il s'agit maintenant de mesurer le risque du portefeuille global. Cette procédure se nomme l'agrégation des risques et provient de la \textit{théorie du modèle collectif des risques} (\cite{CollectiveRiskTheory_kahn1962}).\\
+
+Cette théorie suppose deux hypothèses de base:
+\begin{enumerate}
+	\item On suppose que les sinistres sont indépendants et identiquement distribuées, i.e. $X_k \sim X$, pour $k=1,...,n$.
+	\item Le montant des sinistres est indépendant de leur fréquence. 
+\end{enumerate}
+
+	\begin{Definition}
+	Soit les variables aléatoires $X_k$ et $S$ qui représentent respectivement le montant du $k$-ième sinistre ($k \in \mathbb{R}^+$) et les coûts totaux sur une année. On définit également le processus de dénombrements des sinistres par $\left\{ N(t), t \geq  0 \right\}$ tel que $N(0)=0$ et $N(t)$ = nombre de sinistres sur l'intervalle de temps $(0,t]$.\\
+	
+	On définit le processus d'agrégation comme
+	\begin{align}
+	S(t) = \left\{
+	\begin{array}{ll}
+	\sum_{k=1}^{N(t)} X_k & ,N(t) > 0 \\
+	0 & ,N(t) = 0
+	\end{array}
+	\right.
+	\end{align}
+	\end{Definition}
+
+	Dans \cite{albrecher2017reinsurance}, les auteurs décrivent dans le détail différentes approches possibles pour agréger les risques d'un portefeuille. Ils expliquent entre autres que, lorsque les calculs deviennent trop complexes pour être fait analytiquement et que l'on désire avoir plus de précision que par une simple approximation, on a recours à la simulation.\\
+	
+	Pour ce travail, la méthode qui est utilisée est la méthode de simulation de Monte-Carlo qui est résumé dans l'algorithme \ref{Algorithme_Monte-Carlo}.
+	\begin{Algorithme}[Méthode de Monte-Carlo]\label{Algorithme_Monte-Carlo}
+		\begin{enumerate}
+		\item [ ]
+		\item Définir n, un nombre de simulations qui est très grand tel que $10^5$.
+		\item Simuler n variables uniformes(0,1) grâce à un générateur de variables pseudos aléatoires (GNPA).\label{Algo_MC_Uniformes}
+		\item Appliquer la fonction quantile d'une loi de probabilité pour simuler n réalisations de cette loi à l'aide des lois uniformes générées en \ref{Algo_MC_Uniformes}.
+		\item Étudier le comportement des variables simulées de la même façon que pour une base de données empirique.
+		\end{enumerate}	
+	\end{Algorithme}
+
+	Dans la pratique, avec \texttt{R}, il existe des fonctions préexistantes qui permettent de gagner énormément d'efficacité dans le processus d'agrégation.
+	
+	\begin{Algorithme}[Processus d'agrégation]
+		\begin{enumerate}
+			\item []
+			\item $N(t)$: Simuler n réalisations du processus de Poisson définit par le modèle à l'aide de la fonction \texttt{rpois} dont on a passé en argument une fonction $\Lambda(t)$ correspondant aux accroissements du processus. Si ce processus est non homogène, il faut considérer que les accroissements ne sont pas stationnaires. Cela signifie qu'il faut que l'intervalle de temps commence au moment où le précédent s'est terminé. \label{Algo_Agreg_Nb}
+			\item $U$: À partir de \ref{Algo_Agreg_Nb}, simuler un nombre de lois uniformes(0,1) correspondant à la somme de toutes les simulations de Poisson qui ont été réalisé à l'aide de la fonction \texttt{runif}.\label{Algo_Agreg_Unif}
+			\item $X_k$: Utiliser la fonction quantile des modèles de sévérité qui ont été trouvés et les évaluer à la valeur des uniformes simulées en \ref{Algo_Agreg_Unif}.
+			\item pour chaque valeur de $\{N_j(t),j=1,...,n\}$, faire le test suivant: 
+			\begin{description}
+				\item Si $N_j(t)=0$, alors $S_j(t)=0$.
+				\item Autrement, $S_j(t)=\sum_{k=i}^{i+N_j(t)-1} X_k$, puis incrémenter i = i + $N_j(t)$.
+			\end{description}
+		\end{enumerate}
+	\end{Algorithme}
+
+Finalement, une fois que les données agrégées sont simulées, il est possible d'en étudier le comportement. Par exemple, on calcule les mesures $VaR$ et $TVaR$.
+	

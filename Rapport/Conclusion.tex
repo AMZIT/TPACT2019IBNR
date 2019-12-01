@@ -1,0 +1,21 @@
+\section{Conclusion et discussion}\label{Sect_Conclusion}
+	Pour conclure, le domaine de la modélisation des risques est un domaine aussi passionnant que complexe. Malgré tout, il est possible d'arriver à des résultats intéressants grâce au travail de plusieurs chercheurs ayant fait un travail remarquable pour comprendre toutes les composantes de ce sujet. Notamment, mentionnons \cite{LossModels_Klugman2012} qui a très bien décrit comment sélectionner un modèle. Mentionnons également \cite{albrecher2017reinsurance} qui a couvert le sujet de la réassurance de façon très complète. Puis, \cite{brazauskas2016modeling} a apporté des idées intéressantes en complément de \cite{albrecher2017reinsurance} relativement à la continuité et à la dérivabilité des raccordements de lois.\\
+	
+	Du côté de \cite{Embrechts1994}, l'idée d'identifier la loi de sévérité à l'aide de la fonction d'excès moyen est intéressante. Cependant, dans ce travail, il est démontré que cette technique a ses limites. Surtout lorsque l'on travaille avec des valeurs extrêmes. Par ailleurs, il aurait été intéressant de faire plus de simulations avec différents paramètres et différents ancrages de simulation afin de mieux étudier ces comportements.\\
+	
+	Dans la section \ref{Section_AnalysePreliminaire}, des comportements étranges sont observés au niveau de l'analyse de la fréquence. Cela démontre qu'il faut rester alerte dans la sélection de modèle, autant du point de vue de la fréquence que de la sévérité. Lorsqu'un comportement semble suspect, il faut s'informer et tenter de comprendre ce qui se passe. Évidemment, lorsque l'expérience embarque, il est plus facile de repérer ce genre de situation. À cet effet, \cite{LossModels_Klugman2012} parle de cet élément dans sa section sur la sélection de modèle.\\
+	
+	Par la suite, en comparant le travail de \cite{albrecher2017reinsurance}, de \cite{brazauskas2016modeling} et de \cite{LossModels_Klugman2012} avec nos résultats, on peut déduire qu'un raccordement de plus de deux lois est rarement une option envisageable du fait que le nombre de paramètres à estimer rend le modèle peu fiable en terme de pouvoir de prédiction. Également, la complexité du modèle engendré le rend difficile à travailler.\\
+	
+	Puis, en faisant les tests d'adéquation suggérés par \cite{LossModels_Klugman2012}, on a pu voir à travers les résultats que le test d'Anderson-Darling, puisqu'il met beaucoup de poids sur les queues de distribution, peut diverger lorsque l'échantillon est grand et comporte beaucoup de valeurs extrêmes comme dans le cas de \texttt{norwegianfire}.\\
+	
+	Maintenant que l'échéance de ce travail est à son terme, il y a une série de choses qui n'ont pas pu être faites, mais qu'il aurait été bon de faire. \\
+	
+	Parmi ces éléments, il aurait été avisé de tester le modèle de prédiction qui a été choisi pour chacune des bases de données avec des données plus récentes. Certains diront que nous aurions pu appliquer le principe de l'apprentissage machine et séparer les données en trois : un groupe de données d'entraînement, un autre d'ajustement, puis un pour tester le modèle. Cependant, il faut rappeler que les bases de données qui sont étudiées dans le présent travail ne comportait pas plus de 9181 données de sévérité pour \texttt{norwegianfire}, 2167 pour \texttt{danish} et 371 pour \texttt{Secura}. Cela est très peu dans l'optique du \textit{machine learning}. Or, considérant qu'un des enjeux de ce travail est de bien modéliser les valeurs extrêmes et considérant que celles-ci ne sont pas abondantes, il devient précaire de séparer les données.\\
+	
+	\begin{sloppypar}
+		Malgré tout, \cite{brazauskas2016modeling} a créé un modèle utilisant les données de la première année pour prédire la prochaine, et ainsi de suite, de façon récursive, et ce, en travaillant avec \texttt{norwegianfire}. Cette approche est intéressante considérant que cette base de données était la plus grande des trois et considérant que leur modèle donne des résultats plus concluant que les nôtres. Cependant, en termes d'agrégation des risques, le nombre de sinistres, d'une année à l'autre, était très changeant.\\
+	\end{sloppypar}
+
+	Finalement, la question critique du \textit{splicing}: assurer la continuité ou ne pas assurer la continuité. Telle est la grande question. Cette question dont nous n'avons pas trouvé de réponse.
+	 

@@ -1,0 +1,505 @@
+\section{Analyse de la sévérité avec un raccordement (\textit{splicing}) de lois}\label{Section_Splicing}
+	 Souvent il est difficile de trouver une loi de probabilité unique qui est adéquate pour modéliser l'ensemble des montants de sinistres, surtout en présence de valeurs extrêmes. Ce phénomène est observable avec les bases de données \texttt{nowergianfire} et \texttt{secura}. Un raccordement de lois permet donc de mieux modéliser des comportement probabilistes hétérogènes.\\
+	 
+	 Ce phénomène est expliqué avec la \textit{théorie des valeurs extrêmes} énoncée par \cite{gumbel1935valeurs}.\\
+	 
+	 Pour ce travail, les méthodes utilisées s'inspirent de \cite{albrecher2017reinsurance} et de \cite{brazauskas2016modeling}. Cette section présente donc quelques définitions touchant les raccordements de lois et décrit la méthodologie utilisée.
+	
+	\subsection{Définitions d'un raccordement de lois}
+	Pour débuter doucement, commençons par définir de façon générale ce qu'est un raccordement de lois. \cite{albrecher2017reinsurance} (p.51) propose la définition \ref{Def_Raccordement_general}.
+	
+	\begin{Definition}\label{Def_Raccordement_general}
+	Soit $X$ une variable aléatoire qui suit une loi composite et soient $\{X_j,j=1,...,m\}$, des variables aléatoires non identiquement distribuées avec fonction de densité $f_j$ et fonction de répartition $F_j$. Alors
+	
+	\begin{align}\label{Fonct_raccordement_general}
+		f_X(x) = \left\{
+		\begin{array}{ll}
+		w_1 \frac{f_1(x)}{F_1(\theta_1)-F_1(\theta_0)} & ,\theta_0 < x \leq \theta_1 \\
+		w_2 \frac{f_2(x)}{F_2(\theta_2)-F_2(\theta_1)} & ,\theta_1 < x \leq \theta_2 \\
+		\dots & \\
+		w_m \frac{f_m(x)}{F_m(\theta_m)-F_m(\theta_{m-1})} & ,\theta_{m-1} < x < \theta_m,
+		\end{array}
+		\right.
+	\end{align}
+	avec $w_j > 0$ tel que $\sum_{j=1}^{m} w_j = 1$ et $\theta_m<\infty$ ou $\theta_m = \infty $.\\
+	
+	L'hypothèse principale est que $X$ a un comportement probabiliste qui dépend de la position de $x $ sur le support.
+	\end{Definition}
+
+ 	Ainsi, on peut résumer en affirmant qu'il s'agit d'une loi composée de plusieurs lois de probabilité où chacune d'elles a un support décalé.\\
+	
+	Dans la littérature, \cite{albrecher2017reinsurance} utilise principalement des mélanges d'Erlang comme distribution de $f_j$ étant donné la flexibilité de ce type de loi. Cependant  comme il est expliqué dans la section \ref{Sect_Adequation}, il est préférable de privilégier les modèles avec le moins de paramètres possible. Pour cette raison, on définit que, dans le cadre de ce travail, la limite du nombre de raccordements est de $m\leq 3$. \\ 
+	
+	Pour cette même raison, on s'inspire aussi de l'approche de \cite{brazauskas2016modeling} qui utilise la loi lognormale et de Weibull pour modéliser la sévérité puisque ces lois utilisent moins de paramètres que les lois de mélanges d'Erlang.\\
+	
+	De plus, \cite{albrecher2017reinsurance} ne considère pas la dérivabilité aux points de raccordement. Si on désire assurer la continuité et/ou la dérivabilité aux points $\theta_1,\dots, \theta_{m-1}$, il faut imposer des restrictions sur les paramètres à estimer tel qu'il est définit en \ref{Deriv_continuite}.
+	
+	\subsection{Raccordement de deux lois:} Commençons par $m=2$, $\theta_0=0$ et $\theta_2 = \infty$. Alors, la fonction de densité de $X$ en \ref{Fonct_raccordement_general} devient
+	\begin{align}\label{fonct_raccord_2lois}
+		f_X(x) = \left\{
+		\begin{array}{ll}
+			w_1 \frac{f_1(x)}{F_1(\theta_1)} & ,0 < x \leq \theta_1 \\
+			(1-w_1) \frac{f_2(x)}{1-F_2(\theta_1)} & ,x>\theta_1,  
+		\end{array}
+		\right.
+	\end{align}
+	avec $0\leq w_1 \leq 1$. $f_1$ représente la densité des petits ou moyens montants de sinistre tandis que $f_2$ représente la densité des valeurs élevées.\\
+	
+	À partir de \ref{fonct_raccord_2lois}, la fonction de répartition de $X$ est définie par
+	\begin{align}\label{Fct_rep_2lois}
+		F_X(x) = \left\{
+		\begin{array}{ll}
+			w_1 \frac{F_1(x)}{F_1(\theta_1)} & ,0 < x \leq \theta_1 \\
+			w_1 + (1-w_1) \frac{F_2(x)}{1-F_2(\theta_1)} & ,x > \theta_1.  \\
+		\end{array}
+		\right.
+	\end{align}
+	
+	La fonction quantile est obtenue à partir de \ref{Fct_rep_2lois}.
+	\begin{align}
+		F_X^{-1}(u) = \left\{
+		\begin{array}{ll}
+			F_1^{-1} \left( \frac{u F_1(\theta_1)}{w_1} \right)& ,0 < u \leq w_1 \\
+			F_2^{-1} \left( \frac{u-w_1}{1-w_1} \right)& ,u > w_1.
+		\end{array}
+		\right.
+	\end{align}
+	La $VaR$ de $X$ correspond à la fonction de quantile évaluée à $u=\kappa$.\\
+	
+	Pour la $TVaR_{\kappa}(X)$ on utilise la relation suivante:
+	\begin{align}\label{Relations_TVaR}
+	TVaR_{\kappa}(X) = \frac{1}{1-\kappa} \int_{\kappa}^{1} F_X^{-1}(u) \textrm{d}u = \frac{1}{1-\kappa} \int_{VaR_{\kappa}(X)}^{\infty} x f(x) \textrm{d}x = \frac{1}{1-\kappa} E[X \times \mathbbm{1}_{\left\{ x > VaR_{\kappa}(X) \right\}}],
+	\end{align}
+	où
+	$$
+		\mathbbm{1}_{\left\{ x > VaR_{\kappa}(X) \right\}} = \left\{
+		\begin{array}{ll}
+			1 & ,x > VaR_{\kappa}(X) \\
+			0 & ,x \leq VaR_{\kappa}(X). \\
+		\end{array}
+		\right.
+	$$
+	Si $VaR_{\kappa}(X) \leq \theta_1$, alors
+	\begin{align*}
+		TVaR_{\kappa}(X) &= \frac{1}{1-\kappa} \int_{\kappa}^{1} F_X^{-1}(u) \textrm{d}u = \frac{1}{1-\kappa} \int_{VaR_{\kappa}(X)}^{\infty} x f(x) \textrm{d}x\\
+		&=  \int_{VaR_{\kappa}(X)}^{\theta_1} x \frac{w_1}{(1-\kappa)(F_1(\theta_1))}f_1(x) \textrm{d}x + \int_{\theta_1}^{\infty} x  \frac{1-w_1}{(1-\kappa)(1-F_2(\theta_1))} f_2(x) \textrm{d}x\\
+		&= \frac{w_1}{(1-\kappa)(F_1(\theta_1))} \int_{VaR_{\kappa}(X)}^{\theta_1} x f_1(x) \textrm{d}x + \frac{1-w_1}{(1-\kappa)(1-F_2(\theta_1))} \int_{\theta_1}^{\infty} x   f_2(x) \textrm{d}x\\
+		&= \frac{w_1}{(1-\kappa)(F_1(\theta_1))} \left(E[X_1 \times \mathbbm{1}_{\left\{ x > VaR_{\kappa}(X)  \right\}}] - E[X_1 \times \mathbbm{1}_{\left\{ x > \theta_1\right\}}]  \right)\\
+		&\ \ \ \ +  \frac{1-w_1}{(1-\kappa)(1-F_2(\theta_2))} \left( E[X_2 \times \mathbbm{1}_{\left\{ x > \theta_1 \right\}}]\right), \\
+	\end{align*}	
+	où $X_1\sim f_1$ et $X_2 \sim f_2$. De plus $E[X_i \times \mathbbm{1}_{\left\{ x \leq d \right\}} ]$ est connue pour $i=1,2$.\\
+	
+	Finalement si $ VaR_{\kappa}(X) > \theta_1$, alors
+	\begin{align*}
+		TVaR_{\kappa}(X) &= \frac{1}{1-\kappa} \int_{\kappa}^{1} F_X^{-1}(u) \textrm{d}u = \frac{1}{1-\kappa} \int_{VaR_{\kappa}(X)}^{\infty} x f(x) \textrm{d}x\\
+		&=  \int_{VaR_{\kappa}(X)}^{\infty} x  \frac{1-w_1}{(1-\kappa)(1-F_2(\theta_1))} f_2(x) \textrm{d}x\\
+		&=  \frac{1-w_1}{(1-\kappa)(1-F_2(\theta_1))} \int_{VaR_{\kappa}(X)}^{\infty} x   f_2(x) \textrm{d}x\\
+		&= \frac{1-w_1}{(1-\kappa)(1-F_2(\theta_1))} \left( E[X_2 \times \mathbbm{1}_{\left\{ x > VaR_{\kappa}(X) \right\}}]\right), \\
+	\end{align*}	
+	où $X_2\sim f_2$ et $E[X_i \times \mathbbm{1}_{\left\{ x \leq d \right\}} ]$ est connue pour $i=2$.\\
+	Le point $\theta_1$ peut être choisi manuellement ou peut être trouvé par optimisation numérique en imposant la continuité et la dérivabilité.\\
+	
+	Lorsque l'on impose la continuité et la dérivabilité au point $\theta_1$ tel qu'expliqué par \cite{brazauskas2016modeling}, on obtient les conditions suivantes:
+	\begin{align}\label{Deriv_continuite}
+		\left\{
+		\begin{array}{ll}
+			w_1 \frac{f_1(\theta_1)}{F_1(\theta_1)} = (1-w_1) \frac{f_2(\theta_1)}{1-F_2(\theta_1)} & (\textrm{continuité}) \\
+			w_1 \frac{f_1^{'}(\theta_1)}{F_1(\theta_1)} = (1-w_1) \frac{f_2^{'}(\theta_1)}{1-F_2(\theta_1)} & (\textrm{dérivabilité}), \\
+		\end{array}
+		\right.
+	\end{align}
+	où $f_1^{'}(\theta_1) =  \frac{\textrm{d}}{\textrm{d}x} f_1(x) \Big|_{x=\theta_1}$ et $f_2^{'}(\theta_1) =  \frac{\textrm{d}}{\textrm{d}x} f_2(x) \Big|_{x=\theta_1}$.\\
+	
+	Le poids $w_1$ est obtenu en résolvant le système d'équations \ref{Deriv_continuite} et le seuil $\theta_1$ est ensuite trouvé par optimisation numérique.\\
+	
+	Autrement, comme le suggère \cite{albrecher2017reinsurance}, on peut choisir $w_1$ tel que $w_1 = j/n$, où $\theta_1 = x_{[j]}$ et $n$ est le nombre total d'observations de la base de données. $x_{[j]}$ correspond à la $j^e$ statistique d'ordre de $X$; i.e. qu'il y a $j$ observations avant le seuil choisit. Ce seuil est alors choisi arbitrairement à l'aide d'une analyse graphique du comportement empirique.
+	
+	
+	\subsection{Raccordement de trois lois:}
+	Pour le cas où $m=3$, $\theta_0=0$ et $\theta_3=\infty$, la fonction de densité devient
+	\begin{align}\label{fct_densite_3lois}
+		f_X(x) = \left\{
+		\begin{array}{ll}
+			w_1 \frac{f_1(x)}{F_1(\theta_1)} & ,0 < x \leq \theta_1 \\
+			w_2 \frac{f_2(x)}{F_2(\theta_2)-F_2(\theta_1)} & ,\theta_1 < x \leq \theta_2 \\
+			(1-w_1-w_2) \frac{f_3(x)}{1-F_3(\theta_2)} & ,x > \theta_2.  \\
+		\end{array}
+		\right.
+	\end{align}
+	
+	On regroupe donc les données en trois parties: les valeurs inférieures à $\theta_1$ suivent la densité de $f_1$ et les valeurs élevées, regroupées en deux, suivent respectivement les densités $f_2$ et $f_3$. Ainsi, on peut mieux modéliser les très grandes valeurs.\\
+	
+	De \ref{fct_densite_3lois}, on trouve que la fonction de répartition de $X$ est donnée par
+	\begin{align}\label{fct_repart_3lois}
+		F_X(x) = \left\{
+		\begin{array}{ll}
+			w_1 \frac{F_1(x)}{F_1(\theta_1)} & ,0 < x \leq \theta_1 \\
+			w_1 + w_2 \frac{F_2(x)}{F_2(\theta_2)-F_2(\theta_1)} & ,\theta_1 < x \leq \theta_2 \\
+			w_1 + w_2 + (1-w_1-w_2) \frac{F_3(x)}{1-F_3(\theta_2)} & , x > \theta_2.  \\
+		\end{array}
+		\right.
+	\end{align}
+	La fonction quantile correspond à
+	\begin{align}\label{fct_quant_3lois}
+		F_X^{-1}(u) = \left\{
+		\begin{array}{ll}
+			F_1^{-1} \left( u \frac{F_1(\theta_1)}{w_1} \right) & ,0 < u \leq w_1 \\
+			F_2^{-1} \left((F_2(\theta_2)-F_2(\theta_1))  \frac{u - w_1}{w_2} \right) & ,w_1 < u \leq w_1+w_2 \\
+			F_3^{-1} \left( \frac{u - w_1-w_2}{1-w_1-w_2} \right) & , u > w_1+w_2  \\
+		\end{array}
+		\right.
+	\end{align}
+	et on sait que $VaR_\kappa(X) = F_X^{-1}(\kappa), \kappa \in (0,1).$\\
+	
+	Pour la $TVaR_{\kappa}(X)$ on utilise \ref{Relations_TVaR}. De cette façon, on obtient un résultat similaire à la $TVaR$ d'une loi composite comportant deux lois:\\
+	
+	Si $VaR_{\kappa}(X) \leq \theta_1$, alors
+	\begin{align*}
+		TVaR_{\kappa}(X) &= \frac{1}{1-\kappa} \int_{\kappa}^{1} F_X^{-1}(u) \textrm{d}u = \frac{1}{1-\kappa}  \int_{VaR_{\kappa}(X)}^{\infty} x f(x) \textrm{d}x\\
+		&= \int_{VaR_{\kappa}(X)}^{\theta_1} x \frac{w_1}{(1-\kappa)F_1(\theta_1)}f_1(x) \textrm{d}x + \int_{\theta_1}^{\theta_2} x \frac{w_2}{(1-\kappa)(F_2(\theta_2)-F_2(\theta_1))}f_2(x) \textrm{d}x \\
+		& \ \ \ \ \ \ + \int_{\theta_2}^{\infty} x  \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} f_3(x) \textrm{d}x\\
+		&= \frac{w_1}{(1-\kappa)F_1(\theta_1)} \int_{VaR_{\kappa}(X)}^{\theta_1} x f_1(x) \textrm{d}x +  \frac{w_2}{(1-\kappa)(F_2(\theta_2)-F_2(\theta_1))} \int_{\theta_1}^{\theta_2} x f_2(x) \textrm{d}x \\
+		&\ \ \ \ \ \ + \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} \int_{\theta_2}^{\infty} x   f_3(x) \textrm{d}x\\
+		&= \frac{w_1}{(1-\kappa)F_1(\theta_1)}\left( E[X_1 \times \mathbbm{1}_{\left\{ x >  VaR_{\kappa}(X) \right\}}] - E[X_1 \times \mathbbm{1}_{\left\{ x > \theta_1  \right\}}]  \right)\\
+		& \ \ \ \ +  \frac{w_2}{(1-\kappa)(F_2(\theta_2)-F_2(\theta_1))} \left(E[X_2 \times \mathbbm{1}_{\left\{ x > \theta_1  \right\}}] -E[X_2 \times \mathbbm{1}_{\left\{ x > \theta_2\right\}}]   \right)\\
+		&\ \ \ \ +  \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} \left( E[X_3 \times \mathbbm{1}_{\left\{ x > \theta_2 \right\}}]\right),
+	\end{align*}	
+	où $X_1\sim f_1$, $X_2\sim f_2$ et $X_3\sim f_3$. De plus, $E[X_i \times \mathbbm{1}_{\left\{ x \leq d \right\}} ]$ est connue pour $i=1,2,3$.\\
+	
+	Si $ \theta_1 \leq VaR_{\kappa}(X) \leq \theta_2$, alors
+	\begin{align*}
+	TVaR_{\kappa}(X) &= \frac{1}{1-\kappa} \int_{\kappa}^{1} F_X^{-1}(u) \textrm{d}u =  \frac{1}{1-\kappa} \int_{VaR_{\kappa}(X)}^{\infty} x f(x) \textrm{d}x\\
+	&=  \int_{VaR_{\kappa}(X)}^{\theta_2} x \frac{w_2}{(1-\kappa)(F_2(\theta_2)-F_2(\theta_1))}f_2(x) \textrm{d}x + \int_{\theta_2}^{\infty} x  \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} f_3(x) \textrm{d}x\\
+	&= \frac{w_2}{(1-\kappa)(F_2(\theta_2)-F_2(\theta_1))} \int_{VaR_{\kappa}(X)}^{\theta_2} x f_2(x) \textrm{d}x + \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} \int_{\theta_2}^{\infty} x   f_3(x) \textrm{d}x\\
+	&= \frac{w_2}{(1-\kappa)(F_2(\theta_2)-F_2(\theta_1))} \left(E[X_2 \times \mathbbm{1}_{\left\{ x > VaR_{\kappa}(X)  \right\}}]  - E[X_2 \times \mathbbm{1}_{\left\{ x > \theta_2\right\}}] \right)\\
+	&\ \ \ \ +  \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} \left(E[X_3 \times \mathbbm{1}_{\left\{ x > \theta_2 \right\}}]\right),
+	\end{align*}	
+	où $X_2$ a la fonction de densité $f_2$ et $X_3$ a la fonction de densité $f_3$. $E[X_i \times \mathbbm{1}_{\left\{ x \leq d \right\}} ]$, pour $i=1,2,3$ sont connus.\\
+	
+	Finalement si $ \theta_2 \leq VaR_{\kappa}(X)$, alors
+	\begin{align*}
+	TVaR_{\kappa}(X) &= \frac{1}{1-\kappa} \int_{\kappa}^{1} F_X^{-1}(u) \textrm{d}u =  \frac{1}{1-\kappa} \int_{VaR_{\kappa}(X)}^{\infty} x f(x) \textrm{d}x\\
+	&=  \int_{VaR_{\kappa}(X)}^{\infty} x  \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} f_3(x) \textrm{d}x\\
+	&=  \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} \int_{VaR_{\kappa}(X)}^{\infty} x   f_3(x) \textrm{d}x\\
+	&= \frac{1-w_1-w_2}{(1-\kappa)(1-F_3(\theta_2))} \left(  E[X_3 \times \mathbbm{1}_{\left\{ x > VaR_{\kappa}(X) \right\}}]\right),
+	\end{align*}	
+	où $X_3\sim f_3$ et $E[X_i \times \mathbbm{1}_{\left\{ x \leq d \right\}} ]$ est connue pour $i=1,2,3$.
+	
+	\subsection{Optimisation numérique}
+	De la même façon que pour les modèles de sévérité univariées, on utilise la méthode du maximum de vraisemblance pour estimer les paramètres des distributions avec raccordements.\\
+	
+	Comme les trois bases de données sont tronquées à gauche, il faut utiliser la fonction de densité conditionnelle.\\
+	
+	Soit $x_k$ la valeur du $k$-ième sinistre de l'échantillon $ \underline{X} = \left\{ x_1,\dots,x_n \right\}$ où $n$ représente le nombre total de sinistres observés. Soit $f_X(x;\underline{\theta})$, la fonction de densité du raccordement de lois avec les paramètres $\underline{\theta}$ et $F_X(d;\underline{\theta})$ la fonction de répartition évaluée au point $d$, où $d$ est le point à partir duquel les données sont tronquées. Alors, la fonction de la log-vraisemblance est donnée par
+	\begin{align}\label{fct_log-vrais_conditionnee}
+	l(\underline{X};\underline{\theta}) = \sum_{k=1}^{n} \ln( f_X(x_k;\underline{\theta})) - n \times \ln(1-F_X(d)).
+	\end{align}
+	Avec \ref{fct_log-vrais_conditionnee}, il est possible de trouver les estimateurs du maximum de vraisemblance en utilisant la méthode de Newton-Raphson. Afin d'y parvenir, il suffit d'utiliser la fonction \texttt{constrOptim} de \texttt{R}.	
+	\subsection{Modèles testés}
+	Afin d'obtenir la meilleure adéquation possible, plusieurs modèles sont testés dans cette section. La majorité d'entre eux sont inspirés de \cite{brazauskas2016modeling}.
+	
+	\subsubsection{Loi composite lognormale - Pareto simple}
+	\cite{brazauskas2016modeling} (p.7) propose le raccordement d'une loi lognormale avec une loi de Pareto de type 1.
+	\begin{Definition}
+		La fonction de densité de la loi composite lognormale-Pareto est 
+		$$
+			f_{LNPa}(x) = \left\{
+			\begin{array}{ll}
+				w_1 \frac{f_{LN}(x)}{F_{LN}(\theta)} & ,0 < x \leq \theta \\
+				(1-w_1) {f_{Pa}(x)}& , x >\theta, \\
+			\end{array}
+			\right.
+		$$
+		où $$ f_{LN}(x)= \frac{1}{x \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(x)- \mu}{\sigma} \right)^2}, x>0 $$ et $$f_{Pa}(x)= \frac{\alpha \theta^{\alpha}}{x^{\alpha+1}}, x>\theta. $$
+		Le paramètre $\theta$ représente le seuil qui délimite les montants "normaux" des montants plus élevés.
+	\end{Definition}
+		Comme suggéré par \cite{brazauskas2016modeling} (p.7), afin de réduire le nombre de paramètres à estimer, on impose la continuité et la dérivabilité au point $\theta$ qui mène au système
+		\begin{align}\label{continuite_LN-Pa}
+			\left\{
+			\begin{array}{ll}
+				w_1 \frac{f_{LN}(\theta)}{F_{LN}(\theta)} = (1-w_1) \frac{f_{Pa}(\theta)}{1-F_{Pa}(\theta)} & (\textrm{continuité}) \\
+				w_1 \frac{f_{LN}^{'}(\theta)}{F_{LN}(\theta)} = (1-w_1) \frac{f_{Pa}^{'}(\theta)}{1-F_{Pa}(\theta)} & (\textrm{dérivabilité}). \\
+			\end{array}
+			\right.
+		\end{align}
+		
+		On évalue les fonctions
+		$$
+		\left\{
+		\begin{array}{ll}
+			 \frac{w_1}{\Phi \left( \frac{\ln(\theta))- \mu}{\sigma} \right)}
+			 \frac{1}{\theta \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(\theta)- \mu}{\sigma} \right)^2}
+			 = (1-w_1) \frac{\alpha}{\theta} &  \\
+			\frac{w_1}{\Phi \left( \frac{\ln(\theta))- \mu}{\sigma} \right)}
+			\frac{-1}{\theta^2 \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(\theta)- \mu}{\sigma} \right)^2}
+			(1+\frac{\ln(\theta) -\mu}{\sigma^2})
+			= -(1-w_1)  \frac{\alpha (\alpha +1)}{\theta^2} & \\
+		\end{array}
+		\right.
+		$$
+		en isolant $\frac{1}{\theta \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(\theta_1)- \mu}{\sigma} \right)^2}$ et en combinant les deux équations, on obtient
+		\begin{align}
+			\mu = \ln (\theta) - \alpha \sigma^2.\label{mu_LN-Pa}
+		\end{align}
+		
+		On utilise \ref{mu_LN-Pa} pour trouver $w_1$ avec la condition de continuité en \ref{continuite_LN-Pa}. On obtient
+		$$w_1 = \frac{\sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{\alpha ^2 \sigma ^2}{2}}}{1+\sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{\alpha ^2 \sigma ^2}{2}}},$$
+		où $\Phi(x)$ est la fonction de répartition de la loi normal standard. \\
+		Il reste donc trois paramètres à estimer grâce à l'optimisation numérique: $\sigma$, $\alpha$ et $\theta$.
+	
+	\subsubsection{Loi composite lognormale - Pareto généralisée} 
+	De façon similaire, \cite{brazauskas2016modeling} (p.8) propose le raccordement d'une loi lognormale avec une loi de Pareto généralisée.
+	\begin{Definition}
+		La fonction de densité de la distribution avec raccordement des lois lognormale et Pareto généralisée est
+		$$
+			f_{LNPG}(x) = \left\{
+			\begin{array}{ll}
+				w_1 \frac{f_{LN}(x)}{F_{LN}(\theta)} & ,0 < x \leq \theta \\
+				(1-w_1) {f_{PG}(x)}& , x >\theta,  \\
+			\end{array}
+			\right.
+		$$
+		où $$f_{LN}(x)= \frac{1}{x \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(x)- \mu}{\sigma} \right)^2}, x>0$$ et $$f_{PG}(x)=\frac{\alpha (\lambda +\theta)^{\alpha}}{(\lambda + x)^{\alpha+1}}, x>\theta. $$
+	\end{Definition}
+
+	En imposant les conditions de continuité et de dérivabilité en \ref{continuite_LN-Pa} au point $\theta$, on procède de manière identique pour trouver $\mu$ et $w_1$. On obtient
+	$$\mu = \ln (\theta) - \sigma^2 \left( \theta \frac{\alpha+1}{\lambda+\theta} - 1\right)$$
+	et
+	$$w_1 = \frac{\sqrt{2 \pi} \alpha \theta \sigma \Phi \left(\frac{\ln(\theta)- \mu}{\sigma} \right) e^{\frac{ \left( \frac{\ln(\theta) - \mu}{\sigma} \right)^2}{2}}}{\lambda + \theta +\sqrt{2 \pi} \alpha \theta \sigma \Phi \left(\frac{\ln(\theta)- \mu}{\sigma} \right) e^{\frac{ \left( \frac{\ln(\theta) - \mu}{\sigma} \right)^2}{2}}},$$
+	où $\Phi(x)$ est la fonction de répartition de la loi normal standard. \\
+	
+	\subsubsection{Loi composite Weibull - Pareto simple} 
+	\cite{brazauskas2016modeling} (p.8) propose aussi un raccordement de la loi de Weibull avec la loi de Pareto de type 1.
+	\begin{Definition}
+		La fonction de densité de la distribution avec raccordement des lois Weibull et Pareto simple est
+		$$
+			f_{WeiPa}(x) = \left\{
+			\begin{array}{ll}
+				w_1 \frac{f_{Wei}(x)}{F_{Wei}(\theta)} & ,0 < x \leq \theta \\
+				(1-w_1) {f_{Pa}(x)}& , x > \theta,  \\
+			\end{array}
+			\right.
+		$$
+		où $$f_{Wei}(x)= \frac{\tau}{\phi^{\tau}} x^{\tau -1} e^{- \left(\frac{\theta}{\phi}\right)^{\tau} }, x>0$$ et $$f_{Pa}(x)= \frac{\alpha \theta^{\alpha}}{x^{\alpha+1}}, x>\theta. $$
+		\end{Definition} 
+	
+	De nouveau, en imposant la continuité et la dérivabilité au point $\theta$, il faut résoudre le système d'équations suivant :
+	$$
+		\left\{
+		\begin{array}{ll}
+			\frac{w_1}{F_{Wei}(\theta)}	\frac{\tau}{\phi^{\tau}} \theta^{\tau -1} e^{- \left(\frac{\theta}{\phi}\right)^{\tau} }
+			= (1-w_1) \frac{\alpha}{\theta} &  \\
+			\frac{w_1}{F_{Wei}(\theta)}	\frac{\tau}{\phi^{\tau}}  e^{- \left(\frac{\theta}{\phi}\right)^{\tau} }
+			((\tau -1) \theta^{\tau -2}+\frac{\tau}{\phi^{\tau}} \theta^{2\tau -2})
+			= -(1-w_1)  \frac{\alpha (\alpha +1)}{\theta^2}, & \\
+		\end{array}
+		\right.
+	$$
+	où $F_{Wei}(\theta) = e^{-\left(\frac{\theta}{\phi}\right)^{\tau}}$.\\
+	
+	En isolant $e^{- \left(\frac{\theta}{\phi}\right)^{\tau} }$ et en égalisant les deux équations on trouve
+	$$\phi = \theta \left(\frac{\alpha}{\tau}+1\right)^{- \frac{1}{\tau}}.$$
+	Finalement, on obtient
+	$$w_1 = \frac{e^{\frac{\alpha}{\tau}+1}-1}{e^{\frac{\alpha}{\tau}+1}+\frac{\tau}{\alpha}}.$$
+	
+	\subsubsection{Loi composite Weibull - Pareto généralisée} 
+	De façon similaire, \cite{brazauskas2016modeling} (p.8) propose une loi définie comme le raccordement d'une loi Weibull avec une loi de Pareto généralisée.
+	\begin{Definition}
+		La fonction de densité de la distribution avec raccordement des lois Weibull et Pareto généralisée est
+		$$
+			f_{WeiPG}(x) = \left\{
+			\begin{array}{ll}
+				w_1 \frac{f_{Wei}(x)}{F_{Wei}(\theta)} & ,0 < x \leq \theta \\
+				(1-w_1) {f_{PG}(x)}& , x > \theta, \\
+			\end{array}
+			\right.
+		$$
+		où $$f_{Wei}(x)= \frac{\tau}{\phi^{\tau}} x^{\tau -1} e^{- \left(\frac{\theta}{\phi}\right)^{\tau} }, x>0$$ et $$f_{PG}(x)=\frac{\alpha (\lambda +\theta)^{\alpha}}{(\lambda + x)^{\alpha+1}}, x>\theta. $$
+	\end{Definition} 
+	
+	De nouveau, on impose la continuité et la dérivabilité au point $\theta$; ce qui nous amène à résoudre le système d'équations suivant:
+	$$
+		\left\{
+		\begin{array}{ll}
+			\frac{w_1}{F_{Wei}(\theta)}
+			\frac{\tau}{\phi^{\tau}} \theta^{\tau -1} e^{- \left(\frac{\theta}{\phi}\right)^{\tau} }
+			= -(1-w_1) \frac{\alpha}{\lambda + \theta} &  \\
+			\frac{w_1}{F_{Wei}(\theta)}
+			\frac{\tau}{\phi^{\tau}}  e^{- \left(\frac{\theta}{\phi}\right)^{\tau} }
+			((\tau -1) \theta^{\tau -2}+\frac{\tau}{\phi^{\tau}} \theta^{2\tau -2})
+			= -(1-w_1)  \frac{\alpha (\alpha +1)}{(\lambda+ \theta)^2}, & \\
+		\end{array}
+		\right.
+	$$
+	où $F_{Wei}(\theta) = e^{-\left(\frac{\theta}{\phi}\right)^{\tau}}$.\\
+	
+	En isolant $e^{- \left(\frac{\theta}{\phi}\right)^{\tau} }$ et en égalisant les deux équations, on trouve
+	$$\phi = \theta \left(\frac{\alpha \theta - \lambda}{(\lambda + \theta)\tau}+1\right)^{- \frac{1}{\tau}}.$$
+	Finalement, on a
+	$$w_1 = \frac{e^{\left(\frac{\theta}{\phi}\right)^{\tau}}-1}{ \frac{\tau}{\alpha} (\frac{\lambda}{\theta} +1) \left(\frac{\theta}{\phi}\right)^{\tau} +
+			e^{\left(\frac{\theta}{\phi}\right)^{\tau}}-1}.$$
+
+	\subsubsection{Loi composite lognormale - Pareto - Pareto} 
+	Afin de mieux modéliser la fin de la distribution, on considère un raccordement entre une loi lognormale $(\mu,\sigma)$ et deux lois de Pareto de type 1 avec paramètres respectifs $\alpha_1$ et $\alpha_2$.
+	\begin{Definition}\label{Definition_LN-Pa}
+		Soit $f_{LN}(x)$, la densité de la loi lognormale, et, soient $f_{Pa1}(x)$ et $f_{Pa2}(x)$, les densités de deux lois de Pareto de type 1 avec leur fonction de répartition respective $F_{LN}(x)$, $F_{Pa1}(x)$ et $F_{Pa2}(x)$. Alors le raccordement des trois lois mène à la fonction de densité suivante: 	
+		$$
+			f(x) = \left\{
+			\begin{array}{ll}
+				w_1 \frac{f_{LN}(x)}{F_{LN}(\theta_1)} & ,0 < x \leq \theta_1 \\
+				w_2 \frac{f_{Pa1}(x)}{F_{Pa1}(\theta_2)-F_{Pa1}(\theta_1)} & ,\theta_1 < x \leq \theta_2 \\
+				(1-w_1-w_2) \frac{f_{Pa2}(x)}{1-F_{Pa2}(\theta_2)} & , x > \theta_2,  \\
+			\end{array}
+			\right.
+		$$
+	\end{Definition}
+	
+	À partir de la définition \ref{Definition_LN-Pa}, on déduit
+	$$
+		f(x;\mu,\sigma,\theta_1,\alpha_1,\theta_2,\alpha_2) = \left\{
+		\begin{array}{ll}
+			\frac{w_1}{\Phi\left(\frac{\ln(\theta_1)-\mu}{\sigma}\right)} \frac{1}{x \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(x)- \mu}{\sigma} \right)^2} & ,0 < x \leq \theta_1 \\
+			\frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} \frac{\alpha_1 \theta_1^{\alpha_1}}{x^{\alpha_1+1}}  & ,\theta_1 < x \leq \theta_2 \\
+			(1-w_1-w_2) \frac{\alpha_2 \theta_2^{\alpha_2}}{x^{\alpha_2+1}}  & , x > \theta_2.  \\
+		\end{array}
+		\right.
+	$$	
+	
+	Il y a trois façons d'utiliser ce modèle:
+	\begin{enumerate}
+		\item On fixe $\theta_1$ et $\theta_2$, en se basant sur l'expertise, la fonction d'excès moyen ou d'autres sources. Puis, on pose $w_1 = 1-\frac{\theta_1}{n}$ et $w_2= w_1 - \frac{\theta_2}{n}$. 
+		\item On redéfinit $f_{LN}$ et $f_{Pa1}$ comme un raccordement de deux loi et on fixe un $\theta_2$ en se basant sur les analyses précédentes.
+		\item On impose la continuité et la dérivabilité aux points $\theta_1$ et $\theta_2$. \\
+	\end{enumerate}
+	Afin d'assurer la continuité et la dérivabilité de la loi composite, il faut résoudre le système d'équations suivant:
+	
+	\begin{align}
+		&\frac{w_1}{\Phi \left( \frac{\ln(\theta_1))- \mu}{\sigma} \right)}
+		\frac{1}{\theta \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(\theta_1)- \mu}{\sigma} \right)^2}
+		= \frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} \frac{\alpha_1}{\theta_1} \label{LN-Pa-Pa_1} \\
+		&\frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} 
+		\frac{\alpha_1 \theta_1^{\alpha_1}}{\theta_2^{\alpha_1+1}} 
+		= (1-w_1-w_2) \frac{\alpha_2}{\theta_2}  \label{LN-Pa-Pa_2} \\
+		&\frac{w_1}{\Phi \left( \frac{\ln(\theta_1))- \mu}{\sigma} \right)}
+		\frac{-1}{\theta_1^2 \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(\theta_1)- \mu}{\sigma} \right)^2}
+		(1+\frac{\ln(\theta_1) -\mu}{\sigma^2})
+		= -\frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} 
+		\frac{\alpha_1 (\alpha_1+1)}{\theta_1^2} \label{LN-Pa-Pa_3} \\
+		&-\frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} 
+		\frac{\alpha_1  (\alpha_1+1) \theta_1^{\alpha_1}}{\theta_2^{\alpha_1+2}} 
+		=- (1-w_1-w_2) \frac{\alpha_2  (\alpha_2+1)}{\theta_2^2}. \label{LN-Pa-Pa_4} \\
+	\end{align}
+	
+	De cette façon, en isolant $\frac{1}{\theta_1 \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\ln(\theta_1)- \mu}{\sigma} \right)^2}$ de \ref{LN-Pa-Pa_1} et de \ref{LN-Pa-Pa_3}, puis en résolvant le système d'équations pour $\mu$, on a 
+	\begin{align}
+	\mu = \ln (\theta_1) - \alpha_1 \sigma^2.\label{LN-Pa-Pa_5}
+	\end{align}
+	De la même façon, en isolant $\frac{w_2}{\left(1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}\right)  (1-w_1-w_2)}$ de \ref{LN-Pa-Pa_2} et de \ref{LN-Pa-Pa_4}, on obtient
+	\begin{align}
+	\alpha_1 = \alpha_2.\label{LN-Pa-Pa_6}
+	\end{align}
+	Avec \ref{LN-Pa-Pa_1}, \ref{LN-Pa-Pa_2}, \ref{LN-Pa-Pa_5} et \ref{LN-Pa-Pa_6} on trouve finalement
+	$$w_1 = \frac{\sqrt{2 \pi} \alpha_1 \sigma \Phi(\alpha_1 \sigma) e^{\frac{\alpha_1^2 \sigma ^2}{2}}}{1+\sqrt{2 \pi} \alpha_1 \sigma \Phi(\alpha_1 \sigma) e^{\frac{\alpha_1^2 \sigma ^2}{2}}}$$ 
+	et
+	$$w_2 = \frac{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}}{1+\sqrt{2 \pi} \alpha_1 \sigma \Phi(\alpha_1 \sigma) e^{\frac{\alpha_1^2 \sigma ^2}{2}}}.$$ 
+	
+	\subsubsection{Loi composite Weilbull - Pareto - Pareto} 
+	Ce modèle est similaire au modèle lognormal - Pareto - Pareto, avec la différence importante que la densité des petites valeurs suit une loi Weilbull $(\tau,\phi)$.
+	\begin{Definition}\label{Def_Wei-Pa-Pa}
+		Soient $f_{Wei}(x)$, la densité de la loi de Weibull, et $f_{Pa1}(x)$ et $f_{Pa2}(x)$, la densité d'une loi Pareto de type 1, avec leur fonction de répartition respective,  $F_{Wei}(x)$,$F_{Pa1}(x)$ et $F_{Pa2}(x)$ . Alors le raccordement des trois lois conduit à la fonction de densité suivante:
+		$$
+		f(x) = \left\{
+		\begin{array}{ll}
+			w_1 \frac{f_{Wei}(x)}{F_{Wei}(\theta_1)} & ,0 < x \leq \theta_1 \\
+			w_2 \frac{f_{Pa1}(x)}{F_{Pa1}(\theta_2)-F_{Pa1}(\theta_1)} & ,\theta_1 < x \leq \theta_2 \\
+			(1-w_1-w_2) \frac{f_{Pa2}(x)}{1-F_{Pa2}(\theta_2)} & ,x >\theta_2.  \\
+		\end{array}
+		\right.
+		$$
+	\end{Definition}
+	De la définition \ref{Def_Wei-Pa-Pa}, on obtient
+	$$
+		f(x;\tau,\phi,\theta_1,\alpha_1,\theta_2,\alpha_2) = \left\{
+		\begin{array}{ll}
+			\frac{w_1}{1-e^{-\left(\theta_1/\phi\right)^{\tau}}} \frac{\tau}{\phi^{\tau}} x^{\tau -1} e^{- \left(x/\phi\right)^{\tau} }& ,0 < x \leq \theta_1 \\
+			\frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} \frac{\alpha_1 \theta_1^{\alpha_1}}{x^{\alpha_1+1}}  & ,\theta_1 < x \leq \theta_2 \\
+			(1-w_1-w_2) \frac{\alpha_2 \theta_2^{\alpha_2}}{x^{\alpha_2+1}}  & ,x > \theta_2.  \\
+		\end{array}
+		\right.
+	$$	
+
+	Si on impose la continuité et la dérivabilité, il faut résoudre le système d'équation suivant:
+	\begin{align}
+		&\frac{w_1}{1-e^{-\left(\theta_1/\phi\right)^{\tau}}} \frac{\tau}{\phi^{\tau}} \theta_1^{\tau -1} e^{- \left(\theta_1/\phi\right)^{\tau} }
+		= \frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} \frac{\alpha_1}{\theta_1} \label{wei_Pa_Pa_1}  \\
+		&\frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} \frac{\alpha_1 \theta_1^{\alpha_1}}{\theta_2^{\alpha_1+1}} = (1-w_1-w_2) \frac{\alpha_2}{\theta_2} \label{wei_Pa_Pa_2}\\
+		&\frac{w_1}{1-e^{-\left(\theta_1/\phi\right)^{\tau}}}
+		\frac{\tau}{\phi^{\tau}}  e^{- \left(\frac{\theta_1}{\phi}\right)^{\tau} }
+		((\tau -1) \theta_1^{\tau -2}+\frac{\tau}{\phi^{\tau}} \theta_1^{2\tau -2})
+		= -\frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} \frac{\alpha_1 (\alpha_1+1)}{\theta_1^2} \label{wei_Pa_Pa_3}\\
+		&-\frac{w_2}{1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}} \frac{\alpha_1  (\alpha_1+1) \theta_1^{\alpha_1}}{\theta_2^{\alpha_1+2}} =- (1-w_1-w_2) \frac{\alpha_2  (\alpha_2+1)}{\theta_2^2} \label{wei_Pa_Pa_4}. \\
+	\end{align}
+	
+	En isolant $	\frac{\tau}{\phi^{\tau}} \theta_1^{\tau -1} e^{- \left(\frac{\theta_1}{\phi}\right)^{\tau} }$ de \ref{wei_Pa_Pa_1} et de \ref{wei_Pa_Pa_3}, puis en égalisant les résultats, on a 
+	\begin{align}
+	\phi = \theta_1 \left(\frac{\alpha_1}{\tau}+1\right)^{- \frac{1}{\tau}}\label{wei_Pa_Pa_5}.
+	\end{align}
+	De la même façon, en isolant $\frac{w_2}{\left(1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1}\right) (1-w_1-w_2)}$ de \ref{wei_Pa_Pa_2} et de \ref{wei_Pa_Pa_4}, puis en résolvant le système d'équation, on obtient
+	\begin{align}
+	\alpha_1 = \alpha_2\label{wei_Pa_Pa_6}.
+	\end{align}
+	Avec \ref{wei_Pa_Pa_1}, \ref{wei_Pa_Pa_2}, \ref{wei_Pa_Pa_5} et \ref{wei_Pa_Pa_6} on trouve finalement
+	$$w_1 = \frac{e^{\frac{\alpha_1}{\tau}+1}-1}{e^{\frac{\alpha_1}{\tau}+1}+\frac{\tau}{\alpha_1}}$$
+	et 
+	$$w_2 = \frac{\left(1-\left(\frac{\theta_1}{\theta_2}\right)^{\alpha_1} \right) \frac{\tau+\alpha_1}{\alpha_1}}{e^{\frac{\alpha_1}{\tau}+1} -1 + \frac{\tau+\alpha_1}{\alpha_1}}.$$
+	
+
+	\subsubsection{Loi composite coxienne-2 - Pareto}
+	La loi coxienne-2 est une alternative au mélange Erlang tel qu'expliqué dans la section \ref{Section_Severite}. 
+	\begin{Definition}\label{Def_Cox_Pa}
+		Soient $f_{Cox}(x)$, la densité de la loi coxienne-2, et $f_{Pa}(x)$, la densité d'une loi Pareto de type 1, avec leur fonction de répartition respective,  $F_{Cox}(x)$ et $F_{Pa}(x)$. Alors le raccordement des deux lois conduit à la fonction de densité suivante:
+		$$
+			f_{CoxPa}(x) = \left\{
+			\begin{array}{ll}
+				w_1 \frac{f_{Cox}(x)}{F_{Cox}(\theta)} & ,0 < x \leq \theta \\
+				(1-w_1) {f_{Pa}(x)}& , x > \theta, \\
+			\end{array}
+			\right.
+		$$
+		où $$f_{Cox}(x)= p\beta_1 e^{-\beta_1 x} + (1-p)   \left( \frac{\beta_2 }{\beta_2 - \beta_1}\beta_1e^{-\beta_1 x} + \frac{\beta_1 }{\beta_1 - \beta_2}\beta_2e^{-\beta_2 x}\right), x>0$$ et $$ f_{Pa}(x)= \frac{\alpha \theta^{\alpha}}{x^{\alpha+1}},x>\theta. $$
+	\end{Definition}
+	
+	De la définition \ref{Def_Cox_Pa} on obtient
+	$$
+	w_1 \frac{f_{Cox}(\theta)}{F_{Cox}(\theta)} = (1-w_1) \frac{f_{Pa}(\theta)}{1-F_{Pa}(\theta)}  (\textrm{continuité}). \\
+	$$
+	On isole $w1$ et on obtient
+	$$
+	w_1 = \frac{F_{Cox}(\theta)}{F_{Cox}(\theta)+ \frac{\theta}{\alpha}  f_{Cox}(\theta)}.
+	$$
+
+	Il reste donc 5 paramètres à estimer par optimisation numérique : $p$, $\beta_1$,$\beta_2$,$\alpha$ et $\theta$.
+
+	\subsubsection{Loi composite coxienne-2 - Pareto généralisée}
+	\begin{Definition}
+	Soient $f_{Cox}(x)$, la densité de la loi coxienne-2, et $f_{Pa}(x)$, la densité d'une loi Pareto généralisée, avec leur fonction de répartition respective,  $F_{Cox}(x)$ et $F_{Pa}(x)$. Alors le raccordement des deux lois conduit à la fonction de densité suivante:
+	$$
+		f_{CoxPa}(x) = \left\{
+		\begin{array}{ll}
+			w_1 \frac{f_{Cox}(x)}{F_{Cox}(\theta)} & ,0 < x \leq \theta \\
+			(1-w_1) {f_{PG}(x)}& ,x > \theta,  \\
+		\end{array}
+		\right.
+	$$
+	où $$f_{Cox}(x)= p\beta_1 e^{-\beta_1 x} + (1-p)   \left( \frac{\beta_2 }{\beta_2 - \beta_1}\beta_1e^{-\beta_1 x} + \frac{\beta_1 }{\beta_1 - \beta_2}\beta_2e^{-\beta_2 x}\right)$$ et $$f_{PG}(x)=\frac{\alpha (\lambda +\theta)^{\alpha}}{(\lambda + x)^{\alpha+1}}. $$
+	\end{Definition}
+	
+	$$
+	w_1 \frac{f_{Cox}(\theta)}{F_{Cox}(\theta)} = (1-w_1) \frac{f_{PG}(\theta)}{1-F_{PG}(\theta)}  (\textrm{continuité}). \\
+	$$
+	On isole $w1$ et on obtient
+	$$
+	w_1 = \frac{F_{Cox}(\theta)}{F_{Cox}(\theta)+ \frac{\theta+\lambda}{\alpha}  f_{Cox}(\theta)}.
+	$$
+	
+	Il reste donc 5 paramètres à estimer $p$, $\beta_1$,$\beta_2$,$\lambda$,$\alpha$ et $\theta$.
