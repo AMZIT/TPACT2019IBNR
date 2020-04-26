@@ -1,56 +1,6 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Analyse pr\351liminaire}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{norwegianfire}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{secura}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{danish}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{Analyse de la fr\351quence}{}% 6
-\BOOKMARK [2][-]{subsection.3.1}{Processus de Poisson homog\350ne}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{Processus de Poisson non homog\350ne}{section.3}% 8
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Intensit\351 lin\351aire}{subsection.3.2}% 9
-\BOOKMARK [3][-]{subsubsection.3.2.2}{L'intensit\351 est une fonction de puissance}{subsection.3.2}% 10
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Intensit\351 p\351riodique}{subsection.3.2}% 11
-\BOOKMARK [1][-]{section.4}{Analyse de la s\351v\351rit\351 de fa\347on univari\351e}{}% 12
-\BOOKMARK [2][-]{subsection.4.1}{Param\351trisation des lois de s\351v\351rit\351}{section.4}% 13
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Exponentielle}{subsection.4.1}% 14
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Weibull}{subsection.4.1}% 15
-\BOOKMARK [3][-]{subsubsection.4.1.3}{Gamma}{subsection.4.1}% 16
-\BOOKMARK [3][-]{subsubsection.4.1.4}{Lognormale}{subsection.4.1}% 17
-\BOOKMARK [3][-]{subsubsection.4.1.5}{Pareto}{subsection.4.1}% 18
-\BOOKMARK [3][-]{subsubsection.4.1.6}{Coxienne-2}{subsection.4.1}% 19
-\BOOKMARK [1][-]{section.5}{Analyse de la s\351v\351rit\351 avec un raccordement \(splicing\) de lois}{}% 20
-\BOOKMARK [2][-]{subsection.5.1}{D\351finitions d'un raccordement de lois}{section.5}% 21
-\BOOKMARK [2][-]{subsection.5.2}{Raccordement de deux lois:}{section.5}% 22
-\BOOKMARK [2][-]{subsection.5.3}{Raccordement de trois lois:}{section.5}% 23
-\BOOKMARK [2][-]{subsection.5.4}{Optimisation num\351rique}{section.5}% 24
-\BOOKMARK [2][-]{subsection.5.5}{Mod\350les test\351s}{section.5}% 25
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Loi composite lognormale - Pareto simple}{subsection.5.5}% 26
-\BOOKMARK [3][-]{subsubsection.5.5.2}{Loi composite lognormale - Pareto g\351n\351ralis\351e}{subsection.5.5}% 27
-\BOOKMARK [3][-]{subsubsection.5.5.3}{Loi composite Weibull - Pareto simple}{subsection.5.5}% 28
-\BOOKMARK [3][-]{subsubsection.5.5.4}{Loi composite Weibull - Pareto g\351n\351ralis\351e}{subsection.5.5}% 29
-\BOOKMARK [3][-]{subsubsection.5.5.5}{Loi composite lognormale - Pareto - Pareto}{subsection.5.5}% 30
-\BOOKMARK [3][-]{subsubsection.5.5.6}{Loi composite Weilbull - Pareto - Pareto}{subsection.5.5}% 31
-\BOOKMARK [3][-]{subsubsection.5.5.7}{Loi composite coxienne-2 - Pareto}{subsection.5.5}% 32
-\BOOKMARK [3][-]{subsubsection.5.5.8}{Loi composite coxienne-2 - Pareto g\351n\351ralis\351e}{subsection.5.5}% 33
-\BOOKMARK [1][-]{section.6}{Mesures d'ad\351quation et s\351lection de mod\350le }{}% 34
-\BOOKMARK [2][-]{subsection.6.1}{Test de Kolmogorov-Smirnov}{section.6}% 35
-\BOOKMARK [2][-]{subsection.6.2}{Test d'Anderson-Darling}{section.6}% 36
-\BOOKMARK [2][-]{subsection.6.3}{Crit\350re d'information d'Akaike}{section.6}% 37
-\BOOKMARK [2][-]{subsection.6.4}{Crit\350re bay\351sien de Schwartz}{section.6}% 38
-\BOOKMARK [2][-]{subsection.6.5}{Test du ratio de vraissemblance}{section.6}% 39
-\BOOKMARK [2][-]{subsection.6.6}{S\351lection de mod\350le}{section.6}% 40
-\BOOKMARK [1][-]{section.7}{Agr\351gation}{}% 41
-\BOOKMARK [1][-]{section.8}{R\351sultats}{}% 42
-\BOOKMARK [2][-]{subsection.8.1}{R\351sultats - Analyse graphique}{section.8}% 43
-\BOOKMARK [3][-]{subsubsection.8.1.1}{norwegianfire}{subsection.8.1}% 44
-\BOOKMARK [3][-]{subsubsection.8.1.2}{secura}{subsection.8.1}% 45
-\BOOKMARK [3][-]{subsubsection.8.1.3}{danish}{subsection.8.1}% 46
-\BOOKMARK [2][-]{subsection.8.2}{Choix de mod\350le avec test d'ad\351quation}{section.8}% 47
-\BOOKMARK [3][-]{subsubsection.8.2.1}{norwegianfire}{subsection.8.2}% 48
-\BOOKMARK [3][-]{subsubsection.8.2.2}{secura}{subsection.8.2}% 49
-\BOOKMARK [2][-]{subsection.8.3}{Agr\351gation des mod\350les choisis}{section.8}% 50
-\BOOKMARK [3][-]{subsubsection.8.3.1}{norwegianfire}{subsection.8.3}% 51
-\BOOKMARK [3][-]{subsubsection.8.3.2}{secura}{subsection.8.3}% 52
-\BOOKMARK [3][-]{subsubsection.8.3.3}{danish}{subsection.8.3}% 53
-\BOOKMARK [1][-]{section.9}{Conclusion et discussion}{}% 54
-\BOOKMARK [1][-]{appendix.A}{Loi coxienne-2}{}% 55
-\BOOKMARK [1][-]{appendix.B}{Code informatique}{}% 56
+\BOOKMARK [1][-]{section.2}{Project objective}{}% 2
+\BOOKMARK [1][-]{section.3}{Data Analysis}{}% 3
+\BOOKMARK [1][-]{section.4}{Model methodologie}{}% 4
+\BOOKMARK [1][-]{section.5}{Results}{}% 5
+\BOOKMARK [1][-]{section.6}{Conclusion et discussion}{}% 6

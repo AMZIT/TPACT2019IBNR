@@ -1,93 +1,23 @@
 \begin{thebibliography}{}
 
-\bibitem[Akaike, 1974]{Akaike_Criteria1974}
-Akaike, H. (1974).
-\newblock A new look at the statistical model identification.
-\newblock {\em IEEE Transactions on Automatic Control}, 19(6):716--723.
-
 \bibitem[Albrecher et~al., 2017]{albrecher2017reinsurance}
 Albrecher, H., Teugels, J.~L., and Beirlant, J. (2017).
 \newblock {\em Reinsurance: Actuarial and Statistical Aspects}.
 \newblock John Wiley \& Sons.
-
-\bibitem[Beirlant et~al., 2004]{norwegianfireEtSecura}
-Beirlant, J., Goegebeur, Y., Segers, J., and Teugels, J. (2004).
-\newblock {\em Statistics of Extremes: Theory and Applications, Wiley Series in
-  Probability}.
-\newblock Wiley, Chichester.
 
 \bibitem[Brazauskas and Kleefeld, 2016]{brazauskas2016modeling}
 Brazauskas, V. and Kleefeld, A. (2016).
 \newblock Modeling severity and measuring tail risk of norwegian fire claims.
 \newblock {\em North American Actuarial Journal}, 20(1):1--16.
 
-\bibitem[Drazek and Voß, 2013]{Drazek_PoissProcess2013}
-Drazek, L.~C. and Voß, J. (2013).
-\newblock {\em Intensity estimation for Poisson processes}.
-\newblock The University of Leeds, School of Mathematics.
-
-\bibitem[Edward et~al., 1988]{Edward_MaximumLikelyhood1988}
-Edward, J., Dudewicz, S., and Mishra, N. (1988).
-\newblock {\em Modern Mathematical Statistics.}
-\newblock Wiley.
-
 \bibitem[Embrechts and Schmidli, 1994]{Embrechts1994}
 Embrechts, P. and Schmidli, H. (1994).
 \newblock Modelling of extremal events in insurance and finance.
 \newblock {\em Zeitschrift f{\"u}r Operations Research}, 39(1):1--34.
 
-\bibitem[Gumbel, 1935]{gumbel1935valeurs}
-Gumbel, E.~J. (1935).
-\newblock Les valeurs extr{\^e}mes des distributions statistiques.
-\newblock {\em Ann. Inst. Henri Poincar{\'e}}, 5(2):115--158.
-
-\bibitem[Kahn, 1962]{CollectiveRiskTheory_kahn1962}
-Kahn, P.~M. (1962).
-\newblock An introduction to collective risk theory and its application to
-  stop-loss reinsurance.
-\newblock {\em Transactions of Society of Actuaries}, 14(40):400--425.
-
 \bibitem[Klugman et~al., 2012]{LossModels_Klugman2012}
 Klugman, S., Panjer, H., and Willmot, G. (2012).
 \newblock {\em Loss Models: From Data to Decisions}.
 \newblock Wiley, fourth edition.
-
-\bibitem[Klugman et~al., 2013]{LossModels_FurtherTopics_Klugman2013}
-Klugman, S., Panjer, H., and Willmot, G. (2013).
-\newblock {\em Loss Models: Further Topics}.
-\newblock Wiley.
-
-\bibitem[Kuhl et~al., 1997]{Kuhl_PoissonNonHomo_Trends_1997}
-Kuhl, M.~E., Wilson, J.~R., and Johnson, M.~A. (1997).
-\newblock Estimating and simulating poisson processes having trends or multiple
-  periodicities.
-\newblock {\em IIE Transactions}, 29(3):201--211.
-
-\bibitem[Marceau, 2018]{TheorieDuRisque2018_MarceauEtCossette}
-Marceau, E. et~Cossette, H. (2018).
-\newblock {\em Mathématiques actuarielles du risque : modèles, mesures de
-  risque et méthodes quantitatives}.
-\newblock Université Laval.
-
-\bibitem[McNeil, 1996]{Danish}
-McNeil, A. (1996).
-\newblock Estimating the tails of loss severity distributions using extreme
-  value theory.
-
-\bibitem[Mikosch, 2009]{Mikosch_PoissProcess2009}
-Mikosch, T. (2009).
-\newblock {\em Non-Life Insurance Mathematics, An Introduction with the Poisson
-  Process}.
-\newblock Springer.
-
-\bibitem[Parodi, 2015]{Parodi2015_Pricing_in_GenIns}
-Parodi, P. (2015).
-\newblock {\em Pricing in General Insurance}.
-\newblock Taylor and Francis Group.
-
-\bibitem[Schwarz, 1978]{schwarz1978}
-Schwarz, G. (1978).
-\newblock Estimating the dimension of a model.
-\newblock {\em Ann. Statist.}, 6(2):461--464.
 
 \end{thebibliography}

@@ -1,6 +1,5 @@
 \documentclass[11pt,letterpaper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[francais]{babel} % Éviter les conflits avec l'Anglais
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{listings}
@@ -19,7 +18,7 @@
 \usepackage{breakcites} % Faire en sorte que les citations ne sortent pas dans la marge
 \usepackage[left=2.00cm, right=2.00cm]{geometry} % Ajustement des marges
 \usepackage{xcolor-solarized}
-\author{Alexandre Lepage}
+\author{Amedeo Zito}
 
 \theoremstyle{plain}
 \newtheorem{Definition}{Définition}
@@ -41,15 +40,15 @@
 	\strut % Page blanche
 	\newpage
 	
-	\input{Sommaire}
-	\clearpage	
-	\input{Remerciements}
+	\input{Summary}
 	\clearpage
+	\input{acknowledgement}
+	\clearpage	
 
 	\tableofcontents % Table des matières
 	\newpage
 
-	\renewcommand{\listfigurename}{Liste des illustrations}
+	%\renewcommand{\listfigurename}{Liste des illustrations}
 	\newpage
 	\listoffigures
 	\newpage
@@ -60,13 +59,10 @@
 	\setcounter{page}{1}
 	
 	\input{Introduction} % Début du texte
-	\input{AnalysePreliminaire} % Contient la description des bases de données avec une analyse préliminaire des données
-	\input{Methodologie_frequence}
-	\input{Methodologie_severite}
-	\input{Methodologie_severite_splicing}
-	\input{Methodologie_Adequation}
-	\input{Methodologie_Agregation}
-	\input{Resultats} 
+	\input{ProjectObjective} % Contient la description des bases de données avec une analyse préliminaire des données
+	\input{DataAnalysis}
+	\input{Methodologie}
+	\input{Results} 
 	\input{Conclusion}
 	
 	\clearpage
@@ -77,8 +73,6 @@
 	\pagenumbering{arabic}% resets `page` counter to 1
 	\renewcommand*{\thepage}{A\arabic{page}}
 	\appendix
-	
-	\input{Annexe-LoiCoxienne2}
-	\input{Annexe-Code}
+
 	
 \end{document}

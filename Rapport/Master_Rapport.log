@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.30)  10 JAN 2019 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.30)  26 APR 2020 11:44
 entering extended mode
 **./Master_Rapport.tex
 (Master_Rapport.tex
@@ -25,66 +25,6 @@ Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/09/26 3.24 The Babel package
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2018/09/26 3.24 Babel switching mechanism
-)
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\francais.ldf"
-Language: francais 2018/09/14 v3.5c French support from the babel system
-
-
-Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
-(francais.ldf)                it might be removed sooner or later. Please
-(francais.ldf)                use `french' instead; reported on input line 31.
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\french.ldf"
-Language: french 2018/09/14 v3.5c French support from the babel system
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/09/26 3.24 Babel common definitions
-\babel@savecnt=\count88
-\U@D=\dimen103
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
-\bbl@dirlevel=\count89
-)
-\l@acadian = a dialect from \language\l@french 
-\FB@nonchar=\count90
-Package babel Info: Making : an active character on input line 414.
-Package babel Info: Making ; an active character on input line 415.
-Package babel Info: Making ! an active character on input line 416.
-Package babel Info: Making ? an active character on input line 417.
-\FBguill@level=\count91
-\FBold@everypar=\toks16
-\FB@Mht=\dimen104
-\mc@charclass=\count92
-\mc@charfam=\count93
-\mc@charslot=\count94
-\std@mcc=\count95
-\dec@mcc=\count96
-\c@FBcaption@count=\count97
-\listindentFB=\dimen105
-\descindentFB=\dimen106
-\labelindentFB=\dimen107
-\labelwidthFB=\dimen108
-\leftmarginFB=\dimen109
-\parindentFFN=\dimen110
-\FBfnindent=\dimen111
-)))
-("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
@@ -95,51 +35,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen112
+\@emptytoks=\toks16
+\ex@=\dimen103
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen113
+\pmbraise@=\dimen104
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count98
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count99
-\leftroot@=\count100
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count101
-\DOTSCASE@=\count102
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen114
+\big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count103
-\c@MaxMatrixCols=\count104
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count105
-\dspbrk@lvl=\count106
-\tag@help=\toks19
-\row@=\count107
-\column@=\count108
-\maxfields@=\count109
-\andhelp@=\toks20
-\eqnshift@=\dimen115
-\alignsep@=\dimen116
-\tagshift@=\dimen117
-\tagwidth@=\dimen118
-\totwidth@=\dimen119
-\lineht@=\dimen120
-\@envbody=\toks21
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -151,23 +91,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count110
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+\lst@mode=\count100
 \lst@gtempboxa=\box28
-\lst@token=\toks23
-\lst@length=\count111
-\lst@currlwidth=\dimen121
-\lst@column=\count112
-\lst@pos=\count113
-\lst@lostspace=\dimen122
-\lst@width=\dimen123
-\lst@newlines=\count114
-\lst@lineno=\count115
-\lst@maxwidth=\dimen124
+\lst@token=\toks22
+\lst@length=\count101
+\lst@currlwidth=\dimen112
+\lst@column=\count102
+\lst@pos=\count103
+\lst@lostspace=\dimen113
+\lst@width=\dimen114
+\lst@newlines=\count104
+\lst@lineno=\count105
+\lst@maxwidth=\dimen115
 
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count116
-\lst@skipnumbers=\count117
+\c@lstnumber=\count106
+\lst@skipnumbers=\count107
 \lst@framebox=\box29
 )
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
@@ -177,15 +121,15 @@ Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks24
-\thm@bodyfont=\toks25
-\thm@headfont=\toks26
-\thm@notefont=\toks27
-\thm@headpunct=\toks28
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
 \thm@preskip=\skip46
 \thm@postskip=\skip47
 \thm@headsep=\skip48
-\dth@everypar=\toks29
+\dth@everypar=\toks28
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -204,8 +148,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen125
-\Gin@req@width=\dimen126
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
@@ -263,16 +207,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen127
-\Hy@linkcounter=\count118
-\Hy@pagecounter=\count119
+\@linkdim=\dimen118
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count120
+\Hy@SavedSpaceFactor=\count110
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -284,17 +228,17 @@ Package hyperref Info: Plain pages OFF on input line 4550.
 Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count121
+\c@Hy@tempcnt=\count111
 
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5141.
-\XeTeXLinkMargin=\dimen128
-\Fld@menulength=\count122
-\Field@Width=\dimen129
-\Fld@charsize=\dimen130
+\XeTeXLinkMargin=\dimen119
+\Fld@menulength=\count112
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
 Package hyperref Info: Hyper figures OFF on input line 6396.
 Package hyperref Info: Link nesting OFF on input line 6401.
 Package hyperref Info: Hyper index ON on input line 6404.
@@ -304,16 +248,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6421.
 Package hyperref Info: PDF/A mode OFF on input line 6426.
 LaTeX Info: Redefining \ref on input line 6466.
 LaTeX Info: Redefining \pageref on input line 6470.
-\Hy@abspage=\count123
-\c@Item=\count124
-\c@Hfootnote=\count125
+\Hy@abspage=\count113
+\c@Item=\count114
+\c@Hfootnote=\count115
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
-\Fld@listcount=\count126
-\c@bookmark@seq@number=\count127
+\Fld@listcount=\count116
+\c@bookmark@seq@number=\count117
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -324,10 +268,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count128
-\float@exts=\toks30
+\c@float@type=\count118
+\float@exts=\toks29
 \float@box=\box30
-\@float@everytoks=\toks31
+\@float@everytoks=\toks30
 \@floatcapt=\box31
 )
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
@@ -339,143 +283,143 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen131
-\captionmargin@=\dimen132
-\captionwidth=\dimen133
-\caption@tempdima=\dimen134
-\caption@indent=\dimen135
-\caption@parindent=\dimen136
-\caption@hangindent=\dimen137
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
 )
-\c@caption@flags=\count129
-\c@ContinuedFloat=\count130
+\c@caption@flags=\count119
+\c@ContinuedFloat=\count120
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-\c@subfigure=\count131
-\c@subtable=\count132
+\c@subfigure=\count121
+\c@subtable=\count122
 )
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\easy\easytable.sty
 Document Style `easytable' v1.0 <2001/06/13>.
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\easy\easy.sty
 Document Style `easy' v1.1 <2001/05/31>.
 Package: easy 2001/05/31 v1.1
-\@easy@level=\count133
-\@easy@ncol=\count134
-\@easy@nrow=\count135
-\@easy@cnt=\count136
+\@easy@level=\count123
+\@easy@ncol=\count124
+\@easy@nrow=\count125
+\@easy@cnt=\count126
 \@easy@boxviii=\box32
-\@easy@minxviii=\dimen138
-\@easy@minyviii=\dimen139
-\@easy@maxxviii=\dimen140
-\@easy@maxyviii=\dimen141
+\@easy@minxviii=\dimen129
+\@easy@minyviii=\dimen130
+\@easy@maxxviii=\dimen131
+\@easy@maxyviii=\dimen132
 \@easy@boxvii=\box33
-\@easy@minxvii=\dimen142
-\@easy@minyvii=\dimen143
-\@easy@maxxvii=\dimen144
-\@easy@maxyvii=\dimen145
+\@easy@minxvii=\dimen133
+\@easy@minyvii=\dimen134
+\@easy@maxxvii=\dimen135
+\@easy@maxyvii=\dimen136
 \@easy@boxvi=\box34
-\@easy@minxvi=\dimen146
-\@easy@minyvi=\dimen147
-\@easy@maxxvi=\dimen148
-\@easy@maxyvi=\dimen149
+\@easy@minxvi=\dimen137
+\@easy@minyvi=\dimen138
+\@easy@maxxvi=\dimen139
+\@easy@maxyvi=\dimen140
 \@easy@boxv=\box35
-\@easy@minxv=\dimen150
-\@easy@minyv=\dimen151
-\@easy@maxxv=\dimen152
-\@easy@maxyv=\dimen153
+\@easy@minxv=\dimen141
+\@easy@minyv=\dimen142
+\@easy@maxxv=\dimen143
+\@easy@maxyv=\dimen144
 \@easy@boxiv=\box36
-\@easy@minxiv=\dimen154
-\@easy@minyiv=\dimen155
-\@easy@maxxiv=\dimen156
-\@easy@maxyiv=\dimen157
+\@easy@minxiv=\dimen145
+\@easy@minyiv=\dimen146
+\@easy@maxxiv=\dimen147
+\@easy@maxyiv=\dimen148
 \@easy@boxiii=\box37
-\@easy@minxiii=\dimen158
-\@easy@minyiii=\dimen159
-\@easy@maxxiii=\dimen160
-\@easy@maxyiii=\dimen161
+\@easy@minxiii=\dimen149
+\@easy@minyiii=\dimen150
+\@easy@maxxiii=\dimen151
+\@easy@maxyiii=\dimen152
 \@easy@boxii=\box38
-\@easy@minxii=\dimen162
-\@easy@minyii=\dimen163
-\@easy@maxxii=\dimen164
-\@easy@maxyii=\dimen165
+\@easy@minxii=\dimen153
+\@easy@minyii=\dimen154
+\@easy@maxxii=\dimen155
+\@easy@maxyii=\dimen156
 \@easy@boxi=\box39
-\@easy@minxi=\dimen166
-\@easy@minyi=\dimen167
-\@easy@maxxi=\dimen168
-\@easy@maxyi=\dimen169
-\@easy@hsizexxx=\dimen170
-\@easy@vsizexxx=\dimen171
-\@easy@hsizexxix=\dimen172
-\@easy@vsizexxix=\dimen173
-\@easy@hsizexxviii=\dimen174
-\@easy@vsizexxviii=\dimen175
-\@easy@hsizexxvii=\dimen176
-\@easy@vsizexxvii=\dimen177
-\@easy@hsizexxvi=\dimen178
-\@easy@vsizexxvi=\dimen179
-\@easy@hsizexxv=\dimen180
-\@easy@vsizexxv=\dimen181
-\@easy@hsizexxiv=\dimen182
-\@easy@vsizexxiv=\dimen183
-\@easy@hsizexxiii=\dimen184
-\@easy@vsizexxiii=\dimen185
-\@easy@hsizexxii=\dimen186
-\@easy@vsizexxii=\dimen187
-\@easy@hsizexxi=\dimen188
-\@easy@vsizexxi=\dimen189
-\@easy@hsizexx=\dimen190
-\@easy@vsizexx=\dimen191
-\@easy@hsizexix=\dimen192
-\@easy@vsizexix=\dimen193
-\@easy@hsizexviii=\dimen194
-\@easy@vsizexviii=\dimen195
-\@easy@hsizexvii=\dimen196
-\@easy@vsizexvii=\dimen197
-\@easy@hsizexvi=\dimen198
-\@easy@vsizexvi=\dimen199
-\@easy@hsizexv=\dimen256
-\@easy@vsizexv=\dimen257
-\@easy@hsizexiv=\dimen258
-\@easy@vsizexiv=\dimen259
-\@easy@hsizexiii=\dimen260
-\@easy@vsizexiii=\dimen261
-\@easy@hsizexii=\dimen262
-\@easy@vsizexii=\dimen263
-\@easy@hsizexi=\dimen264
-\@easy@vsizexi=\dimen265
-\@easy@hsizex=\dimen266
-\@easy@vsizex=\dimen267
-\@easy@hsizeix=\dimen268
-\@easy@vsizeix=\dimen269
-\@easy@hsizeviii=\dimen270
-\@easy@vsizeviii=\dimen271
-\@easy@hsizevii=\dimen272
-\@easy@vsizevii=\dimen273
-\@easy@hsizevi=\dimen274
-\@easy@vsizevi=\dimen275
-\@easy@hsizev=\dimen276
-\@easy@vsizev=\dimen277
-\@easy@hsizeiv=\dimen278
-\@easy@vsizeiv=\dimen279
-\@easy@hsizeiii=\dimen280
-\@easy@vsizeiii=\dimen281
-\@easy@hsizeii=\dimen282
-\@easy@vsizeii=\dimen283
-\@easy@hsizei=\dimen284
-\@easy@vsizei=\dimen285
-\@easy@dash@len=\dimen286
-\@easy@dash@sep=\dimen287
+\@easy@minxi=\dimen157
+\@easy@minyi=\dimen158
+\@easy@maxxi=\dimen159
+\@easy@maxyi=\dimen160
+\@easy@hsizexxx=\dimen161
+\@easy@vsizexxx=\dimen162
+\@easy@hsizexxix=\dimen163
+\@easy@vsizexxix=\dimen164
+\@easy@hsizexxviii=\dimen165
+\@easy@vsizexxviii=\dimen166
+\@easy@hsizexxvii=\dimen167
+\@easy@vsizexxvii=\dimen168
+\@easy@hsizexxvi=\dimen169
+\@easy@vsizexxvi=\dimen170
+\@easy@hsizexxv=\dimen171
+\@easy@vsizexxv=\dimen172
+\@easy@hsizexxiv=\dimen173
+\@easy@vsizexxiv=\dimen174
+\@easy@hsizexxiii=\dimen175
+\@easy@vsizexxiii=\dimen176
+\@easy@hsizexxii=\dimen177
+\@easy@vsizexxii=\dimen178
+\@easy@hsizexxi=\dimen179
+\@easy@vsizexxi=\dimen180
+\@easy@hsizexx=\dimen181
+\@easy@vsizexx=\dimen182
+\@easy@hsizexix=\dimen183
+\@easy@vsizexix=\dimen184
+\@easy@hsizexviii=\dimen185
+\@easy@vsizexviii=\dimen186
+\@easy@hsizexvii=\dimen187
+\@easy@vsizexvii=\dimen188
+\@easy@hsizexvi=\dimen189
+\@easy@vsizexvi=\dimen190
+\@easy@hsizexv=\dimen191
+\@easy@vsizexv=\dimen192
+\@easy@hsizexiv=\dimen193
+\@easy@vsizexiv=\dimen194
+\@easy@hsizexiii=\dimen195
+\@easy@vsizexiii=\dimen196
+\@easy@hsizexii=\dimen197
+\@easy@vsizexii=\dimen198
+\@easy@hsizexi=\dimen199
+\@easy@vsizexi=\dimen256
+\@easy@hsizex=\dimen257
+\@easy@vsizex=\dimen258
+\@easy@hsizeix=\dimen259
+\@easy@vsizeix=\dimen260
+\@easy@hsizeviii=\dimen261
+\@easy@vsizeviii=\dimen262
+\@easy@hsizevii=\dimen263
+\@easy@vsizevii=\dimen264
+\@easy@hsizevi=\dimen265
+\@easy@vsizevi=\dimen266
+\@easy@hsizev=\dimen267
+\@easy@vsizev=\dimen268
+\@easy@hsizeiv=\dimen269
+\@easy@vsizeiv=\dimen270
+\@easy@hsizeiii=\dimen271
+\@easy@vsizeiii=\dimen272
+\@easy@hsizeii=\dimen273
+\@easy@vsizeii=\dimen274
+\@easy@hsizei=\dimen275
+\@easy@vsizei=\dimen276
+\@easy@dash@len=\dimen277
+\@easy@dash@sep=\dimen278
 )
 Package: easytable 2001/05/31v1.1
-\@tab@size@rule=\dimen288
-\@tab@size@dash=\dimen289
+\@tab@size@rule=\dimen279
+\@tab@size@dash=\dimen280
 )
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithm2e\algorithm2e.st
 y
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count137
+\c@AlgoLine=\count127
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
@@ -483,7 +427,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count138
+\c@checkoddpage=\count128
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -499,12 +443,12 @@ Package: relsize 2013/03/29 ver 4.1
 \skiplength=\skip56
 \algomargin=\skip57
 \skipalgocfslide=\skip58
-\algowidth=\dimen290
-\inoutsize=\dimen291
-\inoutindent=\dimen292
-\interspacetitleruled=\dimen293
-\interspacealgoruled=\dimen294
-\interspacetitleboxruled=\dimen295
+\algowidth=\dimen281
+\inoutsize=\dimen282
+\inoutindent=\dimen283
+\interspacetitleruled=\dimen284
+\interspacealgoruled=\dimen285
+\interspacetitleboxruled=\dimen286
 \algocf@ruledwidth=\skip59
 \algocf@inoutbox=\box40
 \algocf@inputbox=\box41
@@ -521,31 +465,31 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip66
 \algotitleheightruledefault=\skip67
 \algotitleheightrule=\skip68
-\c@algocfline=\count139
-\c@algocfproc=\count140
-\c@algocf=\count141
+\c@algocfline=\count129
+\c@algocfproc=\count130
+\c@algocf=\count131
 \algocf@algoframe=\box46
 \algocf@algobox=\box47
 )
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen296
-\lightrulewidth=\dimen297
-\cmidrulewidth=\dimen298
-\belowrulesep=\dimen299
-\belowbottomsep=\dimen300
-\aboverulesep=\dimen301
-\abovetopsep=\dimen302
-\cmidrulesep=\dimen303
-\cmidrulekern=\dimen304
-\defaultaddspace=\dimen305
-\@cmidla=\count142
-\@cmidlb=\count143
-\@aboverulesep=\dimen306
-\@belowrulesep=\dimen307
-\@thisruleclass=\count144
-\@lastruleclass=\count145
-\@thisrulewidth=\dimen308
+\heavyrulewidth=\dimen287
+\lightrulewidth=\dimen288
+\cmidrulewidth=\dimen289
+\belowrulesep=\dimen290
+\belowbottomsep=\dimen291
+\aboverulesep=\dimen292
+\abovetopsep=\dimen293
+\cmidrulesep=\dimen294
+\cmidrulekern=\dimen295
+\defaultaddspace=\dimen296
+\@cmidla=\count132
+\@cmidlb=\count133
+\@aboverulesep=\dimen297
+\@belowrulesep=\dimen298
+\@thisruleclass=\count134
+\@lastruleclass=\count135
+\@thisrulewidth=\dimen299
 )
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\bbm\bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
@@ -564,18 +508,18 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\breakcites\breakcites.sty)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count146
-\Gm@cntv=\count147
-\c@Gm@tempcnt=\count148
-\Gm@bindingoffset=\dimen309
-\Gm@wd@mp=\dimen310
-\Gm@odd@mp=\dimen311
-\Gm@even@mp=\dimen312
-\Gm@layoutwidth=\dimen313
-\Gm@layoutheight=\dimen314
-\Gm@layouthoffset=\dimen315
-\Gm@layoutvoffset=\dimen316
-\Gm@dimlist=\toks32
+\Gm@cnth=\count136
+\Gm@cntv=\count137
+\c@Gm@tempcnt=\count138
+\Gm@bindingoffset=\dimen300
+\Gm@wd@mp=\dimen301
+\Gm@odd@mp=\dimen302
+\Gm@even@mp=\dimen303
+\Gm@layoutwidth=\dimen304
+\Gm@layoutheight=\dimen305
+\Gm@layouthoffset=\dimen306
+\Gm@layoutvoffset=\dimen307
+\Gm@dimlist=\toks31
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor-solarized\xcolor-so
@@ -600,52 +544,44 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-\c@Definition=\count149
-\c@Code=\count150
-\c@Algorithme=\count151
-\c@Hypotheses=\count152
-\c@Proposition=\count153
+\c@Definition=\count139
+\c@Code=\count140
+\c@Algorithme=\count141
+\c@Hypotheses=\count142
+\c@Proposition=\count143
 
 (Master_Rapport.aux (PageTitre.aux))
 \openout1 = `Master_Rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Info: Redefining \degres on input line 34.
-LaTeX Info: Redefining \dots on input line 34.
-LaTeX Info: Redefining \up on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+\c@lstlisting=\count144
 
-
-Package french.ldf Warning: OT1 encoding should not be used for French.
-(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 34.
-
-\c@lstlisting=\count154
 (C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen317
+\scratchcounter=\count145
+\scratchdimen=\dimen308
 \scratchbox=\box49
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen318
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks34
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen309
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks33
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -660,7 +596,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -668,11 +604,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count161
+\c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (Master_Rapport.out) (Master_Rapport.out)
 \@outlinefile=\write3
@@ -727,7 +663,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<UL_P.pdf, id=227, 311.47266pt x 128.31738pt>
+<UL_P.pdf, id=27, 311.47266pt x 128.31738pt>
 File: UL_P.pdf Graphic file (type pdf)
 <use UL_P.pdf>
 Package pdftex.def Info: UL_P.pdf  used on input line 59.
@@ -739,3180 +675,60 @@ Package pdftex.def Info: UL_P.pdf  used on input line 59.
 ]) [0
 
 ]
-(Sommaire.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+(Summary.tex) [1] (acknowledgement.tex) [2
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-) [1] (Remerciements.tex) [2
-
-] (Master_Rapport.toc [3
-
-])
+] (Master_Rapport.toc)
 \tf@toc=\write4
 \openout4 = `Master_Rapport.toc'.
 
- [4] (Master_Rapport.lof
-[5])
+ [3
+
+]
+(Master_Rapport.lof)
 \tf@lof=\write5
 \openout5 = `Master_Rapport.lof'.
 
- [6] (Master_Rapport.lot)
+ [4] (Master_Rapport.lot)
 \tf@lot=\write6
 \openout6 = `Master_Rapport.lot'.
 
- [7] (Introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+ [5] (Introduction.tex)
+(ProjectObjective.tex) (DataAnalysis.tex) (Methodologie.tex) (Results.tex)
+(Conclusion.tex)pdfTeX warning (ext4): destination with the same identifier (na
+me{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 	
-       [1]) (AnalysePreliminaire.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+l.68 	\clearpage
+                 [1] (Master_Rapport.bbl) [2
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-<Graphiques/HistFreqNorwegianfire.png, id=487, 437.38406pt x 353.06906pt>
-File: Graphiques/HistFreqNorwegianfire.png Graphic file (type png)
-<use Graphiques/HistFreqNorwegianfire.png>
-Package pdftex.def Info: Graphiques/HistFreqNorwegianfire.png  used on input li
-ne 20.
-(pdftex.def)             Requested size: 196.821pt x 158.87961pt.
-<Graphiques/Graph_Norwegianfire_FreqCumul.png, id=488, 398.99063pt x 327.47343p
-t>
-File: Graphiques/Graph_Norwegianfire_FreqCumul.png Graphic file (type png)
-<use Graphiques/Graph_Norwegianfire_FreqCumul.png>
-Package pdftex.def Info: Graphiques/Graph_Norwegianfire_FreqCumul.png  used on 
-input line 24.
-(pdftex.def)             Requested size: 179.54411pt x 147.36168pt.
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[][][]\OT1/cmr/m/n/9 .[][][]$\OT1/cmtt/m/n/9 http : / / effis . jrc . ec . euro
-pa . eu / media / cms _ page _ media / 40 / Forest _ fires _ in _ Europe _ Midd
-le _ east _ and _ North _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-<Graphiques/Hist_SeverNorwegianFire.png, id=502, 437.38406pt x 353.06906pt>
-File: Graphiques/Hist_SeverNorwegianFire.png Graphic file (type png)
-<use Graphiques/Hist_SeverNorwegianFire.png>
-Package pdftex.def Info: Graphiques/Hist_SeverNorwegianFire.png  used on input 
-line 41.
-(pdftex.def)             Requested size: 153.0867pt x 123.57602pt.
-
-Overfull \hbox (2.93999pt too wide) in paragraph at lines 41--42
-[][] 
- []
-
-<Graphiques/Hist_SevNorwegianFire2.png, id=503, 437.38406pt x 353.06906pt>
-File: Graphiques/Hist_SevNorwegianFire2.png Graphic file (type png)
-<use Graphiques/Hist_SevNorwegianFire2.png>
-Package pdftex.def Info: Graphiques/Hist_SevNorwegianFire2.png  used on input l
-ine 45.
-(pdftex.def)             Requested size: 153.0867pt x 123.57602pt.
-
-Overfull \hbox (2.93999pt too wide) in paragraph at lines 45--46
-[][] 
- []
-
-<Graphiques/Graph_Norwegianfire_MeanExcess.png, id=504, 422.32782pt x 352.31625
-pt>
-File: Graphiques/Graph_Norwegianfire_MeanExcess.png Graphic file (type png)
-<use Graphiques/Graph_Norwegianfire_MeanExcess.png>
-Package pdftex.def Info: Graphiques/Graph_Norwegianfire_MeanExcess.png  used on
- input line 49.
-(pdftex.def)             Requested size: 147.81694pt x 123.31253pt.
-[3 <./Graphiques/HistFreqNorwegianfire.png> <./Graphiques/Graph_Norwegianfire_F
-reqCumul.png>]
-<Graphiques/QQplot_Exp_NorwegianFire.png, id=518, 398.99063pt x 327.47343pt>
-File: Graphiques/QQplot_Exp_NorwegianFire.png Graphic file (type png)
-<use Graphiques/QQplot_Exp_NorwegianFire.png>
-Package pdftex.def Info: Graphiques/QQplot_Exp_NorwegianFire.png  used on input
- line 61.
-(pdftex.def)             Requested size: 179.54411pt x 147.36168pt.
-<Graphiques/QQplot_Pareto_NorweginaFIre.png, id=519, 398.99063pt x 327.47343pt>
-
-File: Graphiques/QQplot_Pareto_NorweginaFIre.png Graphic file (type png)
-<use Graphiques/QQplot_Pareto_NorweginaFIre.png>
-Package pdftex.def Info: Graphiques/QQplot_Pareto_NorweginaFIre.png  used on in
-put line 65.
-(pdftex.def)             Requested size: 179.54411pt x 147.36168pt.
- [4 <./Graphiques/Hist_SeverNorwegianFire.png> <./Graphiques/Hist_SevNorwegianF
-ire2.png> <./Graphiques/Graph_Norwegianfire_MeanExcess.png> <./Graphiques/QQplo
-t_Exp_NorwegianFire.png> <./Graphiques/QQplot_Pareto_NorweginaFIre.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-<Graphiques/Hist_freq_Secura.png, id=541, 437.38406pt x 353.06906pt>
-File: Graphiques/Hist_freq_Secura.png Graphic file (type png)
-<use Graphiques/Hist_freq_Secura.png>
-Package pdftex.def Info: Graphiques/Hist_freq_Secura.png  used on input line 11
-4.
-(pdftex.def)             Requested size: 196.821pt x 158.87961pt.
-<Graphiques/Graph_Secura_FreqCumul.png, id=542, 398.99063pt x 327.47343pt>
-File: Graphiques/Graph_Secura_FreqCumul.png Graphic file (type png)
-<use Graphiques/Graph_Secura_FreqCumul.png>
-Package pdftex.def Info: Graphiques/Graph_Secura_FreqCumul.png  used on input l
-ine 118.
-(pdftex.def)             Requested size: 179.54411pt x 147.36168pt.
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-<Graphiques/Hist_Severite_Secura.png, id=551, 437.38406pt x 353.06906pt>
-File: Graphiques/Hist_Severite_Secura.png Graphic file (type png)
-<use Graphiques/Hist_Severite_Secura.png>
-Package pdftex.def Info: Graphiques/Hist_Severite_Secura.png  used on input lin
-e 135.
-(pdftex.def)             Requested size: 196.821pt x 158.87961pt.
-[6 <./Graphiques/Hist_freq_Secura.png> <./Graphiques/Graph_Secura_FreqCumul.png
->]
-<Graphiques/QQPlot_Expo_Secura.png, id=560, 398.99063pt x 327.47343pt>
-File: Graphiques/QQPlot_Expo_Secura.png Graphic file (type png)
-<use Graphiques/QQPlot_Expo_Secura.png>
-Package pdftex.def Info: Graphiques/QQPlot_Expo_Secura.png  used on input line 
-146.
-(pdftex.def)             Requested size: 171.56262pt x 140.81084pt.
-<Graphiques/QQplot_Pareto_Secura.png, id=561, 398.99063pt x 327.47343pt>
-File: Graphiques/QQplot_Pareto_Secura.png Graphic file (type png)
-<use Graphiques/QQplot_Pareto_Secura.png>
-Package pdftex.def Info: Graphiques/QQplot_Pareto_Secura.png  used on input lin
-e 150.
-(pdftex.def)             Requested size: 171.56262pt x 140.81084pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-
- []
-
-<Graphiques/Graph_Secura_MeanExcess.png, id=563, 422.32782pt x 352.31625pt>
-File: Graphiques/Graph_Secura_MeanExcess.png Graphic file (type png)
-<use Graphiques/Graph_Secura_MeanExcess.png>
-Package pdftex.def Info: Graphiques/Graph_Secura_MeanExcess.png  used on input 
-line 162.
-(pdftex.def)             Requested size: 190.04576pt x 158.54083pt.
-[7 <./Graphiques/Hist_Severite_Secura.png> <./Graphiques/QQPlot_Expo_Secura.png
-> <./Graphiques/QQplot_Pareto_Secura.png>]
-<Graphiques/Interpretation_Graph_ExcesMoyens.png, id=573, 631.57695pt x 378.317
-73pt>
-File: Graphiques/Interpretation_Graph_ExcesMoyens.png Graphic file (type png)
-<use Graphiques/Interpretation_Graph_ExcesMoyens.png>
-Package pdftex.def Info: Graphiques/Interpretation_Graph_ExcesMoyens.png  used 
-on input line 172.
-(pdftex.def)             Requested size: 284.207pt x 170.2414pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-[8 <./Graphiques/Graph_Secura_MeanExcess.png> <./Graphiques/Interpretation_Grap
-h_ExcesMoyens.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-<Graphiques/Hist_Danish_Frequence.png, id=587, 540.51938pt x 352.31625pt>
-File: Graphiques/Hist_Danish_Frequence.png Graphic file (type png)
-<use Graphiques/Hist_Danish_Frequence.png>
-Package pdftex.def Info: Graphiques/Hist_Danish_Frequence.png  used on input li
-ne 211.
-(pdftex.def)             Requested size: 270.25902pt x 176.15768pt.
-
-Overfull \hbox (10.0052pt too wide) in paragraph at lines 211--212
-[][] 
- []
-
-<Graphiques/Graph_Danish_FreqCumul.png, id=588, 398.99063pt x 327.47343pt>
-File: Graphiques/Graph_Danish_FreqCumul.png Graphic file (type png)
-<use Graphiques/Graph_Danish_FreqCumul.png>
-Package pdftex.def Info: Graphiques/Graph_Danish_FreqCumul.png  used on input l
-ine 215.
-(pdftex.def)             Requested size: 199.49483pt x 163.73631pt.
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-<Graphiques/Graph_CompLimit_PoissHomo.png, id=598, 398.99063pt x 327.47343pt>
-File: Graphiques/Graph_CompLimit_PoissHomo.png Graphic file (type png)
-<use Graphiques/Graph_CompLimit_PoissHomo.png>
-Package pdftex.def Info: Graphiques/Graph_CompLimit_PoissHomo.png  used on inpu
-t line 229.
-(pdftex.def)             Requested size: 199.49483pt x 163.73631pt.
-[10 <./Graphiques/Hist_Danish_Frequence.png> <./Graphiques/Graph_Danish_FreqCum
-ul.png>]
-<Graphiques/Hist_Danish_Severite.png, id=609, 540.51938pt x 352.31625pt>
-File: Graphiques/Hist_Danish_Severite.png Graphic file (type png)
-<use Graphiques/Hist_Danish_Severite.png>
-Package pdftex.def Info: Graphiques/Hist_Danish_Severite.png  used on input lin
-e 243.
-(pdftex.def)             Requested size: 189.18462pt x 123.31253pt.
-
-Overfull \hbox (39.0379pt too wide) in paragraph at lines 243--244
-[][] 
- []
-
-<Graphiques/Hist_Danish_LogSeverite.png, id=610, 540.51938pt x 352.31625pt>
-File: Graphiques/Hist_Danish_LogSeverite.png Graphic file (type png)
-<use Graphiques/Hist_Danish_LogSeverite.png>
-Package pdftex.def Info: Graphiques/Hist_Danish_LogSeverite.png  used on input 
-line 247.
-(pdftex.def)             Requested size: 189.18462pt x 123.31253pt.
-
-Overfull \hbox (39.0379pt too wide) in paragraph at lines 247--248
-[][] 
- []
-
-<Graphiques/Graph_Danish_MeanExcess.png, id=611, 422.32782pt x 352.31625pt>
-File: Graphiques/Graph_Danish_MeanExcess.png Graphic file (type png)
-<use Graphiques/Graph_Danish_MeanExcess.png>
-Package pdftex.def Info: Graphiques/Graph_Danish_MeanExcess.png  used on input 
-line 251.
-(pdftex.def)             Requested size: 147.81694pt x 123.31253pt.
-<Graphiques/QQplot_Exp_Danish.png, id=613, 398.99063pt x 327.47343pt>
-File: Graphiques/QQplot_Exp_Danish.png Graphic file (type png)
-<use Graphiques/QQplot_Exp_Danish.png>
-Package pdftex.def Info: Graphiques/QQplot_Exp_Danish.png  used on input line 2
-64.
-(pdftex.def)             Requested size: 179.54411pt x 147.36168pt.
-<Graphiques/QQplot_Pareto_Danish.png, id=614, 398.99063pt x 327.47343pt>
-File: Graphiques/QQplot_Pareto_Danish.png Graphic file (type png)
-<use Graphiques/QQplot_Pareto_Danish.png>
-Package pdftex.def Info: Graphiques/QQplot_Pareto_Danish.png  used on input lin
-e 268.
-(pdftex.def)             Requested size: 179.54411pt x 147.36168pt.
-[11 <./Graphiques/Graph_CompLimit_PoissHomo.png> <./Graphiques/Hist_Danish_Seve
-rite.png> <./Graphiques/Hist_Danish_LogSeverite.png> <./Graphiques/Graph_Danish
-_MeanExcess.png>]) (Methodologie_frequence.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-[12 <./Graphiques/QQplot_Exp_Danish.png> <./Graphiques/QQplot_Pareto_Danish.png
->]
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-) (Methodologie_severite.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-<Graphiques/Graph_MeanExcess.png, id=699, 738.50906pt x 426.84468pt>
-File: Graphiques/Graph_MeanExcess.png Graphic file (type png)
-<use Graphiques/Graph_MeanExcess.png>
-Package pdftex.def Info: Graphiques/Graph_MeanExcess.png  used on input line 8.
-
-(pdftex.def)             Requested size: 516.95282pt x 298.78925pt.
-
-Overfull \hbox (16.46883pt too wide) in paragraph at lines 8--10
- [] 
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-[18 <./Graphiques/Graph_MeanExcess.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
- []
-
-) (Methodologie_severite_splicing.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-LaTeX Font Info:    Try loading font information for U+bbm on input line 72.
-(C:\Users\ame_c\AppData\Roaming\MiKTeX\2.9\tex\latex\bbm\ubbm.fd
-File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-)
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-[28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 268--270
-
- []
-
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 297--299
-
- []
-
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 333--335
-
- []
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
-
- []
-
-[33] [34] [35]) (Methodologie_Adequation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-Easytable[row:2,col:5]
-
-Overfull \hbox (5.94142pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/10.95 ($\OML/cmm/m/it/10.95 D$\OT1/cmr/m/n/10.95 ) ainsi qu'une \O
-T1/cmr/m/it/10.95 va-leur $\OML/cmm/m/it/10.95 P$\OT1/cmr/m/n/10.95 . Pour en a
-p-prendre da-van-tage, on peut consul-ter []$\OT1/cmtt/m/n/10.95 https : / / ww
-w . rdocumentation .
- []
-
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-Easytable[row:2,col:4]
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-) (Methodologie_Agregation.tex [40]
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-[41]) (Resultats.tex
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 6.
-<Graphiques/QQ_LN_Pa_cont_dev.png, id=965, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_Pa_cont_dev.png Graphic file (type png)
-<use Graphiques/QQ_LN_Pa_cont_dev.png>
-Package pdftex.def Info: Graphiques/QQ_LN_Pa_cont_dev.png  used on input line 1
-4.
-(pdftex.def)             Requested size: 234.96432pt x 141.05989pt.
-
-Overfull \hbox (9.74806pt too wide) in paragraph at lines 14--15
-[][] 
- []
-
-<Graphiques/QQ_LN_PA_contdiv_t1.png, id=966, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_PA_contdiv_t1.png Graphic file (type png)
-<use Graphiques/QQ_LN_PA_contdiv_t1.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PA_contdiv_t1.png  used on input line
- 18.
-(pdftex.def)             Requested size: 234.96432pt x 141.05989pt.
-
-Overfull \hbox (34.77379pt too wide) in paragraph at lines 18--19
-[][] 
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-<Graphiques/QQ_LN_PA_choix.png, id=979, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_PA_choix.png Graphic file (type png)
-<use Graphiques/QQ_LN_PA_choix.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PA_choix.png  used on input line 33.
-(pdftex.def)             Requested size: 234.96432pt x 141.05989pt.
-
-Overfull \hbox (9.74806pt too wide) in paragraph at lines 33--34
-[][] 
- []
-
-<Graphiques/QQ_LN_PA_choix_t1.png, id=980, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_PA_choix_t1.png Graphic file (type png)
-<use Graphiques/QQ_LN_PA_choix_t1.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PA_choix_t1.png  used on input line 3
-7.
-(pdftex.def)             Requested size: 234.96432pt x 141.05989pt.
-
-Overfull \hbox (34.77379pt too wide) in paragraph at lines 37--38
-[][] 
- []
-
-[43 <./Graphiques/QQ_LN_Pa_cont_dev.png> <./Graphiques/QQ_LN_PA_contdiv_t1.png>
 ]
-<Graphiques/QQ_LN_PG_condev.png, id=990, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_PG_condev.png Graphic file (type png)
-<use Graphiques/QQ_LN_PG_condev.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PG_condev.png  used on input line 52.
-
-(pdftex.def)             Requested size: 234.96432pt x 141.05989pt.
-
-Overfull \hbox (9.74806pt too wide) in paragraph at lines 52--53
-[][] 
- []
-
-File: Graphiques/QQ_LN_PA_contdiv_t1.png Graphic file (type png)
-<use Graphiques/QQ_LN_PA_contdiv_t1.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PA_contdiv_t1.png  used on input line
- 56.
-(pdftex.def)             Requested size: 234.96432pt x 141.05989pt.
-
-Overfull \hbox (34.77379pt too wide) in paragraph at lines 56--57
-[][] 
- []
-
-[44 <./Graphiques/QQ_LN_PA_choix.png> <./Graphiques/QQ_LN_PA_choix_t1.png> <./G
-raphiques/QQ_LN_PG_condev.png>]
-<Graphiques/QQ_LN_PG_choix.png, id=1000, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_PG_choix.png Graphic file (type png)
-<use Graphiques/QQ_LN_PG_choix.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PG_choix.png  used on input line 69.
-(pdftex.def)             Requested size: 234.96432pt x 141.05989pt.
-
-Overfull \hbox (9.74806pt too wide) in paragraph at lines 69--70
-[][] 
- []
-
-<Graphiques/QQ_LN_PG_choix_t1.png, id=1001, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_PG_choix_t1.png Graphic file (type png)
-<use Graphiques/QQ_LN_PG_choix_t1.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PG_choix_t1.png  used on input line 7
-3.
-(pdftex.def)             Requested size: 234.96432pt x 141.05989pt.
-
-Overfull \hbox (34.77379pt too wide) in paragraph at lines 73--74
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-<Graphiques/QQ_LN_Pa_Pa_semi.png, id=1003, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_Pa_Pa_semi.png Graphic file (type png)
-<use Graphiques/QQ_LN_Pa_Pa_semi.png>
-Package pdftex.def Info: Graphiques/QQ_LN_Pa_Pa_semi.png  used on input line 90
-.
-(pdftex.def)             Requested size: 261.07738pt x 156.73676pt.
-
-Overfull \hbox (10.83539pt too wide) in paragraph at lines 90--91
-[][] 
- []
-
-<Graphiques/QQ_LN_Pa_Pa_semi_t1.png, id=1004, 435.12563pt x 261.22594pt>
-File: Graphiques/QQ_LN_Pa_Pa_semi_t1.png Graphic file (type png)
-<use Graphiques/QQ_LN_Pa_Pa_semi_t1.png>
-Package pdftex.def Info: Graphiques/QQ_LN_Pa_Pa_semi_t1.png  used on input line
- 94.
-(pdftex.def)             Requested size: 243.66869pt x 146.2855pt.
-
-Overfull \hbox (33.46634pt too wide) in paragraph at lines 94--95
-[][] 
- []
-
-[45 <./Graphiques/QQ_LN_PG_choix.png> <./Graphiques/QQ_LN_PG_choix_t1.png>]
-<Graphiques/QQ_Wei_Pa_contderiv.png, id=1013, 582.67688pt x 364.36125pt>
-File: Graphiques/QQ_Wei_Pa_contderiv.png Graphic file (type png)
-<use Graphiques/QQ_Wei_Pa_contderiv.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_Pa_contderiv.png  used on input line
- 109.
-(pdftex.def)             Requested size: 233.06662pt x 145.74191pt.
-
-Overfull \hbox (7.85036pt too wide) in paragraph at lines 109--110
-[][] 
- []
-
-<Graphiques/QQ_Wei_Pa_contderiv_t1.png, id=1014, 582.67688pt x 364.36125pt>
-File: Graphiques/QQ_Wei_Pa_contderiv_t1.png Graphic file (type png)
-<use Graphiques/QQ_Wei_Pa_contderiv_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_Pa_contderiv_t1.png  used on input l
-ine 113.
-(pdftex.def)             Requested size: 233.06662pt x 145.74191pt.
-
-Overfull \hbox (32.87608pt too wide) in paragraph at lines 113--114
-[][] 
- []
-
-<Graphiques/QQ_Wei_pa_choix.png, id=1015, 654.94687pt x 425.33907pt>
-File: Graphiques/QQ_Wei_pa_choix.png Graphic file (type png)
-<use Graphiques/QQ_Wei_pa_choix.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_pa_choix.png  used on input line 126
-.
-(pdftex.def)             Requested size: 229.23483pt x 148.8709pt.
-
-Overfull \hbox (4.01857pt too wide) in paragraph at lines 126--127
-[][] 
- []
-
-<Graphiques/QQ_Wei_pa_choix_t1.png, id=1016, 654.94687pt x 425.33907pt>
-File: Graphiques/QQ_Wei_pa_choix_t1.png Graphic file (type png)
-<use Graphiques/QQ_Wei_pa_choix_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_pa_choix_t1.png  used on input line 
-130.
-(pdftex.def)             Requested size: 229.23483pt x 148.8709pt.
-
-Overfull \hbox (29.0443pt too wide) in paragraph at lines 130--131
-[][] 
- []
-
-[46 <./Graphiques/QQ_LN_Pa_Pa_semi.png> <./Graphiques/QQ_LN_Pa_Pa_semi_t1.png> 
-<./Graphiques/QQ_Wei_Pa_contderiv.png> <./Graphiques/QQ_Wei_Pa_contderiv_t1.png
->]
-<Graphiques/QQ_Wei_PG_contderiv.png, id=1030, 582.67688pt x 364.36125pt>
-File: Graphiques/QQ_Wei_PG_contderiv.png Graphic file (type png)
-<use Graphiques/QQ_Wei_PG_contderiv.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_PG_contderiv.png  used on input line
- 144.
-(pdftex.def)             Requested size: 233.06662pt x 145.74191pt.
-
-Overfull \hbox (7.85036pt too wide) in paragraph at lines 144--145
-[][] 
- []
-
-<Graphiques/QQ_Wei_PG_contderiv_t1.png, id=1031, 582.67688pt x 364.36125pt>
-File: Graphiques/QQ_Wei_PG_contderiv_t1.png Graphic file (type png)
-<use Graphiques/QQ_Wei_PG_contderiv_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_PG_contderiv_t1.png  used on input l
-ine 148.
-(pdftex.def)             Requested size: 233.06662pt x 145.74191pt.
-
-Overfull \hbox (32.87608pt too wide) in paragraph at lines 148--149
-[][] 
- []
-
-<Graphiques/QQ_Wei_PG_choix.png, id=1032, 654.94687pt x 425.33907pt>
-File: Graphiques/QQ_Wei_PG_choix.png Graphic file (type png)
-<use Graphiques/QQ_Wei_PG_choix.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_PG_choix.png  used on input line 162
-.
-(pdftex.def)             Requested size: 229.23483pt x 148.8709pt.
-
-Overfull \hbox (4.01857pt too wide) in paragraph at lines 162--163
-[][] 
- []
-
-<Graphiques/QQ_Wei_PG_choix_t1.png, id=1033, 654.94687pt x 425.33907pt>
-File: Graphiques/QQ_Wei_PG_choix_t1.png Graphic file (type png)
-<use Graphiques/QQ_Wei_PG_choix_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_PG_choix_t1.png  used on input line 
-166.
-(pdftex.def)             Requested size: 229.23483pt x 148.8709pt.
-
-Overfull \hbox (29.0443pt too wide) in paragraph at lines 166--167
-[][] 
- []
-
-[47 <./Graphiques/QQ_Wei_pa_choix.png> <./Graphiques/QQ_Wei_pa_choix_t1.png> <.
-/Graphiques/QQ_Wei_PG_contderiv.png> <./Graphiques/QQ_Wei_PG_contderiv_t1.png>]
-<Graphiques/QQ_Wei_Pa_Pa_semi.png, id=1044, 654.94687pt x 425.33907pt>
-File: Graphiques/QQ_Wei_Pa_Pa_semi.png Graphic file (type png)
-<use Graphiques/QQ_Wei_Pa_Pa_semi.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_Pa_Pa_semi.png  used on input line 1
-80.
-(pdftex.def)             Requested size: 229.23483pt x 148.8709pt.
-
-Overfull \hbox (4.01857pt too wide) in paragraph at lines 180--181
-[][] 
- []
-
-<Graphiques/QQ_Wei_Pa_Pa_semi_t1.png, id=1045, 654.94687pt x 425.33907pt>
-File: Graphiques/QQ_Wei_Pa_Pa_semi_t1.png Graphic file (type png)
-<use Graphiques/QQ_Wei_Pa_Pa_semi_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_Pa_Pa_semi_t1.png  used on input lin
-e 184.
-(pdftex.def)             Requested size: 229.23483pt x 148.8709pt.
-
-Overfull \hbox (29.0443pt too wide) in paragraph at lines 184--185
-[][] 
- []
-
-[48 <./Graphiques/QQ_Wei_PG_choix.png> <./Graphiques/QQ_Wei_PG_choix_t1.png>]
-<Graphiques/QQ_Cox_Pa_cont.png, id=1053, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_Pa_cont.png Graphic file (type png)
-<use Graphiques/QQ_Cox_Pa_cont.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_Pa_cont.png  used on input line 196.
-
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (6.04364pt too wide) in paragraph at lines 196--197
-[][] 
- []
-
-<Graphiques/QQ_Cox_Pa_cont_t1.png, id=1054, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_Pa_cont_t1.png Graphic file (type png)
-<use Graphiques/QQ_Cox_Pa_cont_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_Pa_cont_t1.png  used on input line 2
-00.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (31.06937pt too wide) in paragraph at lines 200--201
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-
- []
-
-[49 <./Graphiques/QQ_Wei_Pa_Pa_semi.png> <./Graphiques/QQ_Wei_Pa_Pa_semi_t1.png
-> <./Graphiques/QQ_Cox_Pa_cont.png> <./Graphiques/QQ_Cox_Pa_cont_t1.png>]
-<Graphiques/QQ_Cox_pa_choix.png, id=1065, 654.94687pt x 424.58624pt>
-File: Graphiques/QQ_Cox_pa_choix.png Graphic file (type png)
-<use Graphiques/QQ_Cox_pa_choix.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_pa_choix.png  used on input line 215
-.
-(pdftex.def)             Requested size: 229.23483pt x 148.6074pt.
-
-Overfull \hbox (4.01857pt too wide) in paragraph at lines 215--216
-[][] 
- []
-
-<Graphiques/QQ_Cox_pa_choix_t1.png, id=1066, 654.94687pt x 424.58624pt>
-File: Graphiques/QQ_Cox_pa_choix_t1.png Graphic file (type png)
-<use Graphiques/QQ_Cox_pa_choix_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_pa_choix_t1.png  used on input line 
-219.
-(pdftex.def)             Requested size: 229.23483pt x 148.6074pt.
-
-Overfull \hbox (29.0443pt too wide) in paragraph at lines 219--220
-[][] 
- []
-
-<Graphiques/QQ_Cox_PG_cont.png, id=1067, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_PG_cont.png Graphic file (type png)
-<use Graphiques/QQ_Cox_PG_cont.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_PG_cont.png  used on input line 233.
-
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (6.04364pt too wide) in paragraph at lines 233--234
-[][] 
- []
-
-<Graphiques/QQ_Cox_PG_cont_t1.png, id=1068, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_PG_cont_t1.png Graphic file (type png)
-<use Graphiques/QQ_Cox_PG_cont_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_PG_cont_t1.png  used on input line 2
-37.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (31.06937pt too wide) in paragraph at lines 237--238
-[][] 
- []
-
-[50 <./Graphiques/QQ_Cox_pa_choix.png> <./Graphiques/QQ_Cox_pa_choix_t1.png>]
-<Graphiques/QQ_Cox_PG_choix.png, id=1076, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_PG_choix.png Graphic file (type png)
-<use Graphiques/QQ_Cox_PG_choix.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_PG_choix.png  used on input line 250
-.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (6.04364pt too wide) in paragraph at lines 250--251
-[][] 
- []
-
-<Graphiques/QQ_Cox_PG_choix_t1.png, id=1077, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_PG_choix_t1.png Graphic file (type png)
-<use Graphiques/QQ_Cox_PG_choix_t1.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_PG_choix_t1.png  used on input line 
-254.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (31.06937pt too wide) in paragraph at lines 254--255
-[][] 
- []
-
-<Graphiques/QQ_LN_Pa_cont_dev_secura.png, id=1078, 459.21562pt x 258.9675pt>
-File: Graphiques/QQ_LN_Pa_cont_dev_secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_Pa_cont_dev_secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_Pa_cont_dev_secura.png  used on input
- line 270.
-(pdftex.def)             Requested size: 298.4866pt x 168.32686pt.
-
-Overfull \hbox (73.27034pt too wide) in paragraph at lines 270--271
-[][] 
- []
-
-<Graphiques/QQ_LN_PA_contdiv_t1_secura.png, id=1079, 459.21562pt x 258.9675pt>
-File: Graphiques/QQ_LN_PA_contdiv_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_PA_contdiv_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PA_contdiv_t1_secura.png  used on inp
-ut line 274.
-(pdftex.def)             Requested size: 298.4866pt x 168.32686pt.
-
-Overfull \hbox (98.29607pt too wide) in paragraph at lines 274--275
-[][] 
- []
-
-[51 <./Graphiques/QQ_Cox_PG_cont.png> <./Graphiques/QQ_Cox_PG_cont_t1.png> <./G
-raphiques/QQ_Cox_PG_choix.png> <./Graphiques/QQ_Cox_PG_choix_t1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-<Graphiques/QQ_LN_PA_choix_secura.png, id=1090, 379.4175pt x 248.42813pt>
-File: Graphiques/QQ_LN_PA_choix_secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_PA_choix_secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PA_choix_secura.png  used on input li
-ne 288.
-(pdftex.def)             Requested size: 246.61844pt x 161.47636pt.
-
-Overfull \hbox (21.40218pt too wide) in paragraph at lines 288--289
-[][] 
- []
-
-<Graphiques/QQ_LN_PA_choix_t1_secura.png, id=1091, 379.4175pt x 248.42813pt>
-File: Graphiques/QQ_LN_PA_choix_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_PA_choix_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PA_choix_t1_secura.png  used on input
- line 292.
-(pdftex.def)             Requested size: 246.61844pt x 161.47636pt.
-
-Overfull \hbox (46.4279pt too wide) in paragraph at lines 292--293
-[][] 
- []
-
-[52 <./Graphiques/QQ_LN_Pa_cont_dev_secura.png> <./Graphiques/QQ_LN_PA_contdiv_
-t1_secura.png>]
-<Graphiques/QQ_LN_PG_condev_Secura.png, id=1101, 379.4175pt x 248.42813pt>
-File: Graphiques/QQ_LN_PG_condev_Secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_PG_condev_Secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PG_condev_Secura.png  used on input l
-ine 306.
-(pdftex.def)             Requested size: 246.61844pt x 161.47636pt.
-
-Overfull \hbox (21.40218pt too wide) in paragraph at lines 306--307
-[][] 
- []
-
-<Graphiques/QQ_LN_PA_contdiv_t1_Secura.png, id=1102, 459.21562pt x 258.9675pt>
-File: Graphiques/QQ_LN_PA_contdiv_t1_Secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_PA_contdiv_t1_Secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PA_contdiv_t1_Secura.png  used on inp
-ut line 310.
-(pdftex.def)             Requested size: 298.4866pt x 168.32686pt.
-
-Overfull \hbox (98.29607pt too wide) in paragraph at lines 310--311
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-
- []
-
-[53 <./Graphiques/QQ_LN_PA_choix_secura.png> <./Graphiques/QQ_LN_PA_choix_t1_se
-cura.png> <./Graphiques/QQ_LN_PG_condev_Secura.png> <./Graphiques/QQ_LN_PA_cont
-div_t1_Secura.png>]
-<Graphiques/QQ_LN_PG_choix_secura.png, id=1113, 379.4175pt x 248.42813pt>
-File: Graphiques/QQ_LN_PG_choix_secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_PG_choix_secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PG_choix_secura.png  used on input li
-ne 325.
-(pdftex.def)             Requested size: 246.61844pt x 161.47636pt.
-
-Overfull \hbox (21.40218pt too wide) in paragraph at lines 325--326
-[][] 
- []
-
-<Graphiques/QQ_LN_PG_choix_t1_secura.png, id=1114, 379.4175pt x 248.42813pt>
-File: Graphiques/QQ_LN_PG_choix_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_PG_choix_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_PG_choix_t1_secura.png  used on input
- line 329.
-(pdftex.def)             Requested size: 246.61844pt x 161.47636pt.
-
-Overfull \hbox (46.4279pt too wide) in paragraph at lines 329--330
-[][] 
- []
-
-<Graphiques/QQ_LN_Pa_Pa_semi_Secura.png, id=1116, 379.4175pt x 248.42813pt>
-File: Graphiques/QQ_LN_Pa_Pa_semi_Secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_Pa_Pa_semi_Secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_Pa_Pa_semi_Secura.png  used on input 
-line 343.
-(pdftex.def)             Requested size: 246.61844pt x 161.47636pt.
-
-Overfull \hbox (21.40218pt too wide) in paragraph at lines 343--344
-[][] 
- []
-
-<Graphiques/QQ_LN_Pa_Pa_semi_t1_Secura.png, id=1117, 379.4175pt x 248.42813pt>
-File: Graphiques/QQ_LN_Pa_Pa_semi_t1_Secura.png Graphic file (type png)
-<use Graphiques/QQ_LN_Pa_Pa_semi_t1_Secura.png>
-Package pdftex.def Info: Graphiques/QQ_LN_Pa_Pa_semi_t1_Secura.png  used on inp
-ut line 347.
-(pdftex.def)             Requested size: 246.61844pt x 161.47636pt.
-
-Overfull \hbox (46.4279pt too wide) in paragraph at lines 347--348
-[][] 
- []
-
-[54 <./Graphiques/QQ_LN_PG_choix_secura.png> <./Graphiques/QQ_LN_PG_choix_t1_se
-cura.png>]
-<Graphiques/QQ_Wei_Pa_contderiv_secura.png, id=1127, 432.86719pt x 251.43938pt>
-
-File: Graphiques/QQ_Wei_Pa_contderiv_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_Pa_contderiv_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_Pa_contderiv_secura.png  used on inp
-ut line 360.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (12.86142pt too wide) in paragraph at lines 360--361
-[][] 
- []
-
-<Graphiques/QQ_Wei_Pa_contderiv_t1_secura.png, id=1128, 432.86719pt x 251.43938
-pt>
-File: Graphiques/QQ_Wei_Pa_contderiv_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_Pa_contderiv_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_Pa_contderiv_t1_secura.png  used on 
-input line 364.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (37.88715pt too wide) in paragraph at lines 364--365
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
-
- []
-
-[55 <./Graphiques/QQ_LN_Pa_Pa_semi_Secura.png> <./Graphiques/QQ_LN_Pa_Pa_semi_t
-1_Secura.png> <./Graphiques/QQ_Wei_Pa_contderiv_secura.png> <./Graphiques/QQ_We
-i_Pa_contderiv_t1_secura.png>]
-<Graphiques/QQ_Wei_pa_choix_secura.png, id=1138, 432.86719pt x 251.43938pt>
-File: Graphiques/QQ_Wei_pa_choix_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_pa_choix_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_pa_choix_secura.png  used on input l
-ine 379.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (12.86142pt too wide) in paragraph at lines 379--380
-[][] 
- []
-
-<Graphiques/QQ_Wei_pa_choix_t1_secura.png, id=1139, 432.86719pt x 251.43938pt>
-File: Graphiques/QQ_Wei_pa_choix_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_pa_choix_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_pa_choix_t1_secura.png  used on inpu
-t line 383.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (37.88715pt too wide) in paragraph at lines 383--384
-[][] 
- []
-
-<Graphiques/QQ_Wei_PG_contderiv_secura.png, id=1140, 432.86719pt x 251.43938pt>
-
-File: Graphiques/QQ_Wei_PG_contderiv_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_PG_contderiv_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_PG_contderiv_secura.png  used on inp
-ut line 396.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (12.86142pt too wide) in paragraph at lines 396--397
-[][] 
- []
-
-<Graphiques/QQ_Wei_PG_contderiv_t1_secura.png, id=1141, 432.86719pt x 251.43938
-pt>
-File: Graphiques/QQ_Wei_PG_contderiv_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_PG_contderiv_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_PG_contderiv_t1_secura.png  used on 
-input line 400.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (37.88715pt too wide) in paragraph at lines 400--401
-[][] 
- []
-
-<Graphiques/QQ_Wei_PG_choix_secura.png, id=1142, 432.86719pt x 251.43938pt>
-File: Graphiques/QQ_Wei_PG_choix_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_PG_choix_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_PG_choix_secura.png  used on input l
-ine 413.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (12.86142pt too wide) in paragraph at lines 413--414
-[][] 
- []
-
-<Graphiques/QQ_Wei_PG_choix_t1_secura.png, id=1143, 432.86719pt x 251.43938pt>
-File: Graphiques/QQ_Wei_PG_choix_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_PG_choix_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_PG_choix_t1_secura.png  used on inpu
-t line 417.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (37.88715pt too wide) in paragraph at lines 417--418
-[][] 
- []
-
-[56 <./Graphiques/QQ_Wei_pa_choix_secura.png> <./Graphiques/QQ_Wei_pa_choix_t1_
-secura.png> <./Graphiques/QQ_Wei_PG_contderiv_secura.png> <./Graphiques/QQ_Wei_
-PG_contderiv_t1_secura.png>]
-<Graphiques/QQ_Wei_Pa_Pa_semi_secura.png, id=1154, 432.86719pt x 251.43938pt>
-File: Graphiques/QQ_Wei_Pa_Pa_semi_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_Pa_Pa_semi_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_Pa_Pa_semi_secura.png  used on input
- line 431.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (12.86142pt too wide) in paragraph at lines 431--432
-[][] 
- []
-
-<Graphiques/QQ_Wei_Pa_Pa_semi_t1_secura.png, id=1155, 432.86719pt x 251.43938pt
->
-File: Graphiques/QQ_Wei_Pa_Pa_semi_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_Wei_Pa_Pa_semi_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Wei_Pa_Pa_semi_t1_secura.png  used on in
-put line 435.
-(pdftex.def)             Requested size: 238.07768pt x 138.29207pt.
-
-Overfull \hbox (37.88715pt too wide) in paragraph at lines 435--436
-[][] 
- []
-
-<Graphiques/QQ_Cox_Pa_cont_secura.png, id=1156, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_Pa_cont_secura.png Graphic file (type png)
-<use Graphiques/QQ_Cox_Pa_cont_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_Pa_cont_secura.png  used on input li
-ne 447.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (6.04364pt too wide) in paragraph at lines 447--448
-[][] 
- []
-
-<Graphiques/QQ_Cox_Pa_cont_t1_secura.png, id=1157, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_Pa_cont_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_Cox_Pa_cont_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_Pa_cont_t1_secura.png  used on input
- line 451.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (31.06937pt too wide) in paragraph at lines 451--452
-[][] 
- []
-
-[57 <./Graphiques/QQ_Wei_PG_choix_secura.png> <./Graphiques/QQ_Wei_PG_choix_t1_
-secura.png> <./Graphiques/QQ_Wei_Pa_Pa_semi_secura.png> <./Graphiques/QQ_Wei_Pa
-_Pa_semi_t1_secura.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
-
- []
-
-<Graphiques/QQ_Cox_pa_choix_secura.png, id=1169, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_pa_choix_secura.png Graphic file (type png)
-<use Graphiques/QQ_Cox_pa_choix_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_pa_choix_secura.png  used on input l
-ine 465.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (6.04364pt too wide) in paragraph at lines 465--466
-[][] 
- []
-
-<Graphiques/QQ_Cox_pa_choix_t1_secura.png, id=1170, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_pa_choix_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_Cox_pa_choix_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_pa_choix_t1_secura.png  used on inpu
-t line 469.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (31.06937pt too wide) in paragraph at lines 469--470
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
-
- []
-
-[58 <./Graphiques/QQ_Cox_Pa_cont_secura.png> <./Graphiques/QQ_Cox_Pa_cont_t1_se
-cura.png> <./Graphiques/QQ_Cox_pa_choix_secura.png> <./Graphiques/QQ_Cox_pa_cho
-ix_t1_secura.png>]
-<Graphiques/QQ_Cox_PG_cont_secura.png, id=1180, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_PG_cont_secura.png Graphic file (type png)
-<use Graphiques/QQ_Cox_PG_cont_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_PG_cont_secura.png  used on input li
-ne 482.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (6.04364pt too wide) in paragraph at lines 482--483
-[][] 
- []
-
-<Graphiques/QQ_Cox_PG_cont_t1_secura.png, id=1181, 578.16pt x 368.1253pt>
-File: Graphiques/QQ_Cox_PG_cont_t1_secura.png Graphic file (type png)
-<use Graphiques/QQ_Cox_PG_cont_t1_secura.png>
-Package pdftex.def Info: Graphiques/QQ_Cox_PG_cont_t1_secura.png  used on input
- line 486.
-(pdftex.def)             Requested size: 231.2599pt x 147.24751pt.
-
-Overfull \hbox (31.06937pt too wide) in paragraph at lines 486--487
-[][] 
- []
-
-<Graphiques/QQ_Pa_Danish.png, id=1184, 368.87813pt x 238.64156pt>
-File: Graphiques/QQ_Pa_Danish.png Graphic file (type png)
-<use Graphiques/QQ_Pa_Danish.png>
-Package pdftex.def Info: Graphiques/QQ_Pa_Danish.png  used on input line 499.
-(pdftex.def)             Requested size: 258.21292pt x 167.04794pt.
-[59 <./Graphiques/QQ_Cox_PG_cont_secura.png> <./Graphiques/QQ_Cox_PG_cont_t1_se
-cura.png>] [60 <./Graphiques/QQ_Pa_Danish.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 542--544
-
- []
-
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 572--573
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 574--575
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 581--582
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 585--586
-
- []
-
-[62] [63] [64]
-Underfull \hbox (badness 10000) in paragraph at lines 645--646
-
- []
-
-[65] [66]
-Underfull \hbox (badness 10000) in paragraph at lines 733--734
-
- []
-
-) (Conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-[67]
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-[68]) [69] (Master_Rapport.bbl) [70
-
-] (Annexe-LoiCoxienne2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Overfull \hbox (12.85675pt too wide) detected at line 54
-[]
- []
-
-[1
-
-]) (Annexe-Code.tex
-Overfull \hbox (16.8979pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 title("Histogramme du nombre de sinistre ? chaque ann?e d
-urant la p?riode de 1972 ? 1992")[] 
- []
-
-[2]
-Overfull \hbox (131.87166pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 est <- mle_nonhomo$par[1]*22 + mle_nonhomo$par[2]*22^2 / 
-2-mle_nonhomo$par[1]*21 - mle_nonhomo$par[2]*21^2 / 2[] 
- []
-
-[3] [4] [5]
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.1.LN-Pareto (continue & d?rivable) ----------------
---------------------------------------------------[] 
- []
-
-
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 exp(para[2]^2*para[3]^2/2) / (1+FF(para) * para[2] * pa
-ra[3] * sqrt(2*pi) * exp(para[2]^2*para[3]^2/2))[] 
- []
-
-[6]
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* plnorm(500,mu(para),para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (28.39528pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_LN_pa$par)) / (1-w(mle_LN_pa$par))
-,mle_LN_pa$par[2],mle_LN_pa$par[1])[] 
- []
-
-[7] [8] [9]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(500,para))[] 
- []
-
-[10]
-Overfull \hbox (172.11247pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (LN - pareto)")[] 
- []
-
-
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 (F_1(x,mle_MD_LN$par)-F_1(500,mle_MD_LN$par)) * w1 / 
-(F_1(t1,mle_MD_LN$par)-F_1(500,mle_MD_LN$par))[] 
- []
-
-[11]
-Overfull \hbox (160.6151pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.3.LN-Pareto G?n?ralis?e (continue & d?rivable)  ---
-----------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 (log(para[1]) - para[2]*para[1] * para[3]^2 / (para[4]+
-para[1])) / (1 - para[3]^2 / (para[4]+para[1]))[] 
- []
-
-
-Overfull \hbox (804.46812pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) * para[1] * para[2] * para[3] * sqrt(2*pi) * e
-xp( (log(para[1])-mu(para))^2 / (2*para[3]^2 )) / (para[1]+para[4]+FF(para) * p
-ara[1] * para[2] * para[3] * sqrt(2*pi) * exp( (log(para[1])-mu(para))^2 / (2*p
-ara[3]^2 )))[] 
- []
-
-[12]
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* plnorm(500,mu(para),para[3])/FF(para))[] 
- []
-
-[13]
-Overfull \hbox (11.14922pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.4.LN-Pareto G?n?ralis?e choix du t1 ---------------
---------------------------------[] 
- []
-
-[14] [15] [16]
-Overfull \hbox (149.11772pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (LN - PG)")[] 
- []
-
-[17] [18]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_X(l,para))))+leng
-th(LOSS_MD) * log(F_X(t1,para)-F_X(500,para))[] 
- []
-
-[19]
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_MD_LN_pa$par)) / (1-w(mle_MD_LN_pa
-$par)),mle_MD_LN_pa$par[2],mle_MD_LN_pa$par[1])[] 
- []
-
-[20]
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.6.Weibull-Pareto (continue & d?rivable) -----------
-------------------------------------------------[] 
- []
-
-[21] [22] [23]
-Overfull \hbox (28.39528pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.7.Weibull-Pareto choix du t1  ---------------------
------------------------------------[] 
- []
-
-[24] [25] [26]
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.8.Weibull-Pareto G?n?ralis?e (continue & d?rivable)
- --------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (34.14397pt too wide) in paragraph at lines 5068--5068
-[]   \OT1/cmtt/m/n/10.95 (para[4]/para[1]+1) * (para[1]/beta(para))^para[3] +  
-exp((para[1]/beta(para))^para[3])-1)[] 
- []
-
-[27]
-Overfull \hbox (57.13872pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qweibull(u * FF(mle_Wei_PG$par) / w(mle_Wei_PG$par) ,
- mle_Wei_PG$par[3],beta(mle_Wei_PG$par))[] 
- []
-
-[28] [29]
-Overfull \hbox (39.89265pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.9.Weibull-Pareto G?n?ralis?e choix du t1 ----------
--------------------------------------[] 
- []
-
-
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(500,para))[] 
- []
-
-
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_Wei <-  constrOptim(c(1/2,1),neg_log_vrais_MD,grad
- = NULL,ui=diag(2),ci=c(0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[30] [31] [32] [33] [34] [35] [36]
-Overfull \hbox (16.8979pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.11.COXIENNE 2-Pareto (continue) -------------------
----------------------------------[] 
- []
-
-[37]
-Overfull \hbox (172.11247pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_cox_pa <- constrOptim(test,neg_log_vrais,grad = NULL,
-ui=const,ci=c(0,0,0,-1,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (143.36903pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 Fx1_inv (u * FF(mle_cox_pa$par) / w(mle_cox_pa$par) ,
- mle_cox_pa$par[1],mle_cox_pa$par[2],mle_cox_pa$par[3])[] 
- []
-
-
-Overfull \hbox (51.39003pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_cox_pa$par)) / (1-w(mle_cox_pa$par
-)),mle_cox_pa$par[4],mle_cox_pa$par[5])[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 F_d <- w(mle_cox_pa$par)* Fx1(500,mle_cox_pa$par[1],mle_c
-ox_pa$par[2],mle_cox_pa$par[3])/FF(mle_cox_pa$par)[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Coxienne2 - Pareto)")[] 
- []
-
-
-Overfull \hbox (212.35329pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Coxienne2 - Pareto)")[] 
- []
-
-[38]
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 w(mle_cox_pa$par)/FF(mle_cox_pa$par) * fx1(x,mle_cox_
-pa$par[1],mle_cox_pa$par[2],mle_cox_pa$par[3])[] 
- []
-
-[39]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(500,para))[] 
- []
-
-
-Overfull \hbox (252.5941pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_cox <-  constrOptim(c(1/500,1/1000,0.5),neg_log_vr
-ais_MD,grad = NULL,ui=diag(3),ci=c(0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[40]
-Overfull \hbox (361.81917pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 Fx1_inv(u * (F_1(t1,mle_MD_cox$par)-F_1(500,mle_MD_co
-x$par))/ w1 + F_1(500,mle_MD_cox$par) ,mle_MD_cox$par[1],mle_MD_cox$par[2],mle_
-MD_cox$par[3])[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Coxienne2 - Pareto)")[] 
- []
-
-
-Overfull \hbox (212.35329pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Coxienne2 - Pareto)")[] 
- []
-
-[41]
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 (F_1(x,mle_MD_cox$par)-F_1(500,mle_MD_cox$par)) * w1 
-/ (F_1(t1,mle_MD_cox$par)-F_1(500,mle_MD_cox$par))[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.13.COXIENNE 2-Pareto G?n?ralis?e (continue) -------
------------------------------------------------[] 
- []
-
-
-Overfull \hbox (22.64659pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) / ( FF(para) + (para[4]+para[5])/para[6] * fx1
-(para[4],para[1],para[2],para[3]))[] 
- []
-
-[42]
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* Fx1(500,para[1],para[2],para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (120.37428pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 const <- matrix(c(1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,-1,0,
-0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1),7,6)[] 
- []
-
-
-Overfull \hbox (183.60985pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_cox_PG <- constrOptim(test,neg_log_vrais,grad = NULL,
-ui=const,ci=c(0,0,0,-1,0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (143.36903pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 Fx1_inv (u * FF(mle_cox_PG$par) / w(mle_cox_PG$par) ,
- mle_cox_PG$par[1],mle_cox_PG$par[2],mle_cox_PG$par[3])[] 
- []
-
-[43]
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_cox_PG$par)) / (1-w(mle_cox_PG$par
-)),mle_cox_PG$par[4],mle_cox_PG$par[5],mle_cox_PG$par[6])[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 F_d <- w(mle_cox_PG$par)* Fx1(500,mle_cox_PG$par[1],mle_c
-ox_PG$par[2],mle_cox_PG$par[3])/FF(mle_cox_PG$par)[] 
- []
-
-
-Overfull \hbox (74.38478pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Coxienne2 - PG)")[] 
- []
-
-
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Coxienne2 - PG)")[] 
- []
-
-
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 w(mle_cox_PG$par)/FF(mle_cox_PG$par) * fx1(x,mle_cox_
-PG$par[1],mle_cox_PG$par[2],mle_cox_PG$par[3])[] 
- []
-
-[44]
-Overfull \hbox (80.13347pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 1.3.14.COXIENNE 2-Pareto G?n?ralis?e choix du t1 ------
---------------------------------------------[] 
- []
-
-[45]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(500,para))[] 
- []
-
-
-Overfull \hbox (252.5941pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_cox <-  constrOptim(c(1/500,1/1000,0.5),neg_log_vr
-ais_MD,grad = NULL,ui=diag(3),ci=c(0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_GP <- constrOptim(c(1,1),neg_log_vrais_PG,grad = NULL
-,ui=c(0,1),ci=0,outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (361.81917pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 Fx1_inv(u * (F_1(t1,mle_MD_cox$par)-F_1(500,mle_MD_co
-x$par))/ w1 + F_1(500,mle_MD_cox$par) ,mle_MD_cox$par[1],mle_MD_cox$par[2],mle_
-MD_cox$par[3])[] 
- []
-
-[46]
-Overfull \hbox (74.38478pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Coxienne2 - PG)")[] 
- []
-
-
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Coxienne2 - PG)")[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 w1 / (F_1(t1,mle_MD_cox$par)-F_1(500,mle_MD_cox$par))
- * (F_1(x,mle_MD_cox$par)-F_1(500,mle_MD_cox$par))[] 
- []
-
-[47]
-Overfull \hbox (810.21681pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 Model <- c("LN-Pa","LN-Pa theta fix?","LN-PG","LN-PG thet
-a fix?","LN-Pa-Pa","Weibull-Pa","Weibull-Pa theta fix?","Weibull-PG","Weibull-P
-a theta fix?","Weibull-Pa-Pa","Cox2-Pa","Cox2-Pa theta fix?","Cox2-PG","Cox2-PG
- theta fix?")[] 
- []
-
-
-Overfull \hbox (511.28505pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 AIC <- c(AIC_LN_pa,AIC_LN_pa_2,AIC_LN_PG,AIC_LN_PG_2,AIC_
-LN_pa_pa,AIC_Wei_pa,AIC_Wei_pa_2,AIC_Wei_PG,AIC_Wei_PG_2,AIC_Wei_pa_pa,AIC_cox_
-pa,AIC_cox_pa_2,AIC_cox_PG,AIC_cox_PG_2)[] 
- []
-
-
-Overfull \hbox (511.28505pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 BSC <- c(BSC_LN_pa,BSC_LN_pa_2,BSC_LN_PG,BSC_LN_PG_2,BSC_
-LN_pa_pa,BSC_Wei_pa,BSC_Wei_pa_2,BSC_Wei_PG,BSC_Wei_PG_2,BSC_Wei_pa_pa,BSC_cox_
-pa,BSC_cox_pa_2,BSC_cox_PG,BSC_cox_PG_2)[] 
- []
-
-
-Overfull \hbox (1264.36314pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 AD_STAT <-  c(AD_LN_Pa$statistic,AD_LN_Pa_2$statistic,AD_
-LN_PG$statistic,AD_LN_PG_2$statistic,AD_LN_Pa_Pa$statistic,AD_Wei_Pa$statistic,
-AD_Wei_Pa_2$statistic,AD_Wei_PG$statistic,AD_Wei_PG_2$statistic,AD_Wei_Pa_Pa$st
-atistic,AD_cox_pa$statistic,AD_cox_pa_2$statistic,AD_cox_PG$statistic,AD_cox_PG
-_2$statistic)[] 
- []
-
-
-Overfull \hbox (1080.40514pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 AD_p <- c(AD_LN_Pa$p.value,AD_LN_Pa_2$p.value,AD_LN_PG$p.
-value,AD_LN_PG_2$p.value,AD_LN_Pa_Pa$p.value,AD_Wei_Pa$p.value,AD_Wei_Pa_2$p.va
-lue,AD_Wei_PG$p.value,AD_Wei_PG_2$p.value,AD_Wei_Pa_Pa$p.value,AD_cox_pa$p.valu
-e,AD_cox_pa_2$p.value,AD_cox_PG$p.value,AD_cox_PG_2$p.value)[] 
- []
-
-[48] [49]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Weibull - pareto)")[] 
- []
-
-
-Overfull \hbox (11.14922pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 (E_X <- 1/(1-F_d) * ( w1 / F1 * (E_X1_tr(500)-E_X1_tr(the
-ta)) + (1-w1) * E_X2_tr(theta)))[] 
- []
-
-[50]
-Overfull \hbox (34.14397pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 sapply(unique(norwegianfire$year),function(i) sum(norwegi
-anfire$size[norwegianfire$year==i]))[] 
- []
-
-[51] [52]
-Overfull \hbox (22.64659pt too wide) in paragraph at lines 5068--5068
-[]                               \OT1/cmtt/m/n/10.95 ui = diag(3), ci = c(0,0,0
-),outer.eps = .Machine$double.eps)[] 
- []
-
-[53] [54]
-Overfull \hbox (16.8979pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,qexp(p, (lambda)),xlab="Quantiles observ?s",yl
-ab="Quantiles th?oriques (expo)")[] 
- []
-
-
-Overfull \hbox (206.6046pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,qpareto(p, mle_pareto$par[1], mle_pareto$par[2
-]),xlab="Quantiles observes",ylab="Quantiles theoriques (pareto)")[] 
- []
-
-[55]
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,qgamma(p, mle_gamma$par[1], mle_gamma$par[2]),
-xlab="Quantiles observ?s",ylab="Quantiles th?oriques (pareto)")[] 
- []
-
-
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,qlnorm(p, mle_lnorm$par[1], mle_lnorm$par[2]),
-xlab="Quantiles observ?s",ylab="Quantiles th?oriques (log norm)")[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.1.LN-Pareto (continue & d?rivable) ----------------
---------------------------------------------------[] 
- []
-
-
-Overfull \hbox (356.07048pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) * para[2] * para[3] * sqrt(2*pi) * exp(para[2]
-^2*para[3]^2/2) / (1+FF(para) * para[2] * para[3] * sqrt(2*pi) * exp(para[2]^2*
-para[3]^2/2))[] 
- []
-
-[56]
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* plnorm(1.2,mu(para),para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (195.10722pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_LN_pa <- constrOptim(c(3,1.29,0.82),neg_log_vrais,gra
-d = NULL,ui=diag(3),ci=c(0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (16.8979pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qlnorm(u * FF(mle_LN_pa$par) / w(mle_LN_pa$par) , mu(
-mle_LN_pa$par), mle_LN_pa$par[3])[] 
- []
-
-
-Overfull \hbox (28.39528pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_LN_pa$par)) / (1-w(mle_LN_pa$par))
-,mle_LN_pa$par[2],mle_LN_pa$par[1])[] 
- []
-
-
-Overfull \hbox (5.40053pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 F_d <- w(mle_LN_pa$par)*plnorm(1.2,mu(mle_LN_pa$par),mle_
-LN_pa$par[3])/FF(mle_LN_pa$par)[] 
- []
-
-[57]
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (log norm - pareto)")[] 
- []
-
-
-Overfull \hbox (206.6046pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (log norm - pareto)")[] 
- []
-
-[58]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(1.2,para))[] 
- []
-
-[59]
-Overfull \hbox (126.12297pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_LN <-  constrOptim(c(6,1),neg_log_vrais_MD,grad = 
-NULL,ui=c(0,1),ci=0,outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (223.85066pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qlnorm(u * (F_1(t1,mle_MD_LN$par)-F_1(1.2,mle_MD_LN$p
-ar))/ w1 + F_1(1.2,mle_MD_LN$par) ,mle_MD_LN$par[1],mle_MD_LN$par[2])[] 
- []
-
-
-Overfull \hbox (57.13872pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (LN - pareto)")[] 
- []
-
-
-Overfull \hbox (172.11247pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (LN - pareto)")[] 
- []
-
-[60]
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 (F_1(x,mle_MD_LN$par)-F_1(1.2,mle_MD_LN$par)) * w1 / 
-(F_1(t1,mle_MD_LN$par)-F_1(1.2,mle_MD_LN$par))[] 
- []
-
-
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.3.LN-Pareto G?n?ralis?e (continue & d?rivable) ----
----------------------------------------------------------[] 
- []
-
-[61]
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 (log(para[1]) - para[2]*para[1] * para[3]^2 / (para[4]+
-para[1])) / (1 - para[3]^2 / (para[4]+para[1]))[] 
- []
-
-
-Overfull \hbox (804.46812pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) * para[1] * para[2] * para[3] * sqrt(2*pi) * e
-xp( (log(para[1])-mu(para))^2 / (2*para[3]^2 )) / (para[1]+para[4]+FF(para) * p
-ara[1] * para[2] * para[3] * sqrt(2*pi) * exp( (log(para[1])-mu(para))^2 / (2*p
-ara[3]^2 )))[] 
- []
-
-
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* plnorm(1.2,mu(para),para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (384.81392pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_LN_PG <- constrOptim(c(3,1.32,1.14,1),neg_log_vrais,g
-rad = NULL,ui=matrix(c(1,0,0,0,1,0,0,0,1,0,0,0),3,4),ci=c(0,0,0),outer.eps = .M
-achine$double.eps)[] 
- []
-
-[62]
-Overfull \hbox (16.8979pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qlnorm(u * FF(mle_LN_PG$par) / w(mle_LN_PG$par) , mu(
-mle_LN_PG$par), mle_LN_PG$par[3])[] 
- []
-
-
-Overfull \hbox (126.12297pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_LN_PG$par)) / (1-w(mle_LN_PG$par))
-,mle_LN_PG$par[2],mle_LN_PG$par[1],mle_LN_PG$par[4])[] 
- []
-
-
-Overfull \hbox (5.40053pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 F_d <- w(mle_LN_PG$par)*plnorm(1.2,mu(mle_LN_PG$par),mle_
-LN_PG$par[3])/FF(mle_LN_PG$par)[] 
- []
-
-
-Overfull \hbox (34.14397pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (LN - PG)")[] 
- []
-
-
-Overfull \hbox (149.11772pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (LN - PG)")[] 
- []
-
-[63]
-Overfull \hbox (11.14922pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.4.LN-Pareto G?n?ralis?e choix du t1 ---------------
---------------------------------[] 
- []
-
-[64]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(1.2,para))[] 
- []
-
-
-Overfull \hbox (126.12297pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_LN <-  constrOptim(c(6,1),neg_log_vrais_MD,grad = 
-NULL,ui=c(0,1),ci=0,outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_GP <- constrOptim(c(1,1),neg_log_vrais_PG,grad = NULL
-,ui=c(0,1),ci=0,outer.eps = .Machine$double.eps)[] 
- []
-
-[65]
-Overfull \hbox (223.85066pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qlnorm(u * (F_1(t1,mle_MD_LN$par)-F_1(1.2,mle_MD_LN$p
-ar))/ w1 + F_1(1.2,mle_MD_LN$par) ,mle_MD_LN$par[1],mle_MD_LN$par[2])[] 
- []
-
-
-Overfull \hbox (34.14397pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (LN - PG)")[] 
- []
-
-
-Overfull \hbox (149.11772pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (LN - PG)")[] 
- []
-
-[66]
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 w1 / (F_1(t1,mle_MD_LN$par)-F_1(1.2,mle_MD_LN$par)) *
- (F_1(x,mle_MD_LN$par)-F_1(1.2,mle_MD_LN$par))[] 
- []
-
-[67]
-Overfull \hbox (333.07573pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) * para[2] * para[3] * sqrt(2*pi) * exp(para[2]
-*para[3]^2/2) / (1+FF(para) * para[2] * para[3] * sqrt(2*pi) * exp(para[2]*para
-[3]^2/2))[] 
- []
-
-[68]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_X(l,para))))+leng
-th(LOSS_MD) * log(F_X(t1,para)-F_X(1.2,para))[] 
- []
-
-
-Overfull \hbox (212.35329pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_LN_pa <- constrOptim(c(3,1.29,0.82),neg_log_vrais,
-grad = NULL,ui=diag(3),ci=c(0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (74.38478pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qlnorm(u * FF(mle_MD_LN_pa$par)/ w(mle_MD_LN_pa$par),
- mu(mle_MD_LN_pa$par), mle_MD_LN_pa$par[3])[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_MD_LN_pa$par)) / (1-w(mle_MD_LN_pa
-$par)),mle_MD_LN_pa$par[2],mle_MD_LN_pa$par[1])[] 
- []
-
-[69]
-Overfull \hbox (80.13347pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_X_inv_1(u/w1 * (F_X(t1,mle_MD_LN_pa$par)-F_X(1.2,ml
-e_MD_LN_pa$par))+ F_X(1.2,mle_MD_LN_pa$par))[] 
- []
-
-
-Overfull \hbox (108.8769pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (LN - pareto - pareto)")[] 
- []
-
-
-Overfull \hbox (223.85066pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (LN - pareto - pareto)")[] 
- []
-
-
-Overfull \hbox (160.6151pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 (F_X(x,mle_MD_LN_pa$par)-F_X(1.2,mle_MD_LN_pa$par)) *
- w1 / (F_X(t1,mle_MD_LN_pa$par)-F_X(1.2,mle_MD_LN_pa$par))[] 
- []
-
-[70]
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.6.Weibull-Pareto (continue & d?rivable) -----------
-------------------------------------------------[] 
- []
-
-[71]
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* pweibull(1.2,para[3],beta(para))/FF(para))[] 
- []
-
-
-Overfull \hbox (212.35329pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_Wei_pa <- constrOptim(c(2,1.3242,0.59),neg_log_vrais,
-grad = NULL,ui=diag(3),ci=c(0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (57.13872pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qweibull(u * FF(mle_Wei_pa$par) / w(mle_Wei_pa$par) ,
- mle_Wei_pa$par[3],beta(mle_Wei_pa$par))[] 
- []
-
-
-Overfull \hbox (51.39003pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_Wei_pa$par)) / (1-w(mle_Wei_pa$par
-)),mle_Wei_pa$par[2],mle_Wei_pa$par[1])[] 
- []
-
-
-Overfull \hbox (51.39003pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 F_d <- w(mle_Wei_pa$par)*pweibull(1.2,mle_Wei_pa$par[3],b
-eta(mle_Wei_pa$par))/FF(mle_Wei_pa$par)[] 
- []
-
-[72]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Weibull - pareto)")[] 
- []
-
-
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Weibull - pareto)")[] 
- []
-
-
-Overfull \hbox (28.39528pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.7.Weibull-Pareto choix du t1  ---------------------
------------------------------------[] 
- []
-
-[73]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(1.2,para))[] 
- []
-
-[74]
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_Wei <-  constrOptim(c(1/2,1),neg_log_vrais_MD,grad
- = NULL,ui=diag(2),ci=c(0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (264.09148pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qweibull(u * (F_1(t1,mle_MD_Wei$par)-F_1(1.2,mle_MD_W
-ei$par))/ w1 + F_1(1.2,mle_MD_Wei$par) ,mle_MD_Wei$par[1],mle_MD_Wei$par[2])[] 
-
- []
-
-
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Weibull - Pareto)")[] 
- []
-
-[75]
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Weibull - pareto)")[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 (F_1(x,mle_MD_Wei$par)-F_1(1.2,mle_MD_Wei$par)) * w1 
-/ (F_1(t1,mle_MD_Wei$par)-F_1(1.2,mle_MD_Wei$par))[] 
- []
-
-
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.8.Weibull-Pareto G?n?ralis?e (continue & d?rivable)
- --------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (11.14922pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 para[1] * ( (para[2] * para[1] -para[4])/ ((para[4]+par
-a[1])*para[3]) + 1)^(-1/para[3])[] 
- []
-
-[76]
-Overfull \hbox (384.81392pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 (exp((para[1]/beta(para))^para[3])-1) / ( (para[3]/para
-[2]) * (para[4]/para[1]+1) * (para[1]/beta(para))^para[3] +  exp((para[1]/beta(
-para))^para[3])-1)[] 
- []
-
-
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* pweibull(1.2,para[3],beta(para))/FF(para))[] 
- []
-
-
-Overfull \hbox (384.81392pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_Wei_PG <- constrOptim(c(3,1.38,0.9,0),neg_log_vrais,g
-rad = NULL,ui=matrix(c(1,0,0,0,1,0,0,0,1,0,0,0),3,4),ci=c(0,0,0),outer.eps = .M
-achine$double.eps)[] 
- []
-
-[77]
-Overfull \hbox (57.13872pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qweibull(u * FF(mle_Wei_PG$par) / w(mle_Wei_PG$par) ,
- mle_Wei_PG$par[3],beta(mle_Wei_PG$par))[] 
- []
-
-
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_Wei_PG$par)) / (1-w(mle_Wei_PG$par
-)),mle_Wei_PG$par[2],mle_Wei_PG$par[1],mle_Wei_PG$par[4])[] 
- []
-
-
-Overfull \hbox (51.39003pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 F_d <- w(mle_Wei_PG$par)*pweibull(1.2,mle_Wei_PG$par[3],b
-eta(mle_Wei_PG$par))/FF(mle_Wei_PG$par)[] 
- []
-
-
-Overfull \hbox (62.8874pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Weibull - PG)")[] 
- []
-
-
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Weibull - PG)")[] 
- []
-
-[78]
-Overfull \hbox (39.89265pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.9.Weibull-Pareto G?n?ralis?e choix du t1 ----------
--------------------------------------[] 
- []
-
-[79]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(1.2,para))[] 
- []
-
-
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_Wei <-  constrOptim(c(1/2,1),neg_log_vrais_MD,grad
- = NULL,ui=diag(2),ci=c(0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_GP <- constrOptim(c(1,1),neg_log_vrais_PG,grad = NULL
-,ui=c(0,1),ci=0,outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (264.09148pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qweibull(u * (F_1(t1,mle_MD_Wei$par)-F_1(1.2,mle_MD_W
-ei$par))/ w1 + F_1(1.2,mle_MD_Wei$par) ,mle_MD_Wei$par[1],mle_MD_Wei$par[2])[] 
-
- []
-
-
-Overfull \hbox (62.8874pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Weibull - PG)")[] 
- []
-
-[80]
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Weibull - PG)")[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 w1 / (F_1(t1,mle_MD_Wei$par)-F_1(1.2,mle_MD_Wei$par))
- * (F_1(x,mle_MD_Wei$par)-F_1(1.2,mle_MD_Wei$par))[] 
- []
-
-[81] [82]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_X(l,para))))+leng
-th(LOSS_MD) * log(F_X(t1,para)-F_X(1.2,para))[] 
- []
-
-
-Overfull \hbox (218.10197pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_Wei_pa <- constrOptim(c(3,1.29,0.82),neg_log_vrais
-,grad = NULL,ui=diag(3),ci=c(0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[83]
-Overfull \hbox (108.8769pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 qweibull(u * FF(mle_MD_Wei_pa$par)/ w(mle_MD_Wei_pa$p
-ar),mle_MD_Wei_pa$par[3],beta(mle_MD_Wei_pa$par))[] 
- []
-
-
-Overfull \hbox (120.37428pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_MD_Wei_pa$par)) / (1-w(mle_MD_Wei_
-pa$par)),mle_MD_Wei_pa$par[2],mle_MD_Wei_pa$par[1])[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_X_inv_1(u/w1 * (F_X(t1,mle_MD_Wei_pa$par)-F_X(1.2,m
-le_MD_Wei_pa$par))+ F_X(1.2,mle_MD_Wei_pa$par))[] 
- []
-
-
-Overfull \hbox (137.62035pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Weibull - pareto - pareto)")[] 
- []
-
-
-Overfull \hbox (252.5941pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Weibull - pareto - pareto)")[] 
- []
-
-[84]
-Overfull \hbox (183.60985pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 (F_X(x,mle_MD_Wei_pa$par)-F_X(1.2,mle_MD_Wei_pa$par))
- * w1 / (F_X(t1,mle_MD_Wei_pa$par)-F_X(1.2,mle_MD_Wei_pa$par))[] 
- []
-
-
-Overfull \hbox (5.40053pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 w1/(F_X(t1,mle_MD_Wei_pa$par)-F_X(1.2,mle_MD_Wei_pa$p
-ar)) * f_X(x,mle_MD_Wei_pa$par)[] 
- []
-
-[85]
-Overfull \hbox (131.87166pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 p * beta1*exp(-beta1*x) + (1-p)*(beta1*beta2)* ( exp(-b
-eta1*x)/(beta2-beta1) + exp(-beta2*x)/(beta1-beta2) )[] 
- []
-
-
-Overfull \hbox (235.34804pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -p * beta1^2*exp(-beta1*x) + (1-p)*beta1*beta2* ( - bet
-a1 * exp(-beta1*x)/(beta2-beta1) - beta2 *exp(-beta2*x)/(beta1-beta2) )[] 
- []
-
-
-Overfull \hbox (166.36378pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 p * (1-exp(-beta1*x)) + (1-p) * ( beta2 * (1-exp(-beta1
-*x))/(beta2-beta1) + beta1 *(1-exp(-beta2*x))/(beta1-beta2)[] 
- []
-
-
-Overfull \hbox (16.8979pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.11.COXIENNE 2-Pareto (continue) -------------------
----------------------------------[] 
- []
-
-[86]
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* Fx1(1.2,para[1],para[2],para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (172.11247pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_cox_pa <- constrOptim(test,neg_log_vrais,grad = NULL,
-ui=const,ci=c(0,0,0,-1,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (143.36903pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 Fx1_inv (u * FF(mle_cox_pa$par) / w(mle_cox_pa$par) ,
- mle_cox_pa$par[1],mle_cox_pa$par[2],mle_cox_pa$par[3])[] 
- []
-
-
-Overfull \hbox (51.39003pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_cox_pa$par)) / (1-w(mle_cox_pa$par
-)),mle_cox_pa$par[4],mle_cox_pa$par[5])[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 F_d <- w(mle_cox_pa$par)* Fx1(1.2,mle_cox_pa$par[1],mle_c
-ox_pa$par[2],mle_cox_pa$par[3])/FF(mle_cox_pa$par)[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Coxienne2 - Pareto)")[] 
- []
-
-[87]
-Overfull \hbox (212.35329pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Coxienne2 - Pareto)")[] 
- []
-
-[88]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(1.2,para))[] 
- []
-
-
-Overfull \hbox (390.5626pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_cox <-  constrOptim(c(9.345379e-01, 8.252604e-09, 
-7.577125e-01),neg_log_vrais_MD,grad = NULL,ui=diag(3),ci=c(0,0,0),outer.eps = .
-Machine$double.eps)[] 
- []
-
-[89]
-Overfull \hbox (361.81917pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 Fx1_inv(u * (F_1(t1,mle_MD_cox$par)-F_1(1.2,mle_MD_co
-x$par))/ w1 + F_1(1.2,mle_MD_cox$par) ,mle_MD_cox$par[1],mle_MD_cox$par[2],mle_
-MD_cox$par[3])[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Coxienne2 - Pareto)")[] 
- []
-
-
-Overfull \hbox (212.35329pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Coxienne2 - Pareto)")[] 
- []
-
-[90]
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 (F_1(x,mle_MD_cox$par)-F_1(1.2,mle_MD_cox$par)) * w1 
-/ (F_1(t1,mle_MD_cox$par)-F_1(1.2,mle_MD_cox$par))[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.13.COXIENNE 2-Pareto G?n?ralis?e (continue) -------
------------------------------------------------[] 
- []
-
-[91]
-Overfull \hbox (22.64659pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) / ( FF(para) + (para[4]+para[5])/para[6] * fx1
-(para[4],para[1],para[2],para[3]))[] 
- []
-
-
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* Fx1(1.2,para[1],para[2],para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (120.37428pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 const <- matrix(c(1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,-1,0,
-0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1),7,6)[] 
- []
-
-
-Overfull \hbox (183.60985pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_cox_PG <- constrOptim(test,neg_log_vrais,grad = NULL,
-ui=const,ci=c(0,0,0,-1,0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[92]
-Overfull \hbox (143.36903pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 Fx1_inv (u * FF(mle_cox_PG$par) / w(mle_cox_PG$par) ,
- mle_cox_PG$par[1],mle_cox_PG$par[2],mle_cox_PG$par[3])[] 
- []
-
-
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 F_x_2_inv((u-w(mle_cox_PG$par)) / (1-w(mle_cox_PG$par
-)),mle_cox_PG$par[4],mle_cox_PG$par[5],mle_cox_PG$par[6])[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 F_d <- w(mle_cox_PG$par)* Fx1(1.2,mle_cox_PG$par[1],mle_c
-ox_PG$par[2],mle_cox_PG$par[3])/FF(mle_cox_PG$par)[] 
- []
-
-
-Overfull \hbox (74.38478pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Coxienne2 - PG)")[] 
- []
-
-
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Coxienne2 - PG)")[] 
- []
-
-
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 w(mle_cox_PG$par)/FF(mle_cox_PG$par) * fx1(x,mle_cox_
-PG$par[1],mle_cox_PG$par[2],mle_cox_PG$par[3])[] 
- []
-
-[93]
-Overfull \hbox (80.13347pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 2.3.14.COXIENNE 2-Pareto G?n?ralis?e choix du t1 ------
---------------------------------------------[] 
- []
-
-[94]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS_MD,function(l) log(f_1(l,para))))+leng
-th(LOSS_MD) * log(F_1(t1,para)-F_1(1.2,para))[] 
- []
-
-
-Overfull \hbox (390.5626pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_MD_cox <-  constrOptim(c(9.345379e-01, 8.252604e-09, 
-7.577125e-01),neg_log_vrais_MD,grad = NULL,ui=diag(3),ci=c(0,0,0),outer.eps = .
-Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_GP <- constrOptim(c(1,1),neg_log_vrais_PG,grad = NULL
-,ui=c(0,1),ci=0,outer.eps = .Machine$double.eps)[] 
- []
-
-[95]
-Overfull \hbox (361.81917pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 Fx1_inv(u * (F_1(t1,mle_MD_cox$par)-F_1(1.2,mle_MD_co
-x$par))/ w1 + F_1(1.2,mle_MD_cox$par) ,mle_MD_cox$par[1],mle_MD_cox$par[2],mle_
-MD_cox$par[3])[] 
- []
-
-
-Overfull \hbox (74.38478pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (Coxienne2 - PG)")[] 
- []
-
-
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p[b_ord<=x],F_X_inv),b_ord[b_ord<=x],ylab="Qu
-antiles observ?s",xlab="Quantiles th?oriques (Coxienne2 - PG)")[] 
- []
-
-[96]
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]    \OT1/cmtt/m/n/10.95 w1 / (F_1(t1,mle_MD_cox$par)-F_1(1.2,mle_MD_cox$par))
- * (F_1(x,mle_MD_cox$par)-F_1(1.2,mle_MD_cox$par))[] 
- []
-
-
-Overfull \hbox (775.72469pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 Model <- c("LN-Pa","LN-Pa theta fix","LN-PG","LN-PG theta
- fix","LN-Pa-Pa","Weibull-Pa","Weibull-Pa theta fix","Weibull-PG","Weibull-Pa t
-heta fix","Weibull-Pa-Pa","Cox2-Pa","Cox2-Pa theta fix","Cox2-PG","Cox2-PG thet
-a fix")[] 
- []
-
-
-Overfull \hbox (511.28505pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 AIC <- c(AIC_LN_pa,AIC_LN_pa_2,AIC_LN_PG,AIC_LN_PG_2,AIC_
-LN_pa_pa,AIC_Wei_pa,AIC_Wei_pa_2,AIC_Wei_PG,AIC_Wei_PG_2,AIC_Wei_pa_pa,AIC_cox_
-pa,AIC_cox_pa_2,AIC_cox_PG,AIC_cox_PG_2)[] 
- []
-
-
-Overfull \hbox (511.28505pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 BSC <- c(BSC_LN_pa,BSC_LN_pa_2,BSC_LN_PG,BSC_LN_PG_2,BSC_
-LN_pa_pa,BSC_Wei_pa,BSC_Wei_pa_2,BSC_Wei_PG,BSC_Wei_PG_2,BSC_Wei_pa_pa,BSC_cox_
-pa,BSC_cox_pa_2,BSC_cox_PG,BSC_cox_PG_2)[] 
- []
-
-[97]
-Overfull \hbox (1264.36314pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 AD_STAT <-  c(AD_LN_Pa$statistic,AD_LN_Pa_2$statistic,AD_
-LN_PG$statistic,AD_LN_PG_2$statistic,AD_LN_Pa_Pa$statistic,AD_Wei_Pa$statistic,
-AD_Wei_Pa_2$statistic,AD_Wei_PG$statistic,AD_Wei_PG_2$statistic,AD_Wei_Pa_Pa$st
-atistic,AD_cox_pa$statistic,AD_cox_pa_2$statistic,AD_cox_PG$statistic,AD_cox_PG
-_2$statistic)[] 
- []
-
-
-Overfull \hbox (1080.40514pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 AD_p <- c(AD_LN_Pa$p.value,AD_LN_Pa_2$p.value,AD_LN_PG$p.
-value,AD_LN_PG_2$p.value,AD_LN_Pa_Pa$p.value,AD_Wei_Pa$p.value,AD_Wei_Pa_2$p.va
-lue,AD_Wei_PG$p.value,AD_Wei_PG_2$p.value,AD_Wei_Pa_Pa$p.value,AD_cox_pa$p.valu
-e,AD_cox_pa_2$p.value,AD_cox_PG$p.value,AD_cox_PG_2$p.value)[] 
- []
-
-[98]
-Overfull \hbox (57.13872pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_pareto_inv),xlab="Quantiles observ?
-s",ylab="Quantiles th?oriques (pareto)")[] 
- []
-
-
-Overfull \hbox (442.3008pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 p_theo <- (ppareto(b_ord,mle_pareto$par[1],mle_pareto$par
-[2])-ppareto(1.2,mle_pareto$par[1],mle_pareto$par[2]))/(1-ppareto(1.2,mle_paret
-o$par[1],mle_pareto$par[2]))[] 
- []
-
-[99]
-Overfull \hbox (356.07048pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) * para[2] * para[3] * sqrt(2*pi) * exp(para[2]
-^2*para[3]^2/2) / (1+FF(para) * para[2] * para[3] * sqrt(2*pi) * exp(para[2]^2*
-para[3]^2/2))[] 
- []
-
-
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(sapply(p,F_X_inv),b_ord,ylab="Quantiles observ?s",xl
-ab="Quantiles th?oriques (log norm - pareto)")[] 
- []
-
-[100]
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 (E_X <- 1/(1-F_d) * ( w1 / F1 * (E_X1_tr(1.2)-E_X1_tr(the
-ta)) + (1-w1) * E_X2_tr(theta)))#esperance theo du splice[] 
- []
-
-
-Overfull \hbox (166.36378pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 data.frame(Esperance.theorique= (Lambda(t+1,para_pois_mle
-)-Lambda(t,para_pois_mle))*E_X,Esperance.empirique=mean(S))[] 
- []
-
-[101] [102] [103]
-Overfull \hbox (200.85591pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 (estim <- mle_nonhomo$par[1]*3989 + mle_nonhomo$par[2]*39
-89^2 / 2-mle_nonhomo$par[1]*3988 - mle_nonhomo$par[2]*3988^2 / 2)[] 
- []
-
-
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 #le choix entre PPH et PPNH a donc un impacte consid?rabl
-e (sp?cifiquement sur la prob d'avoir 0 sinistres dans un jour)[] 
- []
-
-[104]
-Overfull \hbox (80.13347pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,qexp(p, 1/mle_exp$minimum)+1,xlab="Quantiles o
-bserv?s",ylab="Quantiles th?oriques (expo)")[] 
- []
-
-
-Overfull \hbox (287.08623pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle_pareto$par[2]*((mle_pareto$par[1]/(mle_pareto$par[1]-
-1)*(1-ppareto(1,mle_pareto$par[1],mle_pareto$par[2]))^(-1/mle_pareto$par[1]))-1
-)[] 
- []
-
-
-Overfull \hbox (373.31654pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 (  ppareto(x,mle_pareto$par[1],mle_pareto$par[2])-ppare
-to(1,mle_pareto$par[1],mle_pareto$par[2])) / (1-ppareto(1,mle_pareto$par[1],mle
-_pareto$par[2]))[] 
- []
-
-[105]
-Overfull \hbox (195.10722pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(qpareto(p,mle_pareto$par[1],mle_pareto$par[2]),b_ord
-,ylab="Quantiles observ?s",xlab="Quantiles th?oriques (pareto)")[] 
- []
-
-
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(log(dgamma(LOSS[LOSS<10],para[1], para[2]))) - len
-gth(LOSS[LOSS < 10]) * log(1-pgamma(1, para[1], para[2]))[] 
- []
-
-[106]
-Overfull \hbox (246.84541pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord[b_ord<10],qgamma(p, mle_gamma$par[1], mle_gamm
-a$par[2]),xlab="Quantiles observ?s",ylab="Quantiles th?oriques (pareto)")[] 
- []
-
-
-Overfull \hbox (195.10722pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord, qlnorm(p,mle_lnorm$par[1],mle_lnorm$par[2]),x
-lab="Quantiles observ?s",ylab="Quantiles th?oriques (log norm)")[] 
- []
-
-
-Overfull \hbox (246.84541pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord[b_ord<30],qlnorm(p,mle_lnorm$par[1],mle_lnorm$
-par[2]),xlab="Quantiles observ?s",ylab="Quantiles th?oriques (log norm)")[] 
- []
-
-
-Overfull \hbox (246.84541pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord[b_ord<10],qlnorm(p,mle_lnorm$par[1],mle_lnorm$
-par[2]),xlab="Quantiles observ?s",ylab="Quantiles th?oriques (log norm)")[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 3.3.1.LN-Pareto (continue & d?rivable) ----------------
---------------------------------------------------[] 
- []
-
-[107]
-Overfull \hbox (333.07573pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) * para[2] * para[3] * sqrt(2*pi) * exp(para[2]
-*para[3]^2/2) / (1+FF(para) * para[2] * para[3] * sqrt(2*pi) * exp(para[2]*para
-[3]^2/2))[] 
- []
-
-
-Overfull \hbox (166.36378pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* plnorm(1,mu(para),para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (166.36378pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle <- constrOptim(c(1.6,1.4,0.47),neg_log_vrais,grad = N
-ULL,ui=diag(3),ci=c(0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[108]
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_X_inv),xlab="Quantiles observ?s",yl
-ab="Quantiles th?oriques (log norm - pareto)")[] 
- []
-
-
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 3.3.2.LN-Pareto G?n?ralis?e (continue & d?rivable) ----
----------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (97.37953pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 (log(para[1]) - para[2]*para[1] * para[3]^2 / (para[4]+
-para[1])) / (1 - para[3]^2 / (para[4]+para[1]))[] 
- []
-
-
-Overfull \hbox (804.46812pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF(para) * para[1] * para[2] * para[3] * sqrt(2*pi) * e
-xp( (log(para[1])-mu(para))^2 / (2*para[3]^2 )) / (para[1]+para[4]+FF(para) * p
-ara[1] * para[2] * para[3] * sqrt(2*pi) * exp( (log(para[1])-mu(para))^2 / (2*p
-ara[3]^2 )))[] 
- []
-
-[109]
-Overfull \hbox (166.36378pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* plnorm(1,mu(para),para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (390.5626pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle <- constrOptim(c(1.85,1.38,0.57,-0.05),neg_log_vrais,
-grad = NULL,ui=matrix(c(1,0,0,0,1,0,0,0,1,0,0,0),3,4),ci=c(0,0,0),outer.eps = .
-Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (74.38478pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_X_inv),xlab="Quantiles observ?s",yl
-ab="Quantiles th?oriques (log norm - GPD)")[] 
- []
-
-[110]
-Overfull \hbox (396.3113pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 sqrt(2 * pi) *para[1] * para[3] *exp(para[1]^2 *para[3]
-^2 /2) * FF(para) / ( sqrt(2 * pi) *para[1] * para[3] *exp(para[1]^2 *para[3]^2
- /2) * FF(para) + 1)[] 
- []
-
-
-Overfull \hbox (39.89265pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 FF12(para) / ( sqrt(2 * pi) *para[1] * para[3] *exp(par
-a[1]^2 *para[3]^2 /2) * FF(para) + 1)[] 
- []
-
-[111]
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w1(para) * plnorm(1,mu(para),para[1])/FF(para))[] 
- []
-
-
-Overfull \hbox (172.11247pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle <-  constrOptim(c(0.8,8,1,18),neg_log_vrais,grad = NU
-LL,ui=diag(4),ci=c(0,0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[112]
-Overfull \hbox (177.86116pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_X_inv,para=mle$par),xlab="Quantiles
- observ?s",ylab="Quantiles th?oriques (LN - pareto -pareto)")[] 
- []
-
-
-Overfull \hbox (321.57835pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord[b_ord<=x],sapply(p[b_ord<=x],F_X_inv,para=mle$
-par),xlab="Quantiles observ?s",ylab="Quantiles th?oriques (Weibull - pareto -pa
-reto)")[] 
- []
-
-[113]
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 3.3.4.Weibull-Pareto (continue & d?rivable) -----------
-------------------------------------------------[] 
- []
-
-[114]
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* pweibull(1,para[3],beta(para))/FF(para))[] 
- []
-
-
-Overfull \hbox (149.11772pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle <- constrOptim(c(1.5,3.5,2),neg_log_vrais,grad = NULL
-,ui=diag(3),ci=c(0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_X_inv),xlab="Quantiles observ?s",yl
-ab="Quantiles th?oriques (Weibull - pareto)")[] 
- []
-
-[115]
-Overfull \hbox (154.86641pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 3.3.5.Weibull-Pareto G?n?ralis?e (continue & d?rivable)
- --------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (11.14922pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 para[1] * ( (para[2] * para[1] -para[4])/ ((para[4]+par
-a[1])*para[3]) + 1)^(-1/para[3])[] 
- []
-
-
-Overfull \hbox (384.81392pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 (exp((para[1]/beta(para))^para[3])-1) / ( (para[3]/para
-[2]) * (para[4]/para[1]+1) * (para[1]/beta(para))^para[3] +  exp((para[1]/beta(
-para))^para[3])-1)[] 
- []
-
-
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* pweibull(1,para[3],beta(para))/FF(para))[] 
- []
-
-
-Overfull \hbox (361.81917pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle <- constrOptim(c(2.9,3.96,2,0.37),neg_log_vrais,grad 
-= NULL,ui=matrix(c(1,0,0,0,1,0,0,0,1,0,0,0),3,4),ci=c(0,0,0),outer.eps = .Machi
-ne$double.eps)[] 
- []
-
-[116]
-Overfull \hbox (68.6361pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_X_inv),xlab="Quantiles observ?s",yl
-ab="Quantiles th?oriques (Weibull - GPD)")[] 
- []
-
-[117] [118]
-Overfull \hbox (206.6046pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w1(para) *  pweibull(1,para[1],beta(para))/FF(para))[] 
- []
-
-
-Overfull \hbox (166.36378pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle <-  constrOptim(c(2,3,3.5,4),neg_log_vrais,grad = NUL
-L,ui=diag(4),ci=c(0,0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[119]
-Overfull \hbox (206.6046pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_X_inv,para=mle$par),xlab="Quantiles
- observ?s",ylab="Quantiles th?oriques (Weibull - pareto -pareto)")[] 
- []
-
-
-Overfull \hbox (321.57835pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord[b_ord<=x],sapply(p[b_ord<=x],F_X_inv,para=mle$
-par),xlab="Quantiles observ?s",ylab="Quantiles th?oriques (Weibull - pareto -pa
-reto)")[] 
- []
-
-
-Overfull \hbox (131.87166pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 p * beta1*exp(-beta1*x) + (1-p)*(beta1*beta2)* ( exp(-b
-eta1*x)/(beta2-beta1) + exp(-beta2*x)/(beta1-beta2) )[] 
- []
-
-
-Overfull \hbox (235.34804pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -p * beta1^2*exp(-beta1*x) + (1-p)*beta1*beta2* ( - bet
-a1 * exp(-beta1*x)/(beta2-beta1) - beta2 *exp(-beta2*x)/(beta1-beta2) )[] 
- []
-
-
-Overfull \hbox (166.36378pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 p * (1-exp(-beta1*x)) + (1-p) * ( beta2 * (1-exp(-beta1
-*x))/(beta2-beta1) + beta1 *(1-exp(-beta2*x))/(beta1-beta2)[] 
- []
-
-[120]
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* Fx1(1,para[1],para[2],para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (131.87166pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle <- constrOptim(test,neg_log_vrais,grad = NULL,ui=cons
-t,ci=c(0,0,0,-1,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[121]
-Overfull \hbox (103.12822pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_X_inv),xlab="Quantiles observ?s",yl
-ab="Quantiles th?oriques (COXIENNE 2 - pareto)")[] 
- []
-
-
-Overfull \hbox (91.63084pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 # 3.3.8.COXIENNE 2-Pareto G?n?ralis?e (continue) --------
-----------------------------------------------[] 
- []
-
-[122]
-Overfull \hbox (189.35854pt too wide) in paragraph at lines 5068--5068
-[]  \OT1/cmtt/m/n/10.95 -sum(sapply(LOSS,function(l) log(f_X(l,para))))+length(
-LOSS) * log(1-w(para)* Fx1(1,para[1],para[2],para[3])/FF(para))[] 
- []
-
-
-Overfull \hbox (120.37428pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 const <- matrix(c(1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,-1,0,
-0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1),7,6)[] 
- []
-
-
-Overfull \hbox (143.36903pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 mle <- constrOptim(test,neg_log_vrais,grad = NULL,ui=cons
-t,ci=c(0,0,0,-1,0,0,0),outer.eps = .Machine$double.eps)[] 
- []
-
-[123]
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 plot(b_ord,sapply(p,F_X_inv),xlab="Quantiles observ?s",yl
-ab="Quantiles th?oriques (COXIENNE 2 - GPD)")[] 
- []
-
-
-Overfull \hbox (45.64134pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 ## Modele de frequence retenu : Processus non homogene
- avec intensite qui augmente lineairement[] 
- []
-
-[124]
-Overfull \hbox (51.39003pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 E_X <- Teta*((Alpha/(Alpha-1)*(1-ppareto(1,Alpha,Teta))^(
--1/Alpha))-1)##exp?rance conditionnelle[] 
- []
-
-
-Overfull \hbox (114.6256pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 data.frame(Esperance.theorique= sum(sapply(3988:(3988+364
-),Lambda))*E_X,Esperance.empirique=mean(S.annuel))[] 
- []
-
-
-Overfull \hbox (149.11772pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 ## En conclusion, puisqu'une Pareto avec un parametre de
- forme pres de 1 est utilisee pour modeliser la severite,[] 
- []
-
-
-Overfull \hbox (51.39003pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 ## Il est plus avise d'utiliser la TVaR pour estimer le 
-montant de capital a conserver en vu des[] 
- []
-
-
-Overfull \hbox (85.88216pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 ## obligations de la prochaine annee. De cette facon, p
-our une compagnie de reassurance qui couvrirait[] 
- []
-
-
-Overfull \hbox (108.8769pt too wide) in paragraph at lines 5068--5068
-[]\OT1/cmtt/m/n/10.95 ## la base de donnees Danish, il faudrait conserver un m
-ontant de 330.624 millions de courronnes danoises.[] 
- []
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
- [125]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
- (Master_Rapport.aux (PageTitre.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+ (Master_Rapport.aux
+(PageTitre.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
 Package rerunfilecheck Info: File `Master_Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 394E5AA6DB72781A7E7C7F368ED49038;4396.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
+(rerunfilecheck)             Checksum: 600CFDBE22E0EB28553EF0E55C89D003;307.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 13070 strings out of 492970
- 206711 string characters out of 3135854
- 446685 words of memory out of 3000000
- 16170 multiletter control sequences out of 15000+200000
- 17431 words of font info for 71 fonts, out of 3000000 for 9000
+ 10616 strings out of 492970
+ 159971 string characters out of 3135854
+ 274475 words of memory out of 3000000
+ 14289 multiletter control sequences out of 15000+200000
+ 10450 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,17n,40p,1222b,585s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Algorithme.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Code.9} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Code.8} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Code.7} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Code.6} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Code.5} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Code.4} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Code.3} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Code.2} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Code.1} has been referenced but does not exist, rep
-laced by a fixed one
-
- <C:\Users\ame_c\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbm\dpi657\bbm
-10.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmitt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/symbols/msbm10.pfb>
-Output written on Master_Rapport.pdf (204 pages, 1304671 bytes).
+ 42i,5n,40p,372b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti10.pfb>
+Output written on Master_Rapport.pdf (9 pages, 117310 bytes).
 PDF statistics:
- 1984 PDF objects out of 2073 (max. 8388607)
- 453 named destinations out of 1000 (max. 500000)
- 839 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
