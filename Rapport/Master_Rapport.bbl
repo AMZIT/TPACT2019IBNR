@@ -1,23 +1,7 @@
 \begin{thebibliography}{}
 
-\bibitem[Albrecher et~al., 2017]{albrecher2017reinsurance}
-Albrecher, H., Teugels, J.~L., and Beirlant, J. (2017).
-\newblock {\em Reinsurance: Actuarial and Statistical Aspects}.
-\newblock John Wiley \& Sons.
-
-\bibitem[Brazauskas and Kleefeld, 2016]{brazauskas2016modeling}
-Brazauskas, V. and Kleefeld, A. (2016).
-\newblock Modeling severity and measuring tail risk of norwegian fire claims.
-\newblock {\em North American Actuarial Journal}, 20(1):1--16.
-
-\bibitem[Embrechts and Schmidli, 1994]{Embrechts1994}
-Embrechts, P. and Schmidli, H. (1994).
-\newblock Modelling of extremal events in insurance and finance.
-\newblock {\em Zeitschrift f{\"u}r Operations Research}, 39(1):1--34.
-
-\bibitem[Klugman et~al., 2012]{LossModels_Klugman2012}
-Klugman, S., Panjer, H., and Willmot, G. (2012).
-\newblock {\em Loss Models: From Data to Decisions}.
-\newblock Wiley, fourth edition.
+\bibitem[Intact, 2018]{intact2018}
+Intact (2018).
+\newblock 2018 annual report.
 
 \end{thebibliography}

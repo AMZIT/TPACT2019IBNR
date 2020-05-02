@@ -1,2 +1,6 @@
 \section{Data Analysis}\label{Section_dataAnalysis}
-bla
+In this section, we will deep dive into the data used in our model. Frist, we discuss the available datasets and the relevant columns. Then, we will show some charts with interesting patterns.\\
+
+We have over one million lines of Canada wide monthly claims data, starting in january 2016 until today. We can not use data earlier than 2016, since prior 2016 claims were registered in an older system. This significantly changes the underlying claim distribution and makes prior 2016 data non-representative of future data.\\
+The data is divided into databases for each region and line of business. The regions we will cover are Quebec ("QC"), Ontario ("ON") and Alberta ("AB"). The two line of business we cover are physical damage ("PHYSDAM") and liability ("LIPD"). The former consists of collisions and comprehensive coverage (theft, vandalism etc.), while the latter includes all damage caused by the insured to a third party. Note that in Quebec due to regulatory differences there is not separation between the two line of businesses. In Quebec the insurance company covers the loss only for its own insured independent of the responsibility and accountability. We name the single line of business in Quebec "PDPD". We will adjust our model hyper-parameters to each of the regions and line of businesses. 
+
