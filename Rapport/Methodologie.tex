@@ -1,6 +1,6 @@
 \section{Model methodologie}\label{Sect_Methodologie}
 \subsection{Incurred but not reported}
-	The task of the actuarial model is to predict the IBNR, the incurred but not reported claims. The IBNR can be divided into 3 distinct elements, which we defined as pure IBNR, IBNER and unpure IBNR. Pure IBNR are claims which are not reported at the observation date, meaning the insurer has no information on them. The insurer only knows that a claim happened. IBNER, incurred but not enough reported, are claims which have been reported and the insurer the information on the claims in their database. Unpure IBNR consist of claims which might reopen at any given time. This mean that a claim which closed in 2017 might reopen in 2018 or 2019. Unpure IBNR is a small proportion of the total IBNR, but still should be considered in the model. Figure XXX gives a visual representation of these categories. 
+	The task of the actuarial model is to predict the IBNR, the incurred but not reported claims. The IBNR can be divided into 3 distinct elements, which we defined as pure IBNR, IBNER and unpure IBNR. Pure IBNR are claims which are not reported at the observation date, meaning the insurer has no information on them. The insurer only knows that a claim happened. IBNER, incurred but not enough reported, are claims which have been reported and the insurer the information on the claims in their database. Unpure IBNR consist of claims which might reopen at any given time. This mean that a claim which closed in 2017 might reopen in 2018 or 2019. Unpure IBNR is a small proportion of the total IBNR, but still should be considered in the model. Figure \ref{Fig_IBNER_timeline} gives a visual representation of these categories. 
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.2]{Graphiques/IBNER_timeline} 
@@ -10,7 +10,7 @@
 	\end{figure}
 
 \subsection{Hierarchical approach}
-	The actuarial department uses a modified chain-ladder method for their model. We will try a more hierarchical approach, where we cluster our data in more homogeneous groups. First, we develop a model for each of the three IBNR types. Our team focuses on the IBNER part, while the pure and unpure IBNR models are still chain-ladder based and were developed by the actuarial department. For the IBNER model, we grouped the data according the following claims characteristics:  total loss, total loss without (\texttt{43}) replacement cost endorsement (\texttt{n43}), luxury repairable vehicles (\texttt{rep\_lux}), non luxury non rental repairable vehicles (\texttt{rep\_nlux\_nrent}) and non luxury rental repairable vehicles (\texttt{rep\_nlux\_rent}). We suppose that the frequency and severity distributions are very similar within these groups. Figure XXX gives an overview of the hierarchical approach.
+	The actuarial department uses a modified chain-ladder method for their model. We will try a more hierarchical approach, where we cluster our data in more homogeneous groups. First, we develop a model for each of the three IBNR types. Our team focuses on the IBNER part, while the pure and unpure IBNR models are still chain-ladder based and were developed by the actuarial department. For the IBNER model, we grouped the data according the following claims characteristics:  total loss, total loss without (\texttt{43}) replacement cost endorsement (\texttt{n43}), luxury repairable vehicles (\texttt{rep\_lux}), non luxury non rental repairable vehicles (\texttt{rep\_nlux\_nrent}) and non luxury rental repairable vehicles (\texttt{rep\_nlux\_rent}). We suppose that the frequency and severity distributions are very similar within these groups. Figure \ref{Fig_hier_model} gives an overview of the hierarchical approach.
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.4]{Graphiques/Hier_model} 
@@ -20,7 +20,7 @@
 	\end{figure}
  
 \subsection{Key formulas}
-	As mentioned in section ???, the ACV and GAV have strong predictive strength. We will use a basic formula to link the GAV/ACV with the ultimate and use historical observation on the pending (open) claims.
+	As mentioned in section ???, the \texttt{ACV} and \texttt{GAV} have strong predictive strength. We will use a basic formula to link the \texttt{GAV}/\texttt{ACV} with the ultimate and use historical observation on the pending (open) claims.
 
 	 
 	\begin{Definition}
@@ -34,14 +34,14 @@
 		$$\hat{\theta}_i = \frac{\widetilde{L}_{j,i}}{X_j}$$
 	\end{Definition}
 
-	Note the difference between $\hat{L}_i$ and $\widetilde{L}_{j,i}$. The former is the ultimate we want to predict, so we do not know its value in observation month $i$. The latter is the total incurred for claims in period $j$ we know as of $i$. For illustration in the sample data of figure XXX and XXX, we want to calculate the factor $\hat{\theta}_{201804}$. We suppose we want to use open claim with $ \texttt{CLM\_NBR} = 123456789$ to calculate this factor, then 
+	Note the difference between $\hat{L}_i$ and $\widetilde{L}_{j,i}$. The former is the ultimate we want to predict, so we do not know its value in observation month $i$. The latter is the total incurred for claims in period $j$ we know as of $i$. For illustration in the sample data of figures \ref{Fig_sample_1} and \ref{Fig_sample_2}, we want to calculate the factor $\hat{\theta}_{201804}$. We suppose we want to use open claim with $ \texttt{CLM\_NBR} = 123456789$ to calculate this factor, then 
 	\begin{align*}
 	\widetilde{L}_{201711, 201804} &= \texttt{AUTO\_LTD\_NET\_LOSS\_PAID\_AMT} + \texttt{AUTO\_LTD\_ALAE\_INCURRED\_AMT} \\
 									& \ \ \	+ \texttt{AUTO\_LTD\_LOSS\_RES\_CHG\_AMT} \\
 									&= 11213.87
 	\end{align*}
 	 as of $201804$ ($\texttt{obs\_month} = 201804$) and $X_j = \texttt{AvgTypicalCarValue} = 8007 $.
-	As the example illustrated, the ultimate and the predictor are historical values which should be fully developed. It is necessary to have a least 5 to 12 months of development, so that the factors are stable enough. The difference in time between the moment we want to predict the pending and the historical data, $i - j$ is defined as the lag. How many historical observation month $j$ we use for the calculation is defined as period length. Figure XX shows a 5 months lag and 3 months period length. We want to predict the ultimate of the December 2018, $i = 201812$ pending (open) claims. We go back 5 months and use the historical claim data from open claims in May, June and July 2018, $j=201805, 201806, 201807$. 
+	As the example illustrated, the ultimate and the predictor are historical values which should be fully developed. It is necessary to have a least 5 to 12 months of development, so that the factors are stable enough. The difference in time between the moment we want to predict the pending and the historical data, $i - j$ is defined as the lag. How many historical observation month $j$ we use for the calculation is defined as period length. Figure \ref{Fig_lag_pl} shows a 5 months lag and 3 months period length. We want to predict the ultimate of the December 2018, $i = 201812$ pending (open) claims. We go back 5 months and use the historical claim data from open claims in May, June and July 2018, $j=201805, 201806, 201807$. 
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.4]{Graphiques/lag_pl} 
@@ -49,7 +49,7 @@
 			\caption{Lag and period length visualization}\label{Fig_lag_pl}
 		\end{center}
 	\end{figure}
-	This approach is similar to a lagged moving average model. We use the incurred as of December 2018 of claims open in May, June and July. Thus, the incurred had a minimum of 5 months to develop. Then, we divide this incurred by the aggregated GAV or ACV in May, June and July. We only keep the most recent data line for each claim, in other words we don’t have any duplicated per claim number. Figure XX gives a numerical example. 
+	This approach is similar to a lagged moving average model. We use the incurred as of December 2018 of claims open in May, June and July. Thus, the incurred had a minimum of 5 months to develop. Then, we divide this incurred by the aggregated \texttt{GAV} or \texttt{ACV} in May, June and July. We only keep the most recent data line for each claim, in other words we don’t have any duplicated per claim number. Figure \ref{Fig_factor_example} gives a numerical example. 
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.4]{Graphiques/factor_example} 
@@ -63,7 +63,7 @@
 		$$\hat{\Theta}_i = n_{open} \hat{\theta}_{i,open} + n_{closed} \hat{\theta}_{i,closed}$$ 
 	\end{Definition}
 	
-	We multiply this factor by the aggregated GAV or ACV of pending claims (December 2018 in our example) to get the ultimate amount.
+	We multiply this factor by the aggregated \texttt{GAV} or \texttt{ACV} of pending claims (December 2018 in our example) to get the ultimate amount.
 	
 	\begin{Definition}
 		We define the $IBNER$ in period $i$ as
@@ -74,7 +74,7 @@
 	The prediction results for the model will be discussed in section XX.
 	
 \subsection{Imputation methodology}
-	It is important to note that no data is perfect. Our dataset contains a non negligible amount of missing GAV and ACV values. About 17\% of the claims have missing GAV or ACV, some regions and line of business are worse than others. Figure XX demonstrates how missing values are imputed. If we have missing values, we calculate the median of the existing values in the time window. We replace the missing values by the median and execute the factor calculations without any further readjustment. This method is not perfect and will be revised. For instance, in our example, we would overestimate the factor since we impute with a lower value.  
+	It is important to note that no data is perfect. Our dataset contains a non negligible amount of missing \texttt{GAV} and \texttt{ACV} values. About 17\% of the claims have missing \texttt{GAV} or \texttt{ACV}, some regions and line of business are worse than others. Figure \ref{Fig_imputation_example} demonstrates how missing values are imputed. If we have missing values, we calculate the median of the existing values in the time window. We replace the missing values by the median and execute the factor calculations without any further readjustment. This method is not perfect and will be revised. For instance, in our example, we would overestimate the factor since we impute with a lower value.  
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.4]{Graphiques/imputation_example} 
@@ -88,6 +88,6 @@ As we have noticed in the analysis of the data, Alberta clearly has different pa
 \subsection{Second model iteration: Historical pending but now closed claims}
 After having used the first iteration of the model for January 2020. We noticed systematic error, constant over- or underestimations. This might be related to the open claims (after the lag) with are used to calculate the factors. Since open claims still have a case reserve the incurred used for the factor might be inflated, thus explaining overestimation. Indeed, the factor for open claims is always larger than the factor for closed. If we overestimate constantly, we attribute to much weight to still open claims. In the second iteration of the model we discard the weighted average and we only use the factor of closed claims. In short, based on definition \ref{Def_final_factor}, we have
 $$\hat{\Theta}_i = \hat{\theta}_{i,closed}$$.
-This also has the benefit that closed claims usually should not develop further and thus have less volatility in the calculation of the factors. The results will be discussed in section XXX.
+This also has the benefit that closed claims usually should not develop further and thus have less volatility in the calculation of the factors. The results will be discussed in section \ref{Sect_Results}.
 \subsection{Third model iteration: Historical closed claims}
 The final iteration of the model we will discuss in this report is based on the idea of the second iteration. We only want to use the factor of closed claims. However, in the second iteration we use the factor of closed claims of the lagged 3 month period, while in this iteration we want to increase the number of claims used in the calculations and add more recent claims. Consequently, instead of using the pending claims in a historical time window, we calculate factors for all claims that closed in the time window. This simply implies changing the filter on \texttt{sf\_status}. If we have use the previous example, we want to predict the pending claims in December 2018, we use all claims that closed between May and July for our factor calculations. Since the claims are closed it is unlikely that we have still open claims in December.

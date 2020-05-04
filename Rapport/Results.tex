@@ -1,111 +1,107 @@
 \section{Results}\label{Sect_Results}
+In this section we will analyse the results of all 3 model iterations. For the first two iterations we will show the prediction error on the ultimate for each \texttt{leaf} and province, while for the last iteration will will give the average monthly error. It should be notes that we only show the ultimate predictions for claims pending in 2017 and 2018, although we use the incurred as of March 2020. Pending claims in December 2018 had more than 14 months to develop to the ultimate. 
 \subsection{First model iteration: Historical pending claims}
 	\paragraph{Quebec:}
-		957757.84
+		For our first model, the average monthly prediction error is $957 757.84$, based on a total volume of about 100 million. Figure \ref{Fig_QC_current_er_by_month} show that the error has a light seasonal pattern. In winter we tend to slightly underestimate, while in most months we overestimate the ultimate loss. The seasonality is difficult to confirm, since we only have 2 years of fully credible data. The error does not seem to be all random and thus should be further investigated.
 		\begin{figure}[H]
 			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/QC_current_model_by_month} 
+				\includegraphics[scale=0.4]{Graphiques/QC_current_model_by_month} 
 				\renewcommand{\figurename}{Figure}
-				\caption{Quebec "Histrocial pending claims" model: prediction error by observation month}\label{Fig_QC_current_er_by_month}
+				\caption{Quebec "Historical  pending claims" model, prediction error by observation month}\label{Fig_QC_current_er_by_month}
 			\end{center}
 		\end{figure}
+		Figure \ref{Fig_QC_current_er_boxplot} indicates that the largest proportion of error comes form \texttt{tl\_n43} and \texttt{rep\_nlux\_nrent}.These two \texttt{leaf} are also the largest in terms of volume. 
 		\begin{figure}[H]
 			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/QC_current_model_mustach} 
+				\includegraphics[scale=0.4]{Graphiques/QC_current_model_mustach} 
 				\renewcommand{\figurename}{Figure}
-				\caption{Quebec "Histrocial pending claims" model: monthly prediction error boxplot}\label{Fig_QC_current_er_boxplot}
+				\caption{Quebec "Historical  pending claims" model, monthly prediction error boxplot}\label{Fig_QC_current_er_boxplot}
 			\end{center}
 		\end{figure}
 	
 	\paragraph{Ontario:}
-		-4632281.66
+		In Ontario, our model has the tendency to underestimate the ultimate amount. The average error per observation month shown in figure \ref{Fig_ON_current_er_by_month} is at -4632281.66. Specifically the winter proves difficult for our model. We are currently investigating this issue, but it might be related to the lag we use and/or the trends observed in the data.
 		\begin{figure}[H]
 			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/ON_current_model_by_month} 
+				\includegraphics[scale=0.4]{Graphiques/ON_current_model_by_month} 
 				\renewcommand{\figurename}{Figure}
-				\caption{Ontario "Histrocial pending claims" model: prediction error by observation month}\label{Fig_ON_current_er_by_month}
+				\caption{Ontario "Historical  pending claims" model, prediction error by observation month}\label{Fig_ON_current_er_by_month}
 			\end{center}
 		\end{figure}
 		\begin{figure}[H]
 			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/ON_current_model_mustach} 
+				\includegraphics[scale=0.4]{Graphiques/ON_current_model_mustach} 
 				\renewcommand{\figurename}{Figure}
-				\caption{Ontario "Histrocial pending claims" model: monthly prediction error boxplot}\label{Fig_ON_current_er_boxplot}
+				\caption{Ontario "Historical  pending claims" model, monthly prediction error boxplot}\label{Fig_ON_current_er_boxplot}
 			\end{center}
 		\end{figure}
 	\paragraph{Alberta:}
-		3547625.79
+		The average monthly prediction error amounts to 3547625.79 on a total volume of about 80 million. There is no clear seasonal pattern, however the model constantly overestimates. The cause of the overestimation is the subrogation, which even after 12 months is not completed. We found about 10\% of the claims in Alberta still receive recovery payments after 12 months. Figure \ref{Fig_AB_current_er_boxplot} shows that \texttt{rep\_nlux\_rent} is the biggest source of error for this model.   
 		\begin{figure}[H]
 			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/AB_current_model_by_month} 
+				\includegraphics[scale=0.4]{Graphiques/AB_current_model_by_month} 
 				\renewcommand{\figurename}{Figure}
-				\caption{Alberta "Histrocial pending claims" model: prediction error by observation month}\label{Fig_AB_current_er_by_month}
+				\caption{Alberta "Historical  pending claims" model, prediction error by observation month}\label{Fig_AB_current_er_by_month}
 			\end{center}
 		\end{figure}
 		\begin{figure}[H]
 			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/AB_current_model_mustach} 
+				\includegraphics[scale=0.4]{Graphiques/AB_current_model_mustach} 
 				\renewcommand{\figurename}{Figure}
-				\caption{Alberta "Histrocial pending claims" model: monthly prediction error boxplot}\label{Fig_AB_current_er_boxplot}
-			\end{center}
-		\end{figure}
-	
-\subsection{Second model iteration: Histrical pending but now closed claims}
-	\paragraph{Quebec:}
-		-1379997.20
-		\begin{figure}[H]
-			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/QC_closedonly_model_by_month} 
-				\renewcommand{\figurename}{Figure}
-				\caption{Quebec "Histrocial pending but now closed claims" model: prediction error by observation month}\label{Fig_QC_closedonly_er_by_month}
-			\end{center}
-		\end{figure}
-		\begin{figure}[H]
-			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/QC_closedonly_model_mustach} 
-				\renewcommand{\figurename}{Figure}
-				\caption{Quebec "Histrocial pending but now closed claims" model: monthly prediction error boxplot}\label{Fig_QC_closedonly_er_boxplot}
-			\end{center}
-		\end{figure}
-	\paragraph{Ontario:}
-		-5134385.50
-		\begin{figure}[H]
-			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/ON_closedonly_model_by_month} 
-				\renewcommand{\figurename}{Figure}
-				\caption{Ontario "Histrocial pending but now closed claims" model: prediction error by observation month}\label{Fig_ON_closedonly_er_by_month}
-			\end{center}
-		\end{figure}
-		\begin{figure}[H]
-			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/ON_closedonly_model_mustach} 
-				\renewcommand{\figurename}{Figure}
-				\caption{Ontario "Histrocial pending but now closed claims" model: monthly prediction error boxplot}\label{Fig_ON_closedonly_er_boxplot}
+				\caption{Alberta "Historical  pending claims" model, monthly prediction error boxplot}\label{Fig_AB_current_er_boxplot}
 			\end{center}
 		\end{figure}
 	
-	\paragraph{Alberta:}
-		-431987.83
+\subsection{Second model iteration: Historical pending but now closed claims}
+	Excluding open claims in the factor calculations has a strong impact on the model. The average monthly error are -1379997.20, -5134385.50 and -431987.83, for Quebec, Ontario and Alberta respectively. This model has a strong tendency to underestimate. Albeit, for Alberta, when looking at figure \ref{Fig_AB_closedonly_er_by_month}, the results are considerably better than the first iteration model. Adding open claims seems to multiply the error by a factor of 10. This indicated that once a claim is closed, the subrogation process seems to also be finished or partly finished. For the other two provinces, it that adding open claims captures something we are not yet able to fully explain. We suspect that the issue is related to the imputation method and observed trends.
 		\begin{figure}[H]
 			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/AB_closedonly_model_by_month} 
+				\includegraphics[scale=0.4]{Graphiques/QC_closedonly_model_by_month} 
 				\renewcommand{\figurename}{Figure}
-				\caption{Alberta "Histrocial pending but now closed claims" model: prediction error by observation month}\label{Fig_AB_closedonly_er_by_month}
+				\caption{Quebec "Historical  pending but now closed claims" model, prediction error by observation month}\label{Fig_QC_closedonly_er_by_month}
 			\end{center}
 		\end{figure}
 		\begin{figure}[H]
 			\begin{center}
-				\includegraphics[scale=0.2]{Graphiques/AB_closedonly_model_mustach} 
+				\includegraphics[scale=0.4]{Graphiques/QC_closedonly_model_mustach} 
 				\renewcommand{\figurename}{Figure}
-				\caption{Alberta "Histrocial pending but now closed claims" model: monthly prediction error boxplot}\label{Fig_AB_closedonly_er_boxplot}
+				\caption{Quebec "Historical  pending but now closed claims" model, monthly prediction error boxplot}\label{Fig_QC_closedonly_er_boxplot}
+			\end{center}
+		\end{figure}
+
+		\begin{figure}[H]
+			\begin{center}
+				\includegraphics[scale=0.4]{Graphiques/ON_closedonly_model_by_month} 
+				\renewcommand{\figurename}{Figure}
+				\caption{Ontario "Historical  pending but now closed claims" model, prediction error by observation month}\label{Fig_ON_closedonly_er_by_month}
+			\end{center}
+		\end{figure}
+		\begin{figure}[H]
+			\begin{center}
+				\includegraphics[scale=0.4]{Graphiques/ON_closedonly_model_mustach} 
+				\renewcommand{\figurename}{Figure}
+				\caption{Ontario "Historical  pending but now closed claims" model, monthly prediction error boxplot}\label{Fig_ON_closedonly_er_boxplot}
+			\end{center}
+		\end{figure}
+
+
+		\begin{figure}[H]
+			\begin{center}
+				\includegraphics[scale=0.4]{Graphiques/AB_closedonly_model_by_month} 
+				\renewcommand{\figurename}{Figure}
+				\caption{Alberta "Historical  pending but now closed claims" model, prediction error by observation month}\label{Fig_AB_closedonly_er_by_month}
+			\end{center}
+		\end{figure}
+		\begin{figure}[H]
+			\begin{center}
+				\includegraphics[scale=0.4]{Graphiques/AB_closedonly_model_mustach} 
+				\renewcommand{\figurename}{Figure}
+				\caption{Alberta "Historical  pending but now closed claims" model, monthly prediction error boxplot}\label{Fig_AB_closedonly_er_boxplot}
 			\end{center}
 		\end{figure}
 	
-\subsection{Third model iteration: Histrical closed claims }
-	\paragraph{Quebec:}
-		-7196717.05
-	\paragraph{Ontario:}
-		13 153 105.83
-	\paragraph{Alberta:}
-		4148104.04
+\subsection{Third model iteration: Historical closed claims }
+	Lastly, the third iteration model seems not to function as well as expected. Quebec has an average monthly error of -7196717.05, Ontario of -13153105.83 and Alberta of 4148104.04. One issue with this model is related to the claims in the window. While the two previous model use a small window of pending claims, this model uses all claims that closed in the time window. Thus, we are using claims that can be very old relative to the observation month. Therefore the age of a claim might have a considerable impact on this model.
+	
+	
 		 

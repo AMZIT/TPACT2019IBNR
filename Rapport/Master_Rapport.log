@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.30)  4 MAY 2020 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.30)  4 MAY 2020 17:06
 entering extended mode
 **./Master_Rapport.tex
 (Master_Rapport.tex
@@ -727,12 +727,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 [2]
-<Graphiques/sample_1.png, id=246, 782.17218pt x 459.96844pt>
+<Graphiques/sample_1.png, id=248, 782.17218pt x 459.96844pt>
 File: Graphiques/sample_1.png Graphic file (type png)
 <use Graphiques/sample_1.png>
 Package pdftex.def Info: Graphiques/sample_1.png  used on input line 12.
 (pdftex.def)             Requested size: 312.86333pt x 183.98412pt.
-<Graphiques/sample_2.png, id=247, 784.43062pt x 506.6428pt>
+<Graphiques/sample_2.png, id=250, 784.43062pt x 506.6428pt>
 File: Graphiques/sample_2.png Graphic file (type png)
 <use Graphiques/sample_2.png>
 Package pdftex.def Info: Graphiques/sample_2.png  used on input line 22.
@@ -773,215 +773,215 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
  []
 
 [4 <./Graphiques/sample_2.png>]
-<Graphiques/qc_rep.png, id=262, 653.44125pt x 378.66469pt>
+<Graphiques/qc_rep.png, id=267, 653.44125pt x 378.66469pt>
 File: Graphiques/qc_rep.png Graphic file (type png)
 <use Graphiques/qc_rep.png>
 Package pdftex.def Info: Graphiques/qc_rep.png  used on input line 46.
 (pdftex.def)             Requested size: 261.37187pt x 151.46318pt.
-<Graphiques/qc_tl.png, id=263, 653.44125pt x 378.66469pt>
+<Graphiques/qc_tl.png, id=268, 653.44125pt x 378.66469pt>
 File: Graphiques/qc_tl.png Graphic file (type png)
 <use Graphiques/qc_tl.png>
 Package pdftex.def Info: Graphiques/qc_tl.png  used on input line 54.
 (pdftex.def)             Requested size: 261.37187pt x 151.46318pt.
  [5 <./Graphiques/qc_rep.png (PNG copy)>]
-<Graphiques/on_rep.png, id=270, 653.44125pt x 378.66469pt>
+<Graphiques/on_rep.png, id=277, 653.44125pt x 378.66469pt>
 File: Graphiques/on_rep.png Graphic file (type png)
 <use Graphiques/on_rep.png>
 Package pdftex.def Info: Graphiques/on_rep.png  used on input line 64.
 (pdftex.def)             Requested size: 261.37187pt x 151.46318pt.
-<Graphiques/on_tl.png, id=271, 653.44125pt x 378.66469pt>
+<Graphiques/on_tl.png, id=278, 653.44125pt x 378.66469pt>
 File: Graphiques/on_tl.png Graphic file (type png)
 <use Graphiques/on_tl.png>
 Package pdftex.def Info: Graphiques/on_tl.png  used on input line 72.
 (pdftex.def)             Requested size: 261.37187pt x 151.46318pt.
 
 [6 <./Graphiques/qc_tl.png (PNG copy)> <./Graphiques/on_rep.png (PNG copy)>]
-<Graphiques/ab_rep.png, id=276, 653.44125pt x 378.66469pt>
+<Graphiques/ab_rep.png, id=285, 653.44125pt x 378.66469pt>
 File: Graphiques/ab_rep.png Graphic file (type png)
 <use Graphiques/ab_rep.png>
 Package pdftex.def Info: Graphiques/ab_rep.png  used on input line 82.
 (pdftex.def)             Requested size: 261.37187pt x 151.46318pt.
-<Graphiques/ab_tl.png, id=277, 653.44125pt x 378.66469pt>
+<Graphiques/ab_tl.png, id=286, 653.44125pt x 378.66469pt>
 File: Graphiques/ab_tl.png Graphic file (type png)
 <use Graphiques/ab_tl.png>
 Package pdftex.def Info: Graphiques/ab_tl.png  used on input line 90.
 (pdftex.def)             Requested size: 261.37187pt x 151.46318pt.
 
 [7 <./Graphiques/on_tl.png (PNG copy)> <./Graphiques/ab_rep.png (PNG copy)>]
-<Graphiques/QC_growth.png, id=282, 1897.0875pt x 961.5925pt>
+<Graphiques/QC_growth.png, id=292, 1897.0875pt x 961.5925pt>
 File: Graphiques/QC_growth.png Graphic file (type png)
 <use Graphiques/QC_growth.png>
 Package pdftex.def Info: Graphiques/QC_growth.png  used on input line 106.
 (pdftex.def)             Requested size: 379.41078pt x 192.3151pt.
 
 [8 <./Graphiques/ab_tl.png (PNG copy)>]
-<Graphiques/ON_growth.png, id=287, 1897.0875pt x 961.5925pt>
+<Graphiques/ON_growth.png, id=298, 1897.0875pt x 961.5925pt>
 File: Graphiques/ON_growth.png Graphic file (type png)
 <use Graphiques/ON_growth.png>
 Package pdftex.def Info: Graphiques/ON_growth.png  used on input line 115.
 (pdftex.def)             Requested size: 379.41078pt x 192.3151pt.
-<Graphiques/AB_growth.png, id=288, 1816.7875pt x 983.675pt>
+<Graphiques/AB_growth.png, id=300, 1816.7875pt x 983.675pt>
 File: Graphiques/AB_growth.png Graphic file (type png)
 <use Graphiques/AB_growth.png>
 Package pdftex.def Info: Graphiques/AB_growth.png  used on input line 123.
 (pdftex.def)             Requested size: 363.35107pt x 196.7315pt.
  [9 <./Graphiques/QC_growth.png> <./Graphiques/ON_growth.png>]
-<Graphiques/QC_ALAE_loss.png, id=295, 1897.0875pt x 912.40875pt>
+<Graphiques/QC_ALAE_loss.png, id=310, 1897.0875pt x 912.40875pt>
 File: Graphiques/QC_ALAE_loss.png Graphic file (type png)
 <use Graphiques/QC_ALAE_loss.png>
 Package pdftex.def Info: Graphiques/QC_ALAE_loss.png  used on input line 134.
 (pdftex.def)             Requested size: 379.41078pt x 182.47852pt.
  [10 <./Graphiques/AB_growth.png>]
-<Graphiques/ON_ALAE_loss.png, id=301, 1897.0875pt x 961.5925pt>
+<Graphiques/ON_ALAE_loss.png, id=316, 1897.0875pt x 961.5925pt>
 File: Graphiques/ON_ALAE_loss.png Graphic file (type png)
 <use Graphiques/ON_ALAE_loss.png>
 Package pdftex.def Info: Graphiques/ON_ALAE_loss.png  used on input line 142.
 (pdftex.def)             Requested size: 379.41078pt x 192.3151pt.
-<Graphiques/AB_ALAE_loss.png, id=302, 1897.0875pt x 961.5925pt>
+<Graphiques/AB_ALAE_loss.png, id=317, 1897.0875pt x 961.5925pt>
 File: Graphiques/AB_ALAE_loss.png Graphic file (type png)
 <use Graphiques/AB_ALAE_loss.png>
 Package pdftex.def Info: Graphiques/AB_ALAE_loss.png  used on input line 150.
 (pdftex.def)             Requested size: 379.41078pt x 192.3151pt.
  [11 <./Graphiques/QC_ALAE_loss.png> <./Graphiques/ON_ALAE_loss.png>]
-<Graphiques/QC_recovery_loss.png, id=310, 1897.0875pt x 961.5925pt>
+<Graphiques/QC_recovery_loss.png, id=327, 1897.0875pt x 961.5925pt>
 File: Graphiques/QC_recovery_loss.png Graphic file (type png)
 <use Graphiques/QC_recovery_loss.png>
 Package pdftex.def Info: Graphiques/QC_recovery_loss.png  used on input line 15
 8.
 (pdftex.def)             Requested size: 379.41078pt x 192.3151pt.
-<Graphiques/ON_recovery_loss.png, id=311, 1897.0875pt x 961.5925pt>
+<Graphiques/ON_recovery_loss.png, id=328, 1897.0875pt x 961.5925pt>
 File: Graphiques/ON_recovery_loss.png Graphic file (type png)
 <use Graphiques/ON_recovery_loss.png>
 Package pdftex.def Info: Graphiques/ON_recovery_loss.png  used on input line 16
 6.
 (pdftex.def)             Requested size: 379.41078pt x 192.3151pt.
  [12 <./Graphiques/AB_ALAE_loss.png> <./Graphiques/QC_recovery_loss.png>]
-<Graphiques/AB_recovery_loss.png, id=318, 1897.0875pt x 961.5925pt>
+<Graphiques/AB_recovery_loss.png, id=335, 1897.0875pt x 961.5925pt>
 File: Graphiques/AB_recovery_loss.png Graphic file (type png)
 <use Graphiques/AB_recovery_loss.png>
 Package pdftex.def Info: Graphiques/AB_recovery_loss.png  used on input line 17
 4.
 (pdftex.def)             Requested size: 379.41078pt x 192.3151pt.
 ) (Methodologie.tex
-<Graphiques/IBNER_timeline.png, id=319, 1290.32062pt x 594.72188pt>
+<Graphiques/IBNER_timeline.png, id=337, 1290.32062pt x 594.72188pt>
 File: Graphiques/IBNER_timeline.png Graphic file (type png)
 <use Graphiques/IBNER_timeline.png>
 Package pdftex.def Info: Graphiques/IBNER_timeline.png  used on input line 6.
 (pdftex.def)             Requested size: 258.05956pt x 118.94226pt.
  [13 <./Graphiques/ON_recovery_loss.png> <./Graphiques/AB_recovery_loss.png>]
-<Graphiques/Hier_model.png, id=326, 894.34125pt x 482.55281pt>
+<Graphiques/Hier_model.png, id=345, 894.34125pt x 482.55281pt>
 File: Graphiques/Hier_model.png Graphic file (type png)
 <use Graphiques/Hier_model.png>
 Package pdftex.def Info: Graphiques/Hier_model.png  used on input line 16.
 (pdftex.def)             Requested size: 357.73016pt x 193.0177pt.
  [14 <./Graphiques/IBNER_timeline.png>] [15 <./Graphiques/Hier_model.png>]
-<Graphiques/lag_pl.png, id=340, 962.09438pt x 195.73125pt>
+<Graphiques/lag_pl.png, id=362, 962.09438pt x 195.73125pt>
 File: Graphiques/lag_pl.png Graphic file (type png)
 <use Graphiques/lag_pl.png>
 Package pdftex.def Info: Graphiques/lag_pl.png  used on input line 47.
 (pdftex.def)             Requested size: 384.83093pt x 78.2911pt.
-<Graphiques/factor_example.png, id=341, 1002.74625pt x 285.31593pt>
+<Graphiques/factor_example.png, id=364, 1002.74625pt x 285.31593pt>
 File: Graphiques/factor_example.png Graphic file (type png)
 <use Graphiques/factor_example.png>
 Package pdftex.def Info: Graphiques/factor_example.png  used on input line 55.
 (pdftex.def)             Requested size: 401.0914pt x 114.12434pt.
  [16 <./Graphiques/lag_pl.png> <./Graphiques/factor_example.png>]
-<Graphiques/imputation_example.png, id=349, 1001.24063pt x 310.91156pt>
+<Graphiques/imputation_example.png, id=373, 1001.24063pt x 310.91156pt>
 File: Graphiques/imputation_example.png Graphic file (type png)
 <use Graphiques/imputation_example.png>
 Package pdftex.def Info: Graphiques/imputation_example.png  used on input line 
 80.
 (pdftex.def)             Requested size: 400.48917pt x 124.36241pt.
  [17 <./Graphiques/imputation_example.png>]) (Results.tex
-<Graphiques/QC_current_model_by_month.png, id=359, 1114.1625pt x 260.47313pt>
+<Graphiques/QC_current_model_by_month.png, id=385, 1114.1625pt x 260.47313pt>
 File: Graphiques/QC_current_model_by_month.png Graphic file (type png)
 <use Graphiques/QC_current_model_by_month.png>
 Package pdftex.def Info: Graphiques/QC_current_model_by_month.png  used on inpu
-t line 7.
-(pdftex.def)             Requested size: 222.82855pt x 52.09369pt.
-<Graphiques/QC_current_model_mustach.png, id=360, 402.00188pt x 279.29344pt>
+t line 8.
+(pdftex.def)             Requested size: 445.6571pt x 104.1874pt.
+ [18]
+<Graphiques/QC_current_model_mustach.png, id=391, 402.00188pt x 279.29344pt>
 File: Graphiques/QC_current_model_mustach.png Graphic file (type png)
 <use Graphiques/QC_current_model_mustach.png>
 Package pdftex.def Info: Graphiques/QC_current_model_mustach.png  used on input
- line 14.
-(pdftex.def)             Requested size: 80.39894pt x 55.8577pt.
- [18]
-<Graphiques/ON_current_model_by_month.png, id=366, 1111.15125pt x 262.73157pt>
+ line 16.
+(pdftex.def)             Requested size: 160.7979pt x 111.7154pt.
+<Graphiques/ON_current_model_by_month.png, id=393, 1111.15125pt x 262.73157pt>
 File: Graphiques/ON_current_model_by_month.png Graphic file (type png)
 <use Graphiques/ON_current_model_by_month.png>
 Package pdftex.def Info: Graphiques/ON_current_model_by_month.png  used on inpu
-t line 24.
-(pdftex.def)             Requested size: 222.2263pt x 52.54538pt.
-<Graphiques/ON_current_model_mustach.png, id=367, 399.74344pt x 283.0575pt>
+t line 26.
+(pdftex.def)             Requested size: 444.45262pt x 105.09076pt.
+<Graphiques/ON_current_model_mustach.png, id=394, 399.74344pt x 283.0575pt>
 File: Graphiques/ON_current_model_mustach.png Graphic file (type png)
 <use Graphiques/ON_current_model_mustach.png>
 Package pdftex.def Info: Graphiques/ON_current_model_mustach.png  used on input
- line 31.
-(pdftex.def)             Requested size: 79.94727pt x 56.61049pt.
-<Graphiques/AB_current_model_by_month.png, id=368, 1114.1625pt x 261.97874pt>
+ line 33.
+(pdftex.def)             Requested size: 159.89453pt x 113.22098pt.
+ [19 <./Graphiques/QC_current_model_by_month.png> <./Graphiques/QC_current_mode
+l_mustach.png>]
+<Graphiques/AB_current_model_by_month.png, id=404, 1114.1625pt x 261.97874pt>
 File: Graphiques/AB_current_model_by_month.png Graphic file (type png)
 <use Graphiques/AB_current_model_by_month.png>
 Package pdftex.def Info: Graphiques/AB_current_model_by_month.png  used on inpu
-t line 40.
-(pdftex.def)             Requested size: 222.82855pt x 52.39482pt.
-<Graphiques/AB_current_model_mustach.png, id=369, 402.00188pt x 281.55188pt>
+t line 42.
+(pdftex.def)             Requested size: 445.6571pt x 104.78964pt.
+<Graphiques/AB_current_model_mustach.png, id=405, 402.00188pt x 281.55188pt>
 File: Graphiques/AB_current_model_mustach.png Graphic file (type png)
 <use Graphiques/AB_current_model_mustach.png>
 Package pdftex.def Info: Graphiques/AB_current_model_mustach.png  used on input
- line 47.
-(pdftex.def)             Requested size: 80.39894pt x 56.30937pt.
- [19 <./Graphiques/QC_current_model_by_month.png> <./Graphiques/QC_current_mode
-l_mustach.png> <./Graphiques/ON_current_model_by_month.png> <./Graphiques/ON_cu
-rrent_model_mustach.png>]
-<Graphiques/QC_closedonly_model_by_month.png, id=380, 1117.17375pt x 261.97874p
+ line 49.
+(pdftex.def)             Requested size: 160.7979pt x 112.61874pt.
+ [20 <./Graphiques/ON_current_model_by_month.png> <./Graphiques/ON_current_mode
+l_mustach.png> <./Graphiques/AB_current_model_by_month.png>]
+<Graphiques/QC_closedonly_model_by_month.png, id=415, 1117.17375pt x 261.97874p
 t>
 File: Graphiques/QC_closedonly_model_by_month.png Graphic file (type png)
 <use Graphiques/QC_closedonly_model_by_month.png>
 Package pdftex.def Info: Graphiques/QC_closedonly_model_by_month.png  used on i
-nput line 58.
-(pdftex.def)             Requested size: 223.43079pt x 52.39482pt.
-<Graphiques/QC_closedonly_model_mustach.png, id=381, 405.01312pt x 283.0575pt>
+nput line 59.
+(pdftex.def)             Requested size: 446.86159pt x 104.78964pt.
+<Graphiques/QC_closedonly_model_mustach.png, id=416, 405.01312pt x 283.0575pt>
 File: Graphiques/QC_closedonly_model_mustach.png Graphic file (type png)
 <use Graphiques/QC_closedonly_model_mustach.png>
 Package pdftex.def Info: Graphiques/QC_closedonly_model_mustach.png  used on in
-put line 65.
-(pdftex.def)             Requested size: 81.00117pt x 56.61049pt.
-<Graphiques/ON_closedonly_model_by_month.png, id=382, 1110.39844pt x 262.73157p
+put line 66.
+(pdftex.def)             Requested size: 162.00237pt x 113.22098pt.
+ [21 <./Graphiques/AB_current_model_mustach.png> <./Graphiques/QC_closedonly_mo
+del_by_month.png>]
+<Graphiques/ON_closedonly_model_by_month.png, id=423, 1110.39844pt x 262.73157p
 t>
 File: Graphiques/ON_closedonly_model_by_month.png Graphic file (type png)
 <use Graphiques/ON_closedonly_model_by_month.png>
 Package pdftex.def Info: Graphiques/ON_closedonly_model_by_month.png  used on i
 nput line 74.
-(pdftex.def)             Requested size: 222.07574pt x 52.54538pt.
-<Graphiques/ON_closedonly_model_mustach.png, id=383, 398.23781pt x 280.04625pt>
+(pdftex.def)             Requested size: 444.1515pt x 105.09076pt.
+<Graphiques/ON_closedonly_model_mustach.png, id=424, 398.23781pt x 280.04625pt>
 
 File: Graphiques/ON_closedonly_model_mustach.png Graphic file (type png)
 <use Graphiques/ON_closedonly_model_mustach.png>
 Package pdftex.def Info: Graphiques/ON_closedonly_model_mustach.png  used on in
 put line 81.
-(pdftex.def)             Requested size: 79.64615pt x 56.00824pt.
- [20 <./Graphiques/AB_current_model_by_month.png> <./Graphiques/AB_current_mode
-l_mustach.png> <./Graphiques/QC_closedonly_model_by_month.png> <./Graphiques/QC
-_closedonly_model_mustach.png>]
-<Graphiques/AB_closedonly_model_by_month.png, id=394, 1108.8928pt x 263.48438pt
+(pdftex.def)             Requested size: 159.2923pt x 112.0165pt.
+<Graphiques/AB_closedonly_model_by_month.png, id=425, 1108.8928pt x 263.48438pt
 >
 File: Graphiques/AB_closedonly_model_by_month.png Graphic file (type png)
 <use Graphiques/AB_closedonly_model_by_month.png>
 Package pdftex.def Info: Graphiques/AB_closedonly_model_by_month.png  used on i
-nput line 91.
-(pdftex.def)             Requested size: 221.77463pt x 52.69594pt.
-<Graphiques/AB_closedonly_model_mustach.png, id=395, 402.00188pt x 283.81032pt>
+nput line 90.
+(pdftex.def)             Requested size: 443.54927pt x 105.39188pt.
+<Graphiques/AB_closedonly_model_mustach.png, id=426, 402.00188pt x 283.81032pt>
 
 File: Graphiques/AB_closedonly_model_mustach.png Graphic file (type png)
 <use Graphiques/AB_closedonly_model_mustach.png>
 Package pdftex.def Info: Graphiques/AB_closedonly_model_mustach.png  used on in
-put line 98.
-(pdftex.def)             Requested size: 80.39894pt x 56.76105pt.
-)
-(Conclusion.tex [21 <./Graphiques/ON_closedonly_model_by_month.png> <./Graphiqu
-es/ON_closedonly_model_mustach.png> <./Graphiques/AB_closedonly_model_by_month.
-png> <./Graphiques/AB_closedonly_model_mustach.png>]) [22] (Master_Rapport.bbl)
-[23
+put line 97.
+(pdftex.def)             Requested size: 160.7979pt x 113.52211pt.
+ [22 <./Graphiques/QC_closedonly_model_mustach.png> <./Graphiques/ON_closedonly
+_model_by_month.png> <./Graphiques/ON_closedonly_model_mustach.png>]) (Conclusi
+on.tex) [23 <./Graphiques/AB_closedonly_model_by_month.png> <./Graphiques/AB_cl
+osedonly_model_mustach.png>]
+(Master_Rapport.bbl) [24
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
@@ -990,17 +990,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
 Package rerunfilecheck Info: File `Master_Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: FF344EB8B48283B1B88D58B4EB233B0B;1383.
+(rerunfilecheck)             Checksum: 0C030DFAC3E9E218EB89256702C1177B;1385.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 10949 strings out of 492970
- 167982 string characters out of 3135854
+ 10944 strings out of 492970
+ 167923 string characters out of 3135854
  285881 words of memory out of 3000000
  14498 multiletter control sequences out of 15000+200000
  11727 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,40p,1501b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,11n,40p,1540b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -1012,9 +1012,9 @@ nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Master_Rapport.pdf (31 pages, 3382449 bytes).
+Output written on Master_Rapport.pdf (32 pages, 3391114 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
  333 words of extra memory for PDF output out of 10000 (max. 10000000)
 

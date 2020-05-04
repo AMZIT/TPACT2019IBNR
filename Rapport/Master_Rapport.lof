@@ -21,15 +21,15 @@
 \contentsline {figure}{\numberline {21}{\ignorespaces Lag and period length visualization\relax }}{16}{figure.caption.26}
 \contentsline {figure}{\numberline {22}{\ignorespaces Factor calculation example\relax }}{16}{figure.caption.27}
 \contentsline {figure}{\numberline {23}{\ignorespaces Factor calculation example with missing values\relax }}{17}{figure.caption.28}
-\contentsline {figure}{\numberline {24}{\ignorespaces Quebec "Histrocial pending claims" model: prediction error by observation month\relax }}{19}{figure.caption.30}
-\contentsline {figure}{\numberline {25}{\ignorespaces Quebec "Histrocial pending claims" model: monthly prediction error boxplot\relax }}{19}{figure.caption.31}
-\contentsline {figure}{\numberline {26}{\ignorespaces Ontario "Histrocial pending claims" model: prediction error by observation month\relax }}{19}{figure.caption.33}
-\contentsline {figure}{\numberline {27}{\ignorespaces Ontario "Histrocial pending claims" model: monthly prediction error boxplot\relax }}{19}{figure.caption.34}
-\contentsline {figure}{\numberline {28}{\ignorespaces Alberta "Histrocial pending claims" model: prediction error by observation month\relax }}{20}{figure.caption.36}
-\contentsline {figure}{\numberline {29}{\ignorespaces Alberta "Histrocial pending claims" model: monthly prediction error boxplot\relax }}{20}{figure.caption.37}
-\contentsline {figure}{\numberline {30}{\ignorespaces Quebec "Histrocial pending but now closed claims" model: prediction error by observation month\relax }}{20}{figure.caption.39}
-\contentsline {figure}{\numberline {31}{\ignorespaces Quebec "Histrocial pending but now closed claims" model: monthly prediction error boxplot\relax }}{20}{figure.caption.40}
-\contentsline {figure}{\numberline {32}{\ignorespaces Ontario "Histrocial pending but now closed claims" model: prediction error by observation month\relax }}{21}{figure.caption.42}
-\contentsline {figure}{\numberline {33}{\ignorespaces Ontario "Histrocial pending but now closed claims" model: monthly prediction error boxplot\relax }}{21}{figure.caption.43}
-\contentsline {figure}{\numberline {34}{\ignorespaces Alberta "Histrocial pending but now closed claims" model: prediction error by observation month\relax }}{21}{figure.caption.45}
-\contentsline {figure}{\numberline {35}{\ignorespaces Alberta "Histrocial pending but now closed claims" model: monthly prediction error boxplot\relax }}{21}{figure.caption.46}
+\contentsline {figure}{\numberline {24}{\ignorespaces Quebec "Historical pending claims" model, prediction error by observation month\relax }}{19}{figure.caption.30}
+\contentsline {figure}{\numberline {25}{\ignorespaces Quebec "Historical pending claims" model, monthly prediction error boxplot\relax }}{19}{figure.caption.31}
+\contentsline {figure}{\numberline {26}{\ignorespaces Ontario "Historical pending claims" model, prediction error by observation month\relax }}{20}{figure.caption.33}
+\contentsline {figure}{\numberline {27}{\ignorespaces Ontario "Historical pending claims" model, monthly prediction error boxplot\relax }}{20}{figure.caption.34}
+\contentsline {figure}{\numberline {28}{\ignorespaces Alberta "Historical pending claims" model, prediction error by observation month\relax }}{20}{figure.caption.36}
+\contentsline {figure}{\numberline {29}{\ignorespaces Alberta "Historical pending claims" model, monthly prediction error boxplot\relax }}{21}{figure.caption.37}
+\contentsline {figure}{\numberline {30}{\ignorespaces Quebec "Historical pending but now closed claims" model, prediction error by observation month\relax }}{21}{figure.caption.38}
+\contentsline {figure}{\numberline {31}{\ignorespaces Quebec "Historical pending but now closed claims" model, monthly prediction error boxplot\relax }}{22}{figure.caption.39}
+\contentsline {figure}{\numberline {32}{\ignorespaces Ontario "Historical pending but now closed claims" model, prediction error by observation month\relax }}{22}{figure.caption.40}
+\contentsline {figure}{\numberline {33}{\ignorespaces Ontario "Historical pending but now closed claims" model, monthly prediction error boxplot\relax }}{22}{figure.caption.41}
+\contentsline {figure}{\numberline {34}{\ignorespaces Alberta "Historical pending but now closed claims" model, prediction error by observation month\relax }}{23}{figure.caption.42}
+\contentsline {figure}{\numberline {35}{\ignorespaces Alberta "Historical pending but now closed claims" model, monthly prediction error boxplot\relax }}{23}{figure.caption.43}
