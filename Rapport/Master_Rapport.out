@@ -1,7 +1,19 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Project objectives}{}% 2
 \BOOKMARK [1][-]{section.3}{Data Analysis}{}% 3
-\BOOKMARK [1][-]{section.4}{Model methodologie}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Incurred but not reported}{section.4}% 5
-\BOOKMARK [1][-]{section.5}{Results}{}% 6
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Data sample}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Dependence structure}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Trend analysis}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Model methodologie}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Incurred but not reported}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Hierarchical approach}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Key formulas}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.4}{Imputation methodology}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.5}{Adjusting the lag and period length}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.6}{Second model iteration: Historical pending but now closed claims}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.7}{Third model iteration: Historical closed claims}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Results}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{First model iteration: Historical pending claims}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Second model iteration: Histrical pending but now closed claims}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{Third model iteration: Histrical closed claims }{section.5}% 18
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 19

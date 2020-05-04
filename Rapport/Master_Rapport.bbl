@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Embrechts et~al., 2001]{embrechts2001modelling}
+Embrechts, P., Lindskog, F., and McNeil, A. (2001).
+\newblock Modelling dependence with copulas.
+\newblock {\em Rapport technique, D{\'e}partement de math{\'e}matiques,
+  Institut F{\'e}d{\'e}ral de Technologie de Zurich, Zurich}, 14.
+
 \bibitem[Intact, 2018]{intact2018}
 Intact (2018).
 \newblock 2018 annual report.
