@@ -1,6 +1,6 @@
 \section{Model methodologie}\label{Sect_Methodologie}
 \subsection{Incurred but not reported}
-	The task of the actuarial model is to predict the IBNR, the incurred but not reported claims. The IBNR can be divided into 3 distinct elements, which we defined as pure IBNR, IBNER and unpure IBNR. Pure IBNR are claims which are not reported at the observation date, meaning the insurer has no information on them. The insurer only knows that a claim happened. IBNER, incurred but not enough reported, are claims which have been reported and the insurer the information on the claims in their database. Unpure IBNR consist of claims which might reopen at any given time. This mean that a claim which closed in 2017 might reopen in 2018 or 2019. Unpure IBNR is a small proportion of the total IBNR, but still should be considered in the model. Figure \ref{Fig_IBNER_timeline} gives a visual representation of these categories. 
+	The task of the actuarial model is to predict the IBNR, the incurred but not reported claims. The IBNR can be divided into 3 distinct elements, which we defined as pure IBNR, IBNER and IBNR on reopen. Pure IBNR are claims which are not reported at the observation date, meaning the insurer has no information on them. The insurer only knows that a claim happened when it is reported. IBNER, incurred but not enough reported, are claims which have been reported and the insurer has information on the claims in their database. IBNR on reopen consist of closed claims which might reopen at any given time. This mean that a claim which closed in 2017 might reopen in 2018 or 2019. IBNR on reopen is a small proportion of the total IBNR, but still should be considered in the model. Figure \ref{Fig_IBNER_timeline} gives a visual representation of these categories. 
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.2]{Graphiques/IBNER_timeline} 
@@ -10,7 +10,7 @@
 	\end{figure}
 
 \subsection{Hierarchical approach}
-	The actuarial department uses a modified chain-ladder method for their model. We will try a more hierarchical approach, where we cluster our data in more homogeneous groups. First, we develop a model for each of the three IBNR types. Our team focuses on the IBNER part, while the pure and unpure IBNR models are still chain-ladder based and were developed by the actuarial department. For the IBNER model, we grouped the data according the following claims characteristics:  total loss, total loss without (\texttt{43}) replacement cost endorsement (\texttt{n43}), luxury repairable vehicles (\texttt{rep\_lux}), non luxury non rental repairable vehicles (\texttt{rep\_nlux\_nrent}) and non luxury rental repairable vehicles (\texttt{rep\_nlux\_rent}). We suppose that the frequency and severity distributions are very similar within these groups. Figure \ref{Fig_hier_model} gives an overview of the hierarchical approach.
+	The actuarial department uses a modified chain-ladder method for their model. We will try a more hierarchical approach, where we cluster our data in more homogeneous groups. First, we develop a model for each of the three IBNR types. Our team focuses on the IBNER part, while the pure and IBNR on reopen models are still chain-ladder based and were developed by the actuarial department. For the IBNER model, we grouped the data according the following claims characteristics:  total loss (\texttt{43}), total loss without replacement cost endorsement (\texttt{n43}), luxury repairable vehicles (\texttt{rep\_lux}), non luxury non rental repairable vehicles (\texttt{rep\_nlux\_nrent}) and non luxury rental repairable vehicles (\texttt{rep\_nlux\_rent}). We suppose that the frequency and severity distributions are very similar within these groups. Figure \ref{Fig_hier_model} gives an overview of the hierarchical approach.
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.4]{Graphiques/Hier_model} 
@@ -41,7 +41,7 @@
 									&= 11213.87
 	\end{align*}
 	 as of $201804$ ($\texttt{obs\_month} = 201804$) and $X_j = \texttt{AvgTypicalCarValue} = 8007 $.
-	As the example illustrated, the ultimate and the predictor are historical values which should be fully developed. It is necessary to have a least 5 to 12 months of development, so that the factors are stable enough. The difference in time between the moment we want to predict the pending and the historical data, $i - j$ is defined as the lag. How many historical observation month $j$ we use for the calculation is defined as period length. Figure \ref{Fig_lag_pl} shows a 5 months lag and 3 months period length. We want to predict the ultimate of the December 2018, $i = 201812$ pending (open) claims. We go back 5 months and use the historical claim data from open claims in May, June and July 2018, $j=201805, 201806, 201807$. 
+	As the example illustrated, the ultimate and the predictor are historical values which should be fully developed. It is necessary to have a least 5 to 12 months of development, so that the factors are stable enough. The difference in time between the moment we want to predict the pending and the historical data, $i - j$ is defined as the lag. How many historical observation month $j$ we use for the calculation is defined as period length. Figure \ref{Fig_lag_pl} shows a 5 months lag and 3 months period length. We want to predict the ultimate of the December 2018, $i = 201812$ pending (open) claims. We go back 5 months and use the historical claim data from open claims in May, June and July 2018, $j=201805, 201806, 201807$. This means that their \texttt{sf\_status} needs to be either "OP" for open or "RO" for reopen in the observation month $j=201805, 201806, 201807$.
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.4]{Graphiques/lag_pl} 
@@ -49,7 +49,7 @@
 			\caption{Lag and period length visualization}\label{Fig_lag_pl}
 		\end{center}
 	\end{figure}
-	This approach is similar to a lagged moving average model. We use the incurred as of December 2018 of claims open in May, June and July. Thus, the incurred had a minimum of 5 months to develop. Then, we divide this incurred by the aggregated \texttt{GAV} or \texttt{ACV} in May, June and July. We only keep the most recent data line for each claim, in other words we don’t have any duplicated per claim number. Figure \ref{Fig_factor_example} gives a numerical example. 
+	This approach is similar to a lagged moving average model. We use the incurred as of December 2018 of claims that are open at least once in May, June and July. Thus, the incurred had a minimum of 5 months to develop. Then, we divide this incurred by the aggregated \texttt{GAV} or \texttt{ACV} in May, June and July. We only keep the most recent data line for each claim, in other words we don’t have any duplicated per claim number. Figure \ref{Fig_factor_example} gives a numerical example. 
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.4]{Graphiques/factor_example} 
@@ -60,7 +60,7 @@
 	Note that in figure \ref{Fig_lag_pl} the incurred is subdivided into open and closed claims, since it is possible that claims remain open even after 5 months. Therefore, we will calculate a claim number weighted average of closed and open factors. We get as final factor
 	\begin{Definition}\label{Def_final_factor}
 		$\hat{\Theta}_i$ is the final factor used for the prediction. $\hat{\theta}_{i,open}$ is the factor for claims that are still open during $i$ and  $\hat{\theta}_{i,closed}$ is the factor for claims that are closed during $i$. Furthermore, $n_{open}$ is the number of open claims in period $i$ and $n_{closed}$ is the number of closed claims in period $i$. Thus, we have
-		$$\hat{\Theta}_i = n_{open} \hat{\theta}_{i,open} + n_{closed} \hat{\theta}_{i,closed}$$ 
+		$$\hat{\Theta}_i = \frac{n_{open}}{n_{open} + n_{closed}} \hat{\theta}_{i,open} + \frac{n_{closed}}{n_{open} + n_{closed}}  \hat{\theta}_{i,closed}$$ 
 	\end{Definition}
 	
 	We multiply this factor by the aggregated \texttt{GAV} or \texttt{ACV} of pending claims (December 2018 in our example) to get the ultimate amount.
