@@ -48,12 +48,9 @@
 	\newpage
 
 	%\renewcommand{\listfigurename}{Liste des illustrations}
-	\newpage
 	\listoffigures
 	\newpage
-	\listoftables
-	\newpage
-		
+
 	\pagenumbering{arabic} % Pagination en chiffres normaux
 	\setcounter{page}{1}
 	
@@ -72,6 +69,8 @@
 	\pagenumbering{arabic}% resets `page` counter to 1
 	\renewcommand*{\thepage}{A\arabic{page}}
 	\appendix
+	
+	\input{appendix-ratios}
 
 	
 \end{document}

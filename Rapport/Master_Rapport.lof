@@ -1,36 +1,36 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Unfavourable (favourable) prior year development, \cite {intact2018}\relax }}{1}{figure.caption.6}
-\contentsline {figure}{\numberline {2}{\ignorespaces Sample from database\relax }}{3}{figure.caption.7}
-\contentsline {figure}{\numberline {3}{\ignorespaces Severity sample from database\relax }}{4}{figure.caption.8}
-\contentsline {figure}{\numberline {4}{\ignorespaces Quantiles pairs for Quebec repairable claims. x-axis is the ultimate quantiles and y-axis the \texttt {GAV} quantiles\relax }}{5}{figure.caption.9}
-\contentsline {figure}{\numberline {5}{\ignorespaces Quantiles pairs for Quebec total loss claims. x-axis is the ultimate quantiles and y-axis the \texttt {ACV} quantiles\relax }}{6}{figure.caption.10}
-\contentsline {figure}{\numberline {6}{\ignorespaces Quantiles pairs for Ontario repairable claims. x-axis is the ultimate quantiles and y-axis the \texttt {GAV} quantiles\relax }}{6}{figure.caption.11}
-\contentsline {figure}{\numberline {7}{\ignorespaces Quantiles pairs for Ontario total loss claims. x-axis is the ultimate quantiles and y-axis the \texttt {ACV} quantiles\relax }}{7}{figure.caption.12}
-\contentsline {figure}{\numberline {8}{\ignorespaces Quantiles pairs for Alberta repairable claims. x-axis is the ultimate quantiles and y-axis the \texttt {GAV} quantiles\relax }}{7}{figure.caption.13}
-\contentsline {figure}{\numberline {9}{\ignorespaces Quantiles pairs for Alberta total loss claims. x-axis is the ultimate quantiles and y-axis the \texttt {ACV} quantiles\relax }}{8}{figure.caption.14}
-\contentsline {figure}{\numberline {10}{\ignorespaces Quebec ultimate and \texttt {GAV/ACV} growth relative to January 2017 (= 1)\relax }}{9}{figure.caption.15}
-\contentsline {figure}{\numberline {11}{\ignorespaces Ontario ultimate and \texttt {GAV/ACV} growth relative to January 2017 (= 1)\relax }}{9}{figure.caption.16}
-\contentsline {figure}{\numberline {12}{\ignorespaces Alberta ultimate and \texttt {GAV/ACV} growth relative to January 2017 (= 1)\relax }}{10}{figure.caption.17}
-\contentsline {figure}{\numberline {13}{\ignorespaces Quebec ALAE to loss ratio per \texttt {leaf}\relax }}{11}{figure.caption.18}
-\contentsline {figure}{\numberline {14}{\ignorespaces Ontario ALAE to loss ratio per \texttt {leaf}\relax }}{11}{figure.caption.19}
-\contentsline {figure}{\numberline {15}{\ignorespaces Alberta ALAE to loss ratio per \texttt {leaf}\relax }}{12}{figure.caption.20}
-\contentsline {figure}{\numberline {16}{\ignorespaces Quebec recovery to loss ratio per \texttt {leaf}\relax }}{12}{figure.caption.21}
-\contentsline {figure}{\numberline {17}{\ignorespaces Ontario recovery to loss ratio per \texttt {leaf}\relax }}{13}{figure.caption.22}
-\contentsline {figure}{\numberline {18}{\ignorespaces Alberta recovery to loss ratio per \texttt {leaf}\relax }}{13}{figure.caption.23}
-\contentsline {figure}{\numberline {19}{\ignorespaces Timeline of a claim\relax }}{14}{figure.caption.24}
-\contentsline {figure}{\numberline {20}{\ignorespaces Hierarchical model structure\relax }}{15}{figure.caption.25}
-\contentsline {figure}{\numberline {21}{\ignorespaces Lag and period length visualization\relax }}{16}{figure.caption.26}
-\contentsline {figure}{\numberline {22}{\ignorespaces Factor calculation example\relax }}{17}{figure.caption.27}
-\contentsline {figure}{\numberline {23}{\ignorespaces Factor calculation example with missing values\relax }}{18}{figure.caption.28}
-\contentsline {figure}{\numberline {24}{\ignorespaces Quebec "Historical pending claims" model, prediction error by observation month\relax }}{19}{figure.caption.30}
-\contentsline {figure}{\numberline {25}{\ignorespaces Quebec "Historical pending claims" model, monthly prediction error boxplot\relax }}{20}{figure.caption.31}
-\contentsline {figure}{\numberline {26}{\ignorespaces Ontario "Historical pending claims" model, prediction error by observation month\relax }}{20}{figure.caption.33}
-\contentsline {figure}{\numberline {27}{\ignorespaces Ontario "Historical pending claims" model, monthly prediction error boxplot\relax }}{20}{figure.caption.34}
-\contentsline {figure}{\numberline {28}{\ignorespaces Alberta "Historical pending claims" model, prediction error by observation month\relax }}{21}{figure.caption.36}
-\contentsline {figure}{\numberline {29}{\ignorespaces Alberta "Historical pending claims" model, monthly prediction error boxplot\relax }}{21}{figure.caption.37}
-\contentsline {figure}{\numberline {30}{\ignorespaces IBNER prediction vs real IBNER\relax }}{22}{figure.caption.38}
-\contentsline {figure}{\numberline {31}{\ignorespaces Quebec "Historical pending but now closed claims" model, prediction error by observation month\relax }}{23}{figure.caption.39}
-\contentsline {figure}{\numberline {32}{\ignorespaces Quebec "Historical pending but now closed claims" model, monthly prediction error boxplot\relax }}{23}{figure.caption.40}
-\contentsline {figure}{\numberline {33}{\ignorespaces Ontario "Historical pending but now closed claims" model, prediction error by observation month\relax }}{23}{figure.caption.41}
-\contentsline {figure}{\numberline {34}{\ignorespaces Ontario "Historical pending but now closed claims" model, monthly prediction error boxplot\relax }}{24}{figure.caption.42}
-\contentsline {figure}{\numberline {35}{\ignorespaces Alberta "Historical pending but now closed claims" model, prediction error by observation month\relax }}{24}{figure.caption.43}
-\contentsline {figure}{\numberline {36}{\ignorespaces Alberta "Historical pending but now closed claims" model, monthly prediction error boxplot\relax }}{24}{figure.caption.44}
+\contentsline {figure}{\numberline {1}{\ignorespaces Unfavourable (favourable) prior year development, \cite {intact2018}\relax }}{1}{figure.caption.4}
+\contentsline {figure}{\numberline {2}{\ignorespaces Sample from database\relax }}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {3}{\ignorespaces Severity sample from database\relax }}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {4}{\ignorespaces Quebec repairable claims relationship}}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {5}{\ignorespaces Quebec total loss claims relationship}}{6}{figure.caption.8}
+\contentsline {figure}{\numberline {6}{\ignorespaces Ontario repairable claims relationship}}{7}{figure.caption.9}
+\contentsline {figure}{\numberline {7}{\ignorespaces Ontario total loss claims relationship}}{7}{figure.caption.10}
+\contentsline {figure}{\numberline {8}{\ignorespaces Alberta repairable claims relationship}}{8}{figure.caption.11}
+\contentsline {figure}{\numberline {9}{\ignorespaces Alberta total loss claims relationship}}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {10}{\ignorespaces Quebec ultimate and \texttt {GAV/ACV} growth}}{9}{figure.caption.13}
+\contentsline {figure}{\numberline {11}{\ignorespaces Ontario ultimate and \texttt {GAV/ACV} growth}}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {12}{\ignorespaces Alberta ultimate and \texttt {GAV/ACV} growth}}{10}{figure.caption.15}
+\contentsline {figure}{\numberline {13}{\ignorespaces Timeline of a claim\relax }}{11}{figure.caption.16}
+\contentsline {figure}{\numberline {14}{\ignorespaces Hierarchical model structure}}{12}{figure.caption.17}
+\contentsline {figure}{\numberline {15}{\ignorespaces Lag and period length visualization\relax }}{13}{figure.caption.18}
+\contentsline {figure}{\numberline {16}{\ignorespaces Factor calculation example\relax }}{14}{figure.caption.19}
+\contentsline {figure}{\numberline {17}{\ignorespaces Factor calculation example with missing values\relax }}{15}{figure.caption.20}
+\contentsline {figure}{\numberline {18}{\ignorespaces Quebec version one model error}}{16}{figure.caption.22}
+\contentsline {figure}{\numberline {19}{\ignorespaces Quebec version one model error - boxplot}}{17}{figure.caption.23}
+\contentsline {figure}{\numberline {20}{\ignorespaces Ontario version one model error}}{17}{figure.caption.25}
+\contentsline {figure}{\numberline {21}{\ignorespaces Ontario version one model error - boxplot}}{17}{figure.caption.26}
+\contentsline {figure}{\numberline {22}{\ignorespaces Alberta version one model error}}{18}{figure.caption.28}
+\contentsline {figure}{\numberline {23}{\ignorespaces Alberta version one model error - boxplot}}{18}{figure.caption.29}
+\contentsline {figure}{\numberline {24}{\ignorespaces IBNER prediction vs real IBNER}}{19}{figure.caption.30}
+\contentsline {figure}{\numberline {25}{\ignorespaces Quebec version two model error}}{20}{figure.caption.31}
+\contentsline {figure}{\numberline {26}{\ignorespaces Quebec version two model error - boxplot}}{20}{figure.caption.32}
+\contentsline {figure}{\numberline {27}{\ignorespaces Ontario version two model error}}{20}{figure.caption.33}
+\contentsline {figure}{\numberline {28}{\ignorespaces Ontario version two model error - boxplot}}{21}{figure.caption.34}
+\contentsline {figure}{\numberline {29}{\ignorespaces Alberta version two model error}}{21}{figure.caption.35}
+\contentsline {figure}{\numberline {30}{\ignorespaces Alberta version two model error - boxplot}}{21}{figure.caption.36}
+\contentsline {figure}{\numberline {31}{\ignorespaces Quebec ALAE to loss ratio per \texttt {leaf}\relax }}{A1}{figure.caption.38}
+\contentsline {figure}{\numberline {32}{\ignorespaces Ontario ALAE to loss ratio per \texttt {leaf}\relax }}{A1}{figure.caption.39}
+\contentsline {figure}{\numberline {33}{\ignorespaces Alberta ALAE to loss ratio per \texttt {leaf}\relax }}{A2}{figure.caption.40}
+\contentsline {figure}{\numberline {34}{\ignorespaces Quebec recovery to loss ratio per \texttt {leaf}\relax }}{A3}{figure.caption.41}
+\contentsline {figure}{\numberline {35}{\ignorespaces Ontario recovery to loss ratio per \texttt {leaf}\relax }}{A3}{figure.caption.42}
+\contentsline {figure}{\numberline {36}{\ignorespaces Alberta recovery to loss ratio per \texttt {leaf}\relax }}{A3}{figure.caption.43}

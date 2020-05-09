@@ -3,20 +3,21 @@
 \contentsline {section}{\numberline {3}Data Analysis}{2}{section.3}
 \contentsline {subsection}{\numberline {3.1}Data sample}{2}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Dependence structure}{4}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Trend analysis}{8}{subsection.3.3}
-\contentsline {section}{\numberline {4}Model methodologie}{14}{section.4}
-\contentsline {subsection}{\numberline {4.1}Incurred but not reported}{14}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Hierarchical approach}{14}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Key formulas}{15}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Imputation methodology}{17}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Adjusting the lag and period length}{18}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Second model iteration: Historical pending but now closed claims}{18}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Third model iteration: Historical closed claims}{18}{subsection.4.7}
-\contentsline {section}{\numberline {5}Results}{19}{section.5}
-\contentsline {subsection}{\numberline {5.1}First model iteration: Historical pending claims}{19}{subsection.5.1}
-\contentsline {paragraph}{Quebec:}{19}{section*.29}
-\contentsline {paragraph}{Ontario:}{20}{section*.32}
-\contentsline {paragraph}{Alberta:}{21}{section*.35}
-\contentsline {subsection}{\numberline {5.2}Second model iteration: Historical pending but now closed claims}{22}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Third model iteration: Historical closed claims }{24}{subsection.5.3}
-\contentsline {section}{\numberline {6}Conclusion}{25}{section.6}
+\contentsline {subsection}{\numberline {3.3}Trend analysis}{9}{subsection.3.3}
+\contentsline {section}{\numberline {4}Model methodologie}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Incurred but not reported}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Hierarchical approach}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Key formulas}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Imputation methodology}{14}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Adjusting the lag and period length}{15}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Second model iteration: Historical pending but now closed claims}{15}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Third model iteration: Historical closed claims}{15}{subsection.4.7}
+\contentsline {section}{\numberline {5}Results}{16}{section.5}
+\contentsline {subsection}{\numberline {5.1}First model version: Historical pending claims}{16}{subsection.5.1}
+\contentsline {paragraph}{Quebec:}{16}{section*.21}
+\contentsline {paragraph}{Ontario:}{17}{section*.24}
+\contentsline {paragraph}{Alberta:}{18}{section*.27}
+\contentsline {subsection}{\numberline {5.2}Second model version: Historical pending but now closed claims}{19}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Third model version: Historical closed claims }{21}{subsection.5.3}
+\contentsline {section}{\numberline {6}Conclusion}{22}{section.6}
+\contentsline {section}{\numberline {A}Appendix ALAE to loss and recovery to loss ratios}{A1}{appendix.A}
